@@ -88,7 +88,7 @@ theme: hexo-theme-matery
 deploy:
   type: git
   repository: https://git.dev.tencent.com/songtianlun/songtianlun.git
-  branch: master
+  branch: blog
 search:
   path: search.xml
   field: post
