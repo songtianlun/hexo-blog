@@ -89,7 +89,7 @@ deploy:
   type: git
   repo:
    github: git@github.com:songtianlun/songtianlun.github.io.git #SSH形式
-   coding: https://git.dev.tencent.com/songtianlun/songtianlun.git   #http形式
+   # coding: https://git.dev.tencent.com/songtianlun/songtianlun.git   #http形式
   branch: master
 search:
   path: search.xml
