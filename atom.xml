@@ -6,7 +6,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="https://frytea.com/"/>
-  <updated>2019-03-31T15:45:31.199Z</updated>
+  <updated>2019-03-31T16:35:50.830Z</updated>
   <id>https://frytea.com/</id>
   
   <author>
@@ -15,6 +15,38 @@
   </author>
   
   <generator uri="http://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>2019-十二、十三周「284」</title>
+    <link href="https://frytea.com/2019/04/01/2019-shi-er-shi-san-zhou/"/>
+    <id>https://frytea.com/2019/04/01/2019-shi-er-shi-san-zhou/</id>
+    <published>2019-03-31T16:18:26.000Z</published>
+    <updated>2019-03-31T16:35:50.830Z</updated>
+    
+    <summary type="html">
+    
+      
+      
+        
+        
+          &lt;p&gt;这两周主要做下面几件事情：&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;数字工程实践验收&lt;/li&gt;
+&lt;li&gt;计算机二级复习&lt;/li&gt;
+&lt;li&gt;Gis开发实践&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;每一件事情都需要花费很多时间，而且时间撞在了一起，就很不方便了，今天终于空闲下来，写一下这两周的周记。&lt;/
+        
+      
+    
+    </summary>
+    
+      <category term="日记" scheme="https://frytea.com/categories/%E6%97%A5%E8%AE%B0/"/>
+    
+    
+      <category term="周记" scheme="https://frytea.com/tags/%E5%91%A8%E8%AE%B0/"/>
+    
+  </entry>
   
   <entry>
     <title>MySQL学习小记（十二）</title>
@@ -550,38 +582,6 @@
       <category term="人民的名义" scheme="https://frytea.com/tags/%E4%BA%BA%E6%B0%91%E7%9A%84%E5%90%8D%E4%B9%89/"/>
     
       <category term="大人物" scheme="https://frytea.com/tags/%E5%A4%A7%E4%BA%BA%E7%89%A9/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>vue项目使用axios对接第三方api，并做跨域处理</title>
-    <link href="https://frytea.com/2019/03/17/vue-xiang-mu-shi-yong-axios-dui-jie-di-san-fang-api-bing-zuo-kua-yu-chu-li/"/>
-    <id>https://frytea.com/2019/03/17/vue-xiang-mu-shi-yong-axios-dui-jie-di-san-fang-api-bing-zuo-kua-yu-chu-li/</id>
-    <published>2019-03-17T09:51:20.000Z</published>
-    <updated>2019-03-31T15:45:31.191Z</updated>
-    
-    <summary type="html">
-    
-      
-      
-        
-        
-          &lt;h1 id=&quot;简介&quot;&gt;&lt;a href=&quot;#简介&quot; class=&quot;headerlink&quot; title=&quot;简介&quot;&gt;&lt;/a&gt;简介&lt;/h1&gt;&lt;p&gt;使用vue框架对接第三方接口时，常常使用anxios。&lt;/p&gt;
-&lt;blockquote&gt;
-&lt;p&gt;有很多时候你在构建应用时需要访问一个
-        
-      
-    
-    </summary>
-    
-      <category term="技术博文" scheme="https://frytea.com/categories/%E6%8A%80%E6%9C%AF%E5%8D%9A%E6%96%87/"/>
-    
-    
-      <category term="vue" scheme="https://frytea.com/tags/vue/"/>
-    
-      <category term="axios" scheme="https://frytea.com/tags/axios/"/>
-    
-      <category term="api" scheme="https://frytea.com/tags/api/"/>
     
   </entry>
   
