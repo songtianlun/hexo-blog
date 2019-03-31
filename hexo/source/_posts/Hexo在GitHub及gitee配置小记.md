@@ -6,8 +6,17 @@ categories:
 tags: []
 date: 2019-02-22 15:51:00
 ---
-成果
---
+## 问题小记
+* hexo d操作后将源代码上传而不是上传静态网页
+解决方案是设置git账户，
+```
+$ git config --global user.name "liuxianan"// 你的github用户名，非昵称
+$ git config --global user.email  "xxx@qq.com"// 填写你的github注册邮箱
+```
+>猜测还有可能是因为cloud studio的不稳定性
+
+## 成果
+
 
 *   [location](https://hexo.frytea.com)
 *   [GitHub](https://Songtianlun.github.io)
@@ -15,8 +24,7 @@ date: 2019-02-22 15:51:00
 *   [GitHub Repository](https://github.com/songtianlun/songtianlun.github.io)
 *   [Gitee Repository](https://gitee.com/songtianlun/songtianlun)
 
-参考文献
-----
+## 参考文献
 
 *   [EasyHexo](https://easyhexo.com)
 *   [valine](https://valine.js.org)

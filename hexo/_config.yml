@@ -87,10 +87,11 @@ theme: hexo-theme-matery
 ## Docs: https://hexo.io/docs/deployment.html
 deploy:
   type: git
-  repo:
-   github: git@github.com:songtianlun/songtianlun.github.io.git #SSH形式
-   coding: https://git.dev.tencent.com/songtianlun/songtianlun.git   #http形式
+  repo: 
+    github: git@github.com:songtianlun/songtianlun.github.io.git 
+  #  coding: git@git.dev.tencent.com:songtianlun/songtianlun.git
   branch: master
+  
 search:
   path: search.xml
   field: post

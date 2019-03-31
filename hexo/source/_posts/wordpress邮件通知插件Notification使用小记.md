@@ -5,7 +5,7 @@ id: 679
 categories:
   - 技术博文
 date: 2019-01-17 15:39:40
-tags:
+tags: wordpress
 ---
 
 Notification是wordpress上一款功能强劲的插件，可以实现wordpress各种事件的邮件通知功能，更可以根据自己的实际需求定制自己的邮件通知内容，插件提供了很多的短代码，能够很方便的协助用户完成邮件的模板创建。
