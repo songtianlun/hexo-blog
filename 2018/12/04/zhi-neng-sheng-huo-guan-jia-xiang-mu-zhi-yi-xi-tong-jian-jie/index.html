@@ -1,0 +1,1075 @@
+<!DOCTYPE HTML>
+<html lang="zh-CN">
+
+
+<head><meta name="generator" content="Hexo 3.8.0">
+    <meta charset="utf-8">
+    <meta name="keywords" content="智能生活管家项目之一-系统简介, 宋天伦">
+    <meta name="description" content="用“智能”决策生活，篆刻生活印记
+随着技术的发展和人类的进步，人们的生活节奏越来越快，每一天都淹没在“数据”的海洋中。我们在享受先进技术、快捷网络以及城市便捷性的同时，越来越追求精神层面的享受。但同样的，在我们中常常会有一些人，他们难以适应">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="renderer" content="webkit|ie-stand|ie-comp">
+    <meta name="mobile-web-app-capable" content="yes">
+    <meta name="format-detection" content="telephone=no">
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+    <title>智能生活管家项目之一-系统简介 | 宋天伦</title>
+    <link rel="icon" type="image/png" href="/favicon.png">
+
+    <link rel="stylesheet" type="text/css" href="/libs/awesome/css/font-awesome.min.css">
+    <link rel="stylesheet" type="text/css" href="/libs/materialize/css/materialize.min.css">
+    <link rel="stylesheet" type="text/css" href="/libs/aos/aos.css">
+    <link rel="stylesheet" type="text/css" href="/libs/animate/animate.min.css">
+    <link rel="stylesheet" type="text/css" href="/libs/lightGallery/css/lightgallery.min.css">
+    <link rel="stylesheet" type="text/css" href="/css/matery.css">
+    <link rel="stylesheet" type="text/css" href="/css/my.css">
+    <style type="text/css">
+        
+    </style>
+
+    <script src="/libs/jquery/jquery-2.2.0.min.js"></script>
+<link rel="stylesheet" href="/css/prism-tomorrow.css" type="text/css"></head>
+
+
+<body>
+
+<header class="navbar-fixed">
+    <nav id="headNav" class="bg-color nav-transparent">
+        <div id="navContainer" class="container">
+            <div class="nav-wrapper">
+                <div class="brand-logo">
+                    <a href="/" class="waves-effect waves-light">
+                        
+                        <img src="/medias/B068923F-E5C7-4069-AB84-6BCAE505B3D7.png" class="logo-img hide-on-small-only">
+                        
+                        <span class="logo-span">宋天伦</span>
+                    </a>
+                </div>
+                
+
+<a href="#" data-activates="mobile-nav" class="button-collapse"><i class="fa fa-navicon"></i></a>
+<ul class="right">
+    
+    <li class="hide-on-med-and-down">
+        <a href="/" class="waves-effect waves-light">
+            
+            <i class="fa fa-home"></i>
+            
+            <span>首页</span>
+        </a>
+    </li>
+    
+    <li class="hide-on-med-and-down">
+        <a href="/tags" class="waves-effect waves-light">
+            
+            <i class="fa fa-tags"></i>
+            
+            <span>标签</span>
+        </a>
+    </li>
+    
+    <li class="hide-on-med-and-down">
+        <a href="/categories" class="waves-effect waves-light">
+            
+            <i class="fa fa-bookmark"></i>
+            
+            <span>分类</span>
+        </a>
+    </li>
+    
+    <li class="hide-on-med-and-down">
+        <a href="/archives" class="waves-effect waves-light">
+            
+            <i class="fa fa-archive"></i>
+            
+            <span>归档</span>
+        </a>
+    </li>
+    
+    <li class="hide-on-med-and-down">
+        <a href="/about" class="waves-effect waves-light">
+            
+            <i class="fa fa-user-circle-o"></i>
+            
+            <span>关于</span>
+        </a>
+    </li>
+    
+    <li class="hide-on-med-and-down">
+        <a href="/friends" class="waves-effect waves-light">
+            
+            <i class="fa fa-address-book"></i>
+            
+            <span>友情链接</span>
+        </a>
+    </li>
+    
+    <li>
+        <a id="toggleSearch" class="waves-effect waves-light">
+            <i id="searchIcon" class="mdi-action-search" title="搜索"></i>
+        </a>
+    </li>
+
+</ul>
+
+<div class="side-nav" id="mobile-nav">
+
+    <div class="mobile-head bg-color">
+        
+        <img src="/medias/B068923F-E5C7-4069-AB84-6BCAE505B3D7.png" class="logo-img circle responsive-img">
+        
+        <div class="logo-name">宋天伦</div>
+        <div class="logo-desc">
+            
+            一个热爱编程，更热爱生活的地图学青年。
+            
+        </div>
+    </div>
+
+    
+
+    <ul class="menu-list mobile-menu-list">
+        
+        <li>
+            <a href="/" class="waves-effect waves-light">
+                
+                <i class="fa fa-fw fa-home"></i>
+                
+                首页
+            </a>
+        </li>
+        
+        <li>
+            <a href="/tags" class="waves-effect waves-light">
+                
+                <i class="fa fa-fw fa-tags"></i>
+                
+                标签
+            </a>
+        </li>
+        
+        <li>
+            <a href="/categories" class="waves-effect waves-light">
+                
+                <i class="fa fa-fw fa-bookmark"></i>
+                
+                分类
+            </a>
+        </li>
+        
+        <li>
+            <a href="/archives" class="waves-effect waves-light">
+                
+                <i class="fa fa-fw fa-archive"></i>
+                
+                归档
+            </a>
+        </li>
+        
+        <li>
+            <a href="/about" class="waves-effect waves-light">
+                
+                <i class="fa fa-fw fa-user-circle-o"></i>
+                
+                关于
+            </a>
+        </li>
+        
+        <li>
+            <a href="/friends" class="waves-effect waves-light">
+                
+                <i class="fa fa-fw fa-address-book"></i>
+                
+                友情链接
+            </a>
+        </li>
+        
+        
+        <li><div class="divider"></div></li>
+        <li>
+            <a href="https://github.com/songtianlun" class="waves-effect waves-light" target="_blank">
+                <i class="fa fa-github-square fa-fw"></i>Fork Me
+            </a>
+        </li>
+        
+    </ul>
+
+    <div class="social-link">
+    <a href="https://github.com/songtianlun" class="tooltipped" target="_blank" data-tooltip="访问我的GitHub" data-position="top" data-delay="50">
+        <i class="fa fa-github"></i>
+    </a>
+
+
+
+    <a href="http://mail.qq.com/cgi-bin/qm_share?t=qm_mailme&amp;email=ybqmp669oKinpbynia_7sL2sqOeqpqQ" class="tooltipped" target="_blank" data-tooltip="邮件联系我" data-position="top" data-delay="50">
+        <i class="fa fa-envelope-open"></i>
+    </a>
+
+
+
+    <a href="tencent://AddContact/?fromId=50&fromSubId=1&subcmd=all&uin=1305647042" class="tooltipped" data-tooltip="QQ联系我: 1305647042" data-position="top" data-delay="50">
+        <i class="fa fa-qq"></i>
+    </a>
+
+  
+  
+    <a href="https://frytea.com/sitemap.xml" class="tooltipped" data-tooltip="站点地图" data-position="top" data-delay="50">
+        <i class="fa fa-sitemap"></i>
+    </a>
+
+
+
+    <a href="/atom.xml" class="tooltipped" target="_blank" data-tooltip="RSS 订阅" data-position="top" data-delay="50">
+        <i class="fa fa-rss"></i>
+    </a>
+</div>
+</div>
+
+            </div>
+        </div>
+
+        
+        <style>
+    .nav-transparent .github-corner {
+        display: none !important;
+    }
+
+    .github-corner {
+        position: absolute;
+        z-index: 10;
+        top: 0;
+        right: 0;
+        border: 0;
+        transform: scale(1.1);
+    }
+
+    .github-corner svg {
+        color: #996699;
+        fill: #fff;
+        height: 64px;
+        width: 64px;
+    }
+
+    .github-corner:hover .octo-arm {
+        animation: a 0.56s ease-in-out;
+    }
+
+    .github-corner .octo-arm {
+        animation: none;
+    }
+
+    @keyframes a {
+        0%,
+        to {
+            transform: rotate(0);
+        }
+        20%,
+        60% {
+            transform: rotate(-25deg);
+        }
+        40%,
+        80% {
+            transform: rotate(10deg);
+        }
+    }
+</style>
+
+<a href="https://github.com/songtianlun" class="github-corner tooltipped hide-on-med-and-down" target="_black" data-tooltip="Fork Me" data-position="left" data-delay="50">
+    <svg viewbox="0 0 250 250" aria-hidden="true">
+        <path d="M0,0 L115,115 L130,115 L142,142 L250,250 L250,0 Z"/>
+        <path d="M128.3,109.0 C113.8,99.7 119.0,89.6 119.0,89.6 C122.0,82.7 120.5,78.6 120.5,78.6 C119.2,72.0 123.4,76.3 123.4,76.3 C127.3,80.9 125.5,87.3 125.5,87.3 C122.9,97.6 130.6,101.9 134.4,103.2" fill="currentColor" style="transform-origin: 130px 106px;" class="octo-arm"/>
+        <path d="M115.0,115.0 C114.9,115.1 118.7,116.5 119.8,115.4 L133.7,101.6 C136.9,99.2 139.9,98.4 142.2,98.6 C133.8,88.0 127.5,74.4 143.8,58.0 C148.5,53.4 154.0,51.2 159.7,51.0 C160.3,49.4 163.2,43.6 171.4,40.1 C171.4,40.1 176.1,42.5 178.8,56.2 C183.1,58.6 187.2,61.8 190.9,65.4 C194.5,69.0 197.7,73.2 200.1,77.6 C213.8,80.2 216.3,84.9 216.3,84.9 C212.7,93.1 206.9,96.0 205.4,96.6 C205.1,102.4 203.0,107.8 198.3,112.5 C181.9,128.9 168.3,122.5 157.7,114.1 C157.9,116.9 156.7,120.9 152.7,124.9 L141.0,136.5 C139.8,137.7 141.6,141.9 141.8,141.8 Z" fill="currentColor" class="octo-body"/>
+    </svg>
+</a>
+        
+    </nav>
+</header>
+
+
+<script src="/libs/cryptojs/crypto-js.min.js"></script>
+<script>
+    (function() {
+        let pwd = '';
+        if (pwd && pwd.length > 0) {
+            if (pwd !== CryptoJS.SHA256(prompt('请输入访问本文章的密码')).toString(CryptoJS.enc.Hex)) {
+                alert('密码错误，将返回主页！');
+                location.href = '/';
+            }
+        }
+    })();
+</script>
+
+
+
+
+<div class="bg-cover post-cover" style="background-image: url('/medias/featureimages/10.jpg')">
+    <div class="container">
+        <div class="row">
+            <div class="col s12 m12 l12">
+                <div class="brand">
+                    <div class="description center-align post-title">
+                        智能生活管家项目之一-系统简介
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+
+
+<main class="post-container content">
+
+    
+    <link rel="stylesheet" href="/libs/tocbot/tocbot.css">
+<style>
+    #articleContent h1::before,
+    #articleContent h2::before,
+    #articleContent h3::before,
+    #articleContent h4::before,
+    #articleContent h5::before,
+    #articleContent h6::before {
+        display: block;
+        content: " ";
+        height: 100px;
+        margin-top: -100px;
+        visibility: hidden;
+    }
+
+    #articleContent :focus {
+        outline: none;
+    }
+
+    .toc-fixed {
+        position: fixed;
+        top: 64px;
+    }
+
+    .toc-widget {
+        padding-left: 20px;
+    }
+
+    .toc-widget .toc-title {
+        margin: 35px 0 15px 0;
+        padding-left: 17px;
+        font-size: 1.5rem;
+        font-weight: bold;
+        line-height: 1.5rem;
+    }
+
+    .toc-widget ol {
+        padding: 0;
+        list-style: none;
+    }
+
+    #toc-content ol {
+        padding-left: 10px;
+    }
+
+    #toc-content ol li {
+        padding-left: 10px;
+    }
+
+    #toc-content .toc-link:hover {
+        color: #42b983;
+        font-weight: 700;
+        text-decoration: underline;
+    }
+
+    #toc-content .toc-link::before {
+        background-color: transparent;
+        max-height: 25px;
+    }
+
+    #toc-content .is-active-link {
+        color: #42b983;
+    }
+
+    #toc-content .is-active-link::before {
+        background-color: #42b983;
+    }
+</style>
+<div class="row">
+    <div class="col s12 m12 l9">
+        <!-- 文章内容详情 -->
+<div id="artDetail">
+    <div class="card">
+        <div class="card-content article-info">
+            <div class="row tag-cate">
+                <div class="col s7">
+                    
+                          <div class="article-tag">
+                            <span class="chip bg-color">无标签</span>
+                          </div>
+                    
+                </div>
+                <div class="col s5 right-align">
+                    
+                    <div class="post-cate">
+                        <i class="fa fa-bookmark fa-fw icon-category"></i>
+                        
+                            <a href="/categories/学习小记/" class="post-category" target="_blank">
+                                学习小记
+                            </a>
+                        
+                    </div>
+                    
+                </div>
+            </div>
+
+            <div class="post-info">
+                <div class="post-date info-break-policy">
+                    <i class="fa fa-calendar-minus-o fa-fw"></i>发布日期:&nbsp;&nbsp;
+                    2018-12-04
+                </div>
+
+                
+                    
+                    <div class="info-break-policy">
+                        <i class="fa fa-file-word-o fa-fw"></i>文章字数:&nbsp;&nbsp;
+                        3k
+                    </div>
+                    
+
+                    
+                    <div class="info-break-policy">
+                        <i class="fa fa-clock-o fa-fw"></i>阅读时长:&nbsp;&nbsp;
+                        10 分
+                    </div>
+                    
+                
+				
+				
+                    <div id="busuanzi_container_page_pv" class="info-break-policy">
+                        <i class="fa fa-eye fa-fw"></i>阅读次数:&nbsp;&nbsp;
+                        <span id="busuanzi_value_page_pv"></span>
+                    </div>
+				
+            </div>
+        </div>
+        <hr class="clearfix">
+        <div class="card-content article-card-content">
+            <div id="articleContent">
+                <p><strong>用“智能”决策生活，篆刻生活印记</strong></p>
+<p>随着技术的发展和人类的进步，人们的生活节奏越来越快，每一天都淹没在“数据”的海洋中。我们在享受先进技术、快捷网络以及城市便捷性的同时，越来越追求精神层面的享受。但同样的，在我们中常常会有一些人，他们难以适应日新月异的快节奏生活，于是越来越多的面对这个忙碌的世界感到迷茫，不知道一天都做了什么，不知道一天这么多事情该如何处理。随着时代的发展，我们每一天都有越来越多的事情等待完成，人们的步伐越来越快，渐渐的忘记了我们去过那里，忘记了我们去做过什么，忽略了我们的生活结构是怎样。“复盘”是帮助一个人进步很好的方式，但快节奏的生活让越来越多的人忘记了自己的轨迹，更难以去优化自己的生活轨迹；换句话说，我们将自己有限的精力放在了更重要的地方，可记录并优化生活结构这样非常有助于我们提高生活效率的方式却常常无法完成。 于是，我们想到了开发“智能生活管家”系统，以用户APP的方式和用户交互并提供相关功能，我们希望将自己所学专业知识，运用到实际生活中，甚至能够帮助人们更好的生活！ <strong>产品特色</strong> “智能生活管家”项目基于LBS地理空间位置服务，致力于成为用户生活的智能“小管家”，软件忠实地记录下用户的生活轨迹，通过一系列数据挖掘手段帮助用户优化生活轨迹、提供日程规划决策支持，这里提出几个典型特色详细说明： 1.轨迹记录使用网络定位+GPS定位的方式，用户可根据实际情况自由选择定位方式；使用统计图表反馈数据获取量，搜集数据为下一步的数据可视化及数据挖掘做准备。 <img src="https://songtianlun.cn/myblog/wp-content/uploads/2018/12/1-168x300.png" alt> 2.使用大数据可视化及时空大数据可视化手段，在进行了简单的数据处理后进行用户数据据可视化，重现用户生活轨迹并模拟用户一天内活动时空特征进行时空数据可视化。   <img src="https://songtianlun.cn/myblog/wp-content/uploads/2018/12/2-169x300.png" alt> 3.使用基于机器学习的驻留点提取算法进行驻留点提取。主要是运用了机器学习的思想，在基于一定数量的训练集基础之上进行全自动的驻留点自提取，目前受限于训练集不足，但已能在现有情况下提取出可以反映用户行为特征的部分关键点，比如下图中某同学某天的行为数据，可以看出他这一时段主要是在学院、运动场和教学楼有所停留，其余地区主要是活动留下的轨迹。 <img src="https://songtianlun.cn/myblog/wp-content/uploads/2018/12/4-300x167.png" alt> 进过算法的模型比对，认为用户至少在学院和运动场有所停留，因此提取出位于这些地区的关键点（如下图所示）。 <img src="https://songtianlun.cn/myblog/wp-content/uploads/2018/12/5-300x145.png" alt> 提取出用户活动的主要驻留点，结合相关POI数据即可向用户提供其主要生活站点信息，在下一步的个人行为结构计算中也会起到很重要的作用。 4.用户个人数据是孤立的，我们通过对用户个人数据挖掘及重现，可以帮助用户进行生活轨迹回放、确定用户行为模式等；如果想要帮助用户更好的优化生活轨迹，就需要对用户的个人数据和用户群体数据进行模式比对，通过划分用户群体，达到面向群体内用户的精准生活建议推送功能。“智能生活管家”通过将用户数据匿名化分析，在服务器中使用特定算法挖掘出用户行为模式，并基于此将用户划分为一个个的小群体，基于群体的行为特征向个体用户推送相关生活建议，可帮助用户主动修正生活模式、为用户日程规划提供决策支持等。此外该模块还提供了已知伙伴的位置共享功能，互相认识的伙伴可以通过彼此的ID实名的共享自己的位置，提供一个生活的小便利。 <strong>技术手段</strong> “智能生活管家”项目在开发的过程中使用了网络定位技术、空间数据库、大数据可视化、网络地图服务（WMS）、网络数据服务、基于个人轨迹数据的热力图展示、基于个人轨迹数据的时空数据展示、基于机器学习的驻留点算法、基于群体数据的群体行为分析以及基于个人及群体数据的定向智能生活推送等相关技术。其中GIS相关技术基本采用Supermap Gis相关软件产品实现：其中地图的制作及发布使用Supermap idesktop 9D(2019)，用到了分级配图、专题配图、空间数据库对接、地图发布等功能；云GIS相关功能使用Supermap iServer 9D(2019),使用了iServer的云地图服务、数据服务以及使用iServer和空间数据库对接等功能；移动GIS开发则全部使用Supermap imobile 9D(2019)开发组件进行二次开发，使用相关组件实现了地图显示、数据上传、数据分析、数据统计、数据挖掘、大数据可视化及时空数据可视化等功能。 由于篇幅有限，在这里着重介绍基于空间数据库及网络通信技术的网络地图服务，“智能生活管家”使用的地图全部自主完成，具有极高的灵活性及可定制性，同时与系统数据可以更好的对接融合，大大提升了用户体验和可操作性，系统使用了空间数据库及网络通信技术的网络地图服务，下面将会详细介绍： <img src="https://songtianlun.cn/myblog/wp-content/uploads/2018/12/6-300x155.png" alt> 系统在运行过程中，全程都是依靠位置数据驱动的，地图更是做大数据可视化的重要基础。项目开发初期使用第三方地图（如百度地图、高德地图、天地图、超图云地图）进行过测试，发现使用第三方地图虽然可以节省很大的力气，不用在地图上花费功夫，可凡事都是两面性的，省力的服务带来的结果就是低自由度，我们在第三方地图上很难进行地图风格的定制，对于地图坐标系也很难针对系统特点进行自定义，因此在系统开发中我们使用了Supermap iDesktop强大的地理空间数据处理及地图成图功能，结合系统需求设计了不同风格的电子地图。   <img src="https://songtianlun.cn/myblog/wp-content/uploads/2018/12/7-300x163.png" alt> 起初我们制图使用的数据源是文件型数据源，简而言之就是存储在硬盘中的文件，发布服务后虽然也能实现相应的地图显示功能，但是效率极低，硬盘读取速度、服务器运算速度等都成为系统性能瓶颈，特别是文件系统的空间数据处理速度低下是该地图服务的致命弱点。于是我们就想到了效率更高、管理更方便的空间数据库。 <img src="https://songtianlun.cn/myblog/wp-content/uploads/2018/12/8-300x171.png" alt> 经过多方考察及可行性分析，最终我们选择了PostgreSQL数据库存储基础地理空间数据，PostgreSQL提供了PostGIS扩展，PostGIS是对象关系型数据库系统PostgreSQL的一个扩展，PostGIS提供如下空间信息服务功能:空间对象、空间索引、空间操作函数和空间操作符。同时，PostGIS遵循OpenGIS的规范。使用PostgreSQL数据库存放空间数据之后，整个系统的地图服务提供模块性能得到了大幅提升，在移动端启动地图无论是出图速度还是稳定性都得到了极大的提升。最终，根据实际需求，我们分别为热力图展示和轨迹图展示定制了两款对应风格的地图，极大的提升了美观度及可用性。   <img src="https://songtianlun.cn/myblog/wp-content/uploads/2018/12/9-169x300.png" alt> 将数据发布在搭载了iServe服务的云服务器上，即可在移动端调用云GIS相关服务，极大的减少了本地端数据存储压力。 “智能生活管家”项目开始于学生群体，后期目标在社会各个对生活质量由较高要求的人。项目中使用了各种技术，并不是技术的累计，而是希望更好的让技术为我们的生活服务，作为祖国的新青年，我们立志于用自己所学的专业知识报答祖国，回报社会，做一个对人类有用的人。项目中若有什么做得不好的地方或是对我们有什么建议欢迎指出，我们的联系方式是（E-mail:<a href="mailto:songtianlun@stu.haut.edu.cn" target="_blank" rel="noopener">songtianlun@stu.haut.edu.cn</a>），此致敬礼！ <strong>团队合影：</strong> <img src="https://songtianlun.cn/myblog/wp-content/uploads/2018/12/团队合影-1024x770.jpg" alt> <strong>指导老师点评:</strong> “智能生活管家”作品是一款基于LBS的大众生活服务APP，旨在通过对用户的日常生活轨迹进行处理、统计和分析，为用户的日常生活提供科学分析和智能辅助。该作品在轨迹驻留点分析、大数据可视化等技术环节取得了一定的创新和改进。</p>
+<ul>
+<li>基于机器学习的驻留点分析</li>
+</ul>
+<p>驻留点分析是大数据轨迹处理分析的核心环节，是进行轨迹管理和分析的基础。面对轨迹不连续、冗余数据多等问题，课题组提出了基于机器学习的驻留点分析算法，在驻留点分析精度、分析效率等方面取得了很好的效果。 作品中使用的驻留点分析算法核心为DBSCAN(Density-Based Spatial Clustering of Applications with Noise)算法，它是一个比较有代表性的基于密度的聚类算法。它能够将具有足够高密度的区域划分为点簇，并且可以发现任意形状的聚类和去除噪声点。 但是传统的DBSCAN算法在对有时间属性的轨迹信息进行密度聚类时结果会出现冗余。作品中通过修改算法，实现了基于时间轴进行的轨迹驻留点聚类。 并通过一定规模的训练数据进行了机器学习，最终确定了算法模型，相比较于传统的DBSCAN算法，在轨迹有多重交叉时，对于一组实际驻留点个数为325的测试数据，未改进算法提取驻留点个数471，耗时0.75秒，改进后算法提取驻留点个数 309，耗时0.65秒。驻留点提取精度提高24%左右，提取速度上升13%左右。 但算法仍未解决一些问题，当轨迹有较多非连续点时，算法效率下降较多，提取出驻留点与实际有误差和偏移。有待继续努力。</p>
+<ul>
+<li>基于轨迹信息的个人行为分析</li>
+</ul>
+<p>基于轨迹信息，通过热力图及折线图等各种统计图表对用户个人每日、每周和每月的活力数据进行直观展示，辅助用户了解掌握自己的活动情况，为用户行为的优化提供重要的、科学的数据参考。 指导老师：李滨   最后，欢迎大家访问智能生活管家<a href="https://songtianlun.cn/pathmanager" target="_blank" rel="noopener">官网</a>了解详情！</p>
+<p><a href="https://songtianlun.cn/pathmanager" target="_blank" rel="noopener">点击进入</a></p>
+<p>宋天伦 2018.12.4</p>
+
+            </div>
+            <hr>
+
+            
+
+            <link rel="stylesheet" type="text/css" href="/libs/share/css/share.min.css">
+
+<div id="article-share">
+    
+    <div class="social-share" data-disabled="qzone" data-wechat-qrcode-helper="<p>微信里点“发现”->“扫一扫”二维码便可查看分享。</p>"></div>
+    
+</div>
+
+<script src="/libs/share/js/social-share.min.js"></script>
+
+            <div class="reprint">
+                <p>
+                    <span class="reprint-tip">
+                        <i class="fa fa-exclamation-circle"></i>&nbsp;&nbsp;转载请注明:
+                    </span>
+                    <a href="https://frytea.com" class="b-link-green">宋天伦</a>
+                    <i class="fa fa-angle-right fa-lg fa-fw text-color"></i>
+                    <a href="/2018/12/04/zhi-neng-sheng-huo-guan-jia-xiang-mu-zhi-yi-xi-tong-jian-jie/" class="b-link-green">智能生活管家项目之一-系统简介</a>
+                </p>
+            </div>
+        </div>
+    </div>
+
+    
+
+    
+
+    
+
+    
+
+    
+        <style>
+    .valine-card {
+        margin: 1.5rem auto;
+    }
+
+    .valine-card .card-content {
+        padding: 20px 20px 5px 20px;
+    }
+
+    #vcomments input[type=text],
+    #vcomments input[type=email],
+    #vcomments input[type=url],
+    #vcomments textarea {
+        box-sizing: border-box;
+    }
+
+    #vcomments p {
+        margin: 2px 2px 10px;
+        font-size: 1.05rem;
+        line-height: 1.78rem;
+    }
+
+    #vcomments blockquote p {
+        text-indent: 0.2rem;
+    }
+
+    #vcomments a {
+        padding: 0 2px;
+        color: #42b983;
+        font-weight: 500;
+        text-decoration: underline;
+    }
+
+    #vcomments img {
+        max-width: 100%;
+        height: auto;
+        cursor: pointer;
+    }
+
+    #vcomments ol li {
+        list-style-type: decimal;
+    }
+
+    #vcomments ol,
+    ul {
+        display: block;
+        padding-left: 2em;
+        word-spacing: 0.05rem;
+    }
+
+    #vcomments ul li,
+    ol li {
+        display: list-item;
+        line-height: 1.8rem;
+        font-size: 1rem;
+    }
+
+    #vcomments ul li {
+        list-style-type: disc;
+    }
+
+    #vcomments ul ul li {
+        list-style-type: circle;
+    }
+
+    #vcomments table, th, td {
+        padding: 12px 13px;
+        border: 1px solid #dfe2e5;
+    }
+
+    #vcomments table, th, td {
+        border: 0;
+    }
+
+    table tr:nth-child(2n), thead {
+        background-color: #fafafa;
+    }
+
+    #vcomments table th {
+        background-color: #f2f2f2;
+        min-width: 80px;
+    }
+
+    #vcomments table td {
+        min-width: 80px;
+    }
+
+    #vcomments h1 {
+        font-size: 1.85rem;
+        font-weight: bold;
+        line-height: 2.2rem;
+    }
+
+    #vcomments h2 {
+        font-size: 1.65rem;
+        font-weight: bold;
+        line-height: 1.9rem;
+    }
+
+    #vcomments h3 {
+        font-size: 1.45rem;
+        font-weight: bold;
+        line-height: 1.7rem;
+    }
+
+    #vcomments h4 {
+        font-size: 1.25rem;
+        font-weight: bold;
+        line-height: 1.5rem;
+    }
+
+    #vcomments h5 {
+        font-size: 1.1rem;
+        font-weight: bold;
+        line-height: 1.4rem;
+    }
+
+    #vcomments h6 {
+        font-size: 1rem;
+        line-height: 1.3rem;
+    }
+
+    #vcomments p {
+        font-size: 1rem;
+        line-height: 1.5rem;
+    }
+
+    #vcomments hr {
+        margin: 12px 0;
+        border: 0;
+        border-top: 1px solid #ccc;
+    }
+
+    #vcomments blockquote {
+        margin: 15px 0;
+        border-left: 5px solid #42b983;
+        padding: 1rem 0.8rem 0.3rem 0.8rem;
+        color: #666;
+        background-color: rgba(66, 185, 131, .1);
+    }
+
+    #vcomments pre {
+        font-family: monospace, monospace;
+        padding: 1.2em;
+        margin: .5em 0;
+        background: #272822;
+        overflow: auto;
+        border-radius: 0.3em;
+        tab-size: 4;
+    }
+
+    #vcomments code {
+        font-family: monospace, monospace;
+        padding: 1px 3px;
+        font-size: 0.92rem;
+        color: #e96900;
+        background-color: #f8f8f8;
+        border-radius: 2px;
+    }
+
+    #vcomments pre code {
+        font-family: monospace, monospace;
+        padding: 0;
+        color: #e8eaf6;
+        background-color: #272822;
+    }
+
+    #vcomments pre[class*="language-"] {
+        padding: 1.2em;
+        margin: .5em 0;
+    }
+
+    #vcomments code[class*="language-"],
+    pre[class*="language-"] {
+        color: #e8eaf6;
+    }
+
+    #vcomments [type="checkbox"]:not(:checked), [type="checkbox"]:checked {
+        position: inherit;
+        margin-left: -1.3rem;
+        margin-right: 0.4rem;
+        margin-top: -1px;
+        vertical-align: middle;
+        left: unset;
+        visibility: visible;
+    }
+
+    #vcomments b,
+    strong {
+        font-weight: bold;
+    }
+
+    #vcomments dfn {
+        font-style: italic;
+    }
+
+    #vcomments small {
+        font-size: 85%;
+    }
+
+    #vcomments cite {
+        font-style: normal;
+    }
+
+    #vcomments mark {
+        background-color: #fcf8e3;
+        padding: .2em;
+    }
+
+    #vcomments table, th, td {
+        padding: 12px 13px;
+        border: 1px solid #dfe2e5;
+    }
+
+    table tr:nth-child(2n), thead {
+        background-color: #fafafa;
+    }
+
+    #vcomments table th {
+        background-color: #f2f2f2;
+        min-width: 80px;
+    }
+
+    #vcomments table td {
+        min-width: 80px;
+    }
+
+    #vcomments [type="checkbox"]:not(:checked), [type="checkbox"]:checked {
+        position: inherit;
+        margin-left: -1.3rem;
+        margin-right: 0.4rem;
+        margin-top: -1px;
+        vertical-align: middle;
+        left: unset;
+        visibility: visible;
+    }
+</style>
+
+<div class="card valine-card" data-aos="fade-up">
+    <div id="vcomments" class="card-content"></div>
+</div>
+
+<script src="/libs/valine/av-min.js"></script>
+<script src="/libs/valine/Valine.min.js"></script>
+<script>
+    new Valine({
+        el: '#vcomments',
+        appId: 'liLjce0DXTN7FzNcq7H3lIj0-gzGzoHsz',
+        appKey: '1ME2Gjmj8nmtbRg7u5QePaNA',
+        notify: 'true' === 'true',
+        verify: 'false' === 'true',
+        visitor: 'true' === 'true',
+        avatar: 'mm',
+        pageSize: '10',
+        lang: 'zh-cn',
+        placeholder: 'just go go'
+    });
+</script>
+    
+
+    
+
+<article id="prenext-posts" class="prev-next articles">
+    <div class="row article-row">
+        
+        <div class="article col s12 m6" data-aos="fade-up">
+            <div class="article-badge left-badge text-color">
+                <i class="fa fa-chevron-left"></i>&nbsp;上一篇</div>
+            <div class="card">
+                <a href="/2018/12/14/2018-nian-12-yue-14-ri/">
+                    <div class="card-image">
+                        
+                        
+                        <img src="/medias/featureimages/18.jpg" class="responsive-img" alt="2018年12月14日">
+                        
+                        <span class="card-title">2018年12月14日</span>
+                    </div>
+                </a>
+                <div class="card-content article-content">
+                    <div class="summary">小日记 思考一个问题。 生而在世从事各种工作的人有许多许多。 可无论从事什么职业，总是有人可以做到这个行业的顶尖， 且长期立于不败之地难以撼动。   在想为什么他们可以做到如此出类拔萃， 为什么他们会如此坚定的从事所做的事情。   又在想为</div>
+                    <div class="publish-info">
+                        <span class="publish-date">
+                            <i class="fa fa-clock-o fa-fw icon-date"></i>2018-12-14
+                        </span>
+                        <span class="publish-author">
+                            
+                            <i class="fa fa-bookmark fa-fw icon-category"></i>
+                            
+                            <a href="/categories/日记/" class="post-category" target="_blank">
+                                    日记
+                                </a>
+                            
+                            
+                        </span>
+                    </div>
+                </div>
+                
+            </div>
+        </div>
+        
+        
+        <div class="article col s12 m6" data-aos="fade-up">
+            <div class="article-badge right-badge text-color">
+                下一篇&nbsp;<i class="fa fa-chevron-right"></i>
+            </div>
+            <div class="card">
+                <a href="/2018/11/26/gis-yuan-li-yu-ji-zhu-ping-shi-zuo-ye/">
+                    <div class="card-image">
+                        
+                        
+                        <img src="/medias/featureimages/3.jpg" class="responsive-img" alt="《GIS原理与技术》平时作业">
+                        
+                        <span class="card-title">《GIS原理与技术》平时作业</span>
+                    </div>
+                </a>
+                <div class="card-content article-content">
+                    <div class="summary">《GIS**原理与技术》平时作业** 专业： 空间信息与数字技术  班级： 1601  学号： 201616060110 姓名： 宋天伦
+
+问题：
+
+
+什么是COM组件？需满足哪些条件？
+简述矢量数据模型的基本思想。试分析ESRI公司三种矢</div>
+                    <div class="publish-info">
+                            <span class="publish-date">
+                                <i class="fa fa-clock-o fa-fw icon-date"></i>2018-11-26
+                            </span>
+                        <span class="publish-author">
+                            
+                            <i class="fa fa-bookmark fa-fw icon-category"></i>
+                            
+                            <a href="/categories/学习小记/" class="post-category" target="_blank">
+                                    学习小记
+                                </a>
+                            
+                            
+                        </span>
+                    </div>
+                </div>
+                
+            </div>
+        </div>
+        
+    </div>
+</article>
+</div>
+
+
+<script>
+    $('#articleContent').on('copy', function (e) {
+        // IE8 or earlier browser is 'undefined'
+        if (typeof window.getSelection === 'undefined') return;
+
+        var selection = window.getSelection();
+        // if the selection is short let's not annoy our users.
+        if (('' + selection).length < Number.parseInt('120')) {
+            return;
+        }
+
+        // create a div outside of the visible area and fill it with the selected text.
+        var bodyElement = document.getElementsByTagName('body')[0];
+        var newdiv = document.createElement('div');
+        newdiv.style.position = 'absolute';
+        newdiv.style.left = '-99999px';
+        bodyElement.appendChild(newdiv);
+        newdiv.appendChild(selection.getRangeAt(0).cloneContents());
+
+        // we need a <pre> tag workaround.
+        // otherwise the text inside "pre" loses all the line breaks!
+        if (selection.getRangeAt(0).commonAncestorContainer.nodeName === 'PRE') {
+            newdiv.innerHTML = "<pre>" + newdiv.innerHTML + "</pre>";
+        }
+
+        var url = document.location.href;
+        newdiv.innerHTML += '<br />'
+            + '来源: 宋天伦<br />'
+            + '作者: 宋天伦<br />'
+            + '链接: <a href="' + url + '">' + url + '</a><br />'
+            + '本文章著作权归作者所有，任何形式的转载都请注明出处。';
+
+        selection.selectAllChildren(newdiv);
+        window.setTimeout(function () {bodyElement.removeChild(newdiv);}, 200);
+    });
+</script>
+
+    </div>
+    <div class="col l3 hide-on-med-and-down">
+        <div class="toc-widget">
+            <div class="toc-title"><i class="fa fa-list-alt"></i>&nbsp;&nbsp;目录</div>
+            <div id="toc-content"></div>
+        </div>
+    </div>
+</div>
+
+<script src="/libs/tocbot/tocbot.min.js"></script>
+<script>
+    $(function () {
+        tocbot.init({
+            tocSelector: '#toc-content',
+            contentSelector: '#articleContent',
+            headingsOffset: -($(window).height() * 0.4 - 45),
+            // headingsOffset: -205,
+            headingSelector: 'h1, h2, h3, h4'
+        });
+
+        // modify the toc link href to support Chinese.
+        let i = 0;
+        let tocHeading = 'toc-heading-';
+        $('#toc-content a').each(function () {
+            $(this).attr('href', '#' + tocHeading + (++i));
+        });
+
+        // modify the heading title id to support Chinese.
+        i = 0;
+        $('#articleContent').children('h1, h2, h3, h4').each(function () {
+            $(this).attr('id', tocHeading + (++i));
+        });
+
+        // Set scroll toc fixed.
+        let tocHeight = parseInt($(window).height() * 0.4 - 64);
+        let $tocWidget = $('.toc-widget');
+        $(window).scroll(function () {
+            let scroll = $(window).scrollTop();
+            /* add post toc fixed. */
+            if (scroll > tocHeight) {
+                $tocWidget.addClass('toc-fixed');
+            } else {
+                $tocWidget.removeClass('toc-fixed');
+            }
+        });
+    });
+</script>
+    
+
+</main>
+
+
+<footer class="page-footer bg-color">
+    <div class="container row center-align">
+        <div class="col s12 m8 l8 copy-right">
+            本站由&copy;<a href="https://demo.frytea.com" target="_blank">宋天伦</a>基于
+            <a href="https://hexo.io/" target="_blank">Hexo</a> 的
+            <a href="https://github.com/blinkfox/hexo-theme-matery" target="_blank">matery</a>主题搭建.
+
+            
+                &nbsp;<i class="fa fa-area-chart"></i>&nbsp;站点总字数:&nbsp;
+                <span class="white-color">108.3k</span>
+            
+
+            
+			
+                <br>
+                
+                <span id="busuanzi_container_site_pv">
+                    <i class="fa fa-heart-o"></i>
+                    本站总访问量 <span id="busuanzi_value_site_pv" class="white-color"></span>
+                </span>
+                
+                
+                <span id="busuanzi_container_site_uv">
+                    <i class="fa fa-users"></i>
+                    次,&nbsp;访客数 <span id="busuanzi_value_site_uv" class="white-color"></span> 人.
+                </span>
+                
+            
+        </div>
+        <div class="col s12 m4 l4 social-link social-statis">
+    <a href="https://github.com/songtianlun" class="tooltipped" target="_blank" data-tooltip="访问我的GitHub" data-position="top" data-delay="50">
+        <i class="fa fa-github"></i>
+    </a>
+
+
+
+    <a href="http://mail.qq.com/cgi-bin/qm_share?t=qm_mailme&amp;email=ybqmp669oKinpbynia_7sL2sqOeqpqQ" class="tooltipped" target="_blank" data-tooltip="邮件联系我" data-position="top" data-delay="50">
+        <i class="fa fa-envelope-open"></i>
+    </a>
+
+
+
+    <a href="tencent://AddContact/?fromId=50&fromSubId=1&subcmd=all&uin=1305647042" class="tooltipped" data-tooltip="QQ联系我: 1305647042" data-position="top" data-delay="50">
+        <i class="fa fa-qq"></i>
+    </a>
+
+  
+  
+    <a href="https://frytea.com/sitemap.xml" class="tooltipped" data-tooltip="站点地图" data-position="top" data-delay="50">
+        <i class="fa fa-sitemap"></i>
+    </a>
+
+
+
+    <a href="/atom.xml" class="tooltipped" target="_blank" data-tooltip="RSS 订阅" data-position="top" data-delay="50">
+        <i class="fa fa-rss"></i>
+    </a>
+</div>
+    </div>
+</footer>
+
+<div class="progress-bar"></div>
+
+
+<!-- 搜索遮罩框 -->
+<div id="searchModal" class="modal">
+    <div class="modal-content">
+        <div class="search-header">
+            <span class="title"><i class="fa fa-search"></i>&nbsp;&nbsp;搜索</span>
+            <input type="search" id="searchInput" name="s" placeholder="请输入搜索的关键字" class="search-input" autofocus>
+        </div>
+        <div id="searchResult"></div>
+    </div>
+</div>
+
+<script src="/js/search.js"></script>
+<script type="text/javascript">
+    searchFunc("/" + "search.xml", 'searchInput', 'searchResult');
+</script>
+<!-- 回到顶部按钮 -->
+<div id="backTop" class="top-scroll">
+    <a class="btn-floating btn-large waves-effect waves-light" href="#!">
+        <i class="fa fa-angle-up"></i>
+    </a>
+</div>
+
+
+<script src="/libs/materialize/js/materialize.min.js"></script>
+<script src="/libs/masonry/masonry.pkgd.min.js"></script>
+<script src="/libs/aos/aos.js"></script>
+<script src="/libs/scrollprogress/scrollProgress.min.js"></script>
+<script src="/libs/lightGallery/js/lightgallery-all.min.js"></script>
+<script src="/js/matery.js"></script>
+
+<!-- Global site tag (gtag.js) - Google Analytics -->
+
+<script async src="https://www.googletagmanager.com/gtag/js?id=UA-136094326-1"></script>
+<script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag() {
+        dataLayer.push(arguments);
+    }
+
+    gtag('js', new Date());
+    gtag('config', 'UA-136094326-1');
+</script>
+
+
+
+    <script src="/libs/others/clicklove.js"></script>
+
+
+<!-- Global site tag (gtag.js) - Google Analytics -->
+
+<script async src="https://www.googletagmanager.com/gtag/js?id=UA-136094326-1"></script>
+<script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag() {
+        dataLayer.push(arguments);
+    }
+
+    gtag('js', new Date());
+    gtag('config', 'UA-136094326-1');
+</script>
+
+
+
+    <script src="/libs/others/clicklove.js"></script>
+
+
+    <script async src="/libs/others/busuanzi.pure.mini.js"></script>
+
+
+<script src="/live2dw/lib/L2Dwidget.min.js?0c58a1486de42ac6cc1c59c7d98ae887"></script><script>L2Dwidget.init({"pluginRootPath":"live2dw/","pluginJsPath":"lib/","pluginModelPath":"assets/","tagMode":false,"debug":false,"model":{"jsonPath":"/live2dw/assets/hijiki.model.json"},"log":false});</script></body>
+</html>
