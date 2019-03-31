@@ -1,0 +1,1327 @@
+<!DOCTYPE HTML>
+<html lang="zh-CN">
+
+
+<head><meta name="generator" content="Hexo 3.8.0">
+    <meta charset="utf-8">
+    <meta name="keywords" content="《GIS原理与技术》平时作业, 宋天伦">
+    <meta name="description" content="《GIS**原理与技术》平时作业** 专业： 空间信息与数字技术  班级： 1601  学号： 201616060110 姓名： 宋天伦
+
+问题：
+
+
+什么是COM组件？需满足哪些条件？
+简述矢量数据模型的基本思想。试分析ESRI公司三种矢">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="renderer" content="webkit|ie-stand|ie-comp">
+    <meta name="mobile-web-app-capable" content="yes">
+    <meta name="format-detection" content="telephone=no">
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+    <title>《GIS原理与技术》平时作业 | 宋天伦</title>
+    <link rel="icon" type="image/png" href="/favicon.png">
+
+    <link rel="stylesheet" type="text/css" href="/libs/awesome/css/font-awesome.min.css">
+    <link rel="stylesheet" type="text/css" href="/libs/materialize/css/materialize.min.css">
+    <link rel="stylesheet" type="text/css" href="/libs/aos/aos.css">
+    <link rel="stylesheet" type="text/css" href="/libs/animate/animate.min.css">
+    <link rel="stylesheet" type="text/css" href="/libs/lightGallery/css/lightgallery.min.css">
+    <link rel="stylesheet" type="text/css" href="/css/matery.css">
+    <link rel="stylesheet" type="text/css" href="/css/my.css">
+    <style type="text/css">
+        
+    </style>
+
+    <script src="/libs/jquery/jquery-2.2.0.min.js"></script>
+<link rel="stylesheet" href="/css/prism-tomorrow.css" type="text/css"></head>
+
+
+<body>
+
+<header class="navbar-fixed">
+    <nav id="headNav" class="bg-color nav-transparent">
+        <div id="navContainer" class="container">
+            <div class="nav-wrapper">
+                <div class="brand-logo">
+                    <a href="/" class="waves-effect waves-light">
+                        
+                        <img src="/medias/B068923F-E5C7-4069-AB84-6BCAE505B3D7.png" class="logo-img hide-on-small-only">
+                        
+                        <span class="logo-span">宋天伦</span>
+                    </a>
+                </div>
+                
+
+<a href="#" data-activates="mobile-nav" class="button-collapse"><i class="fa fa-navicon"></i></a>
+<ul class="right">
+    
+    <li class="hide-on-med-and-down">
+        <a href="/" class="waves-effect waves-light">
+            
+            <i class="fa fa-home"></i>
+            
+            <span>首页</span>
+        </a>
+    </li>
+    
+    <li class="hide-on-med-and-down">
+        <a href="/tags" class="waves-effect waves-light">
+            
+            <i class="fa fa-tags"></i>
+            
+            <span>标签</span>
+        </a>
+    </li>
+    
+    <li class="hide-on-med-and-down">
+        <a href="/categories" class="waves-effect waves-light">
+            
+            <i class="fa fa-bookmark"></i>
+            
+            <span>分类</span>
+        </a>
+    </li>
+    
+    <li class="hide-on-med-and-down">
+        <a href="/archives" class="waves-effect waves-light">
+            
+            <i class="fa fa-archive"></i>
+            
+            <span>归档</span>
+        </a>
+    </li>
+    
+    <li class="hide-on-med-and-down">
+        <a href="/about" class="waves-effect waves-light">
+            
+            <i class="fa fa-user-circle-o"></i>
+            
+            <span>关于</span>
+        </a>
+    </li>
+    
+    <li class="hide-on-med-and-down">
+        <a href="/friends" class="waves-effect waves-light">
+            
+            <i class="fa fa-address-book"></i>
+            
+            <span>友情链接</span>
+        </a>
+    </li>
+    
+    <li>
+        <a id="toggleSearch" class="waves-effect waves-light">
+            <i id="searchIcon" class="mdi-action-search" title="搜索"></i>
+        </a>
+    </li>
+
+</ul>
+
+<div class="side-nav" id="mobile-nav">
+
+    <div class="mobile-head bg-color">
+        
+        <img src="/medias/B068923F-E5C7-4069-AB84-6BCAE505B3D7.png" class="logo-img circle responsive-img">
+        
+        <div class="logo-name">宋天伦</div>
+        <div class="logo-desc">
+            
+            一个热爱编程，更热爱生活的地图学青年。
+            
+        </div>
+    </div>
+
+    
+
+    <ul class="menu-list mobile-menu-list">
+        
+        <li>
+            <a href="/" class="waves-effect waves-light">
+                
+                <i class="fa fa-fw fa-home"></i>
+                
+                首页
+            </a>
+        </li>
+        
+        <li>
+            <a href="/tags" class="waves-effect waves-light">
+                
+                <i class="fa fa-fw fa-tags"></i>
+                
+                标签
+            </a>
+        </li>
+        
+        <li>
+            <a href="/categories" class="waves-effect waves-light">
+                
+                <i class="fa fa-fw fa-bookmark"></i>
+                
+                分类
+            </a>
+        </li>
+        
+        <li>
+            <a href="/archives" class="waves-effect waves-light">
+                
+                <i class="fa fa-fw fa-archive"></i>
+                
+                归档
+            </a>
+        </li>
+        
+        <li>
+            <a href="/about" class="waves-effect waves-light">
+                
+                <i class="fa fa-fw fa-user-circle-o"></i>
+                
+                关于
+            </a>
+        </li>
+        
+        <li>
+            <a href="/friends" class="waves-effect waves-light">
+                
+                <i class="fa fa-fw fa-address-book"></i>
+                
+                友情链接
+            </a>
+        </li>
+        
+        
+        <li><div class="divider"></div></li>
+        <li>
+            <a href="https://github.com/songtianlun" class="waves-effect waves-light" target="_blank">
+                <i class="fa fa-github-square fa-fw"></i>Fork Me
+            </a>
+        </li>
+        
+    </ul>
+
+    <div class="social-link">
+    <a href="https://github.com/songtianlun" class="tooltipped" target="_blank" data-tooltip="访问我的GitHub" data-position="top" data-delay="50">
+        <i class="fa fa-github"></i>
+    </a>
+
+
+
+    <a href="http://mail.qq.com/cgi-bin/qm_share?t=qm_mailme&amp;email=ybqmp669oKinpbynia_7sL2sqOeqpqQ" class="tooltipped" target="_blank" data-tooltip="邮件联系我" data-position="top" data-delay="50">
+        <i class="fa fa-envelope-open"></i>
+    </a>
+
+
+
+    <a href="tencent://AddContact/?fromId=50&fromSubId=1&subcmd=all&uin=1305647042" class="tooltipped" data-tooltip="QQ联系我: 1305647042" data-position="top" data-delay="50">
+        <i class="fa fa-qq"></i>
+    </a>
+
+  
+  
+    <a href="https://frytea.com/sitemap.xml" class="tooltipped" data-tooltip="站点地图" data-position="top" data-delay="50">
+        <i class="fa fa-sitemap"></i>
+    </a>
+
+
+
+    <a href="/atom.xml" class="tooltipped" target="_blank" data-tooltip="RSS 订阅" data-position="top" data-delay="50">
+        <i class="fa fa-rss"></i>
+    </a>
+</div>
+</div>
+
+            </div>
+        </div>
+
+        
+        <style>
+    .nav-transparent .github-corner {
+        display: none !important;
+    }
+
+    .github-corner {
+        position: absolute;
+        z-index: 10;
+        top: 0;
+        right: 0;
+        border: 0;
+        transform: scale(1.1);
+    }
+
+    .github-corner svg {
+        color: #996699;
+        fill: #fff;
+        height: 64px;
+        width: 64px;
+    }
+
+    .github-corner:hover .octo-arm {
+        animation: a 0.56s ease-in-out;
+    }
+
+    .github-corner .octo-arm {
+        animation: none;
+    }
+
+    @keyframes a {
+        0%,
+        to {
+            transform: rotate(0);
+        }
+        20%,
+        60% {
+            transform: rotate(-25deg);
+        }
+        40%,
+        80% {
+            transform: rotate(10deg);
+        }
+    }
+</style>
+
+<a href="https://github.com/songtianlun" class="github-corner tooltipped hide-on-med-and-down" target="_black" data-tooltip="Fork Me" data-position="left" data-delay="50">
+    <svg viewbox="0 0 250 250" aria-hidden="true">
+        <path d="M0,0 L115,115 L130,115 L142,142 L250,250 L250,0 Z"/>
+        <path d="M128.3,109.0 C113.8,99.7 119.0,89.6 119.0,89.6 C122.0,82.7 120.5,78.6 120.5,78.6 C119.2,72.0 123.4,76.3 123.4,76.3 C127.3,80.9 125.5,87.3 125.5,87.3 C122.9,97.6 130.6,101.9 134.4,103.2" fill="currentColor" style="transform-origin: 130px 106px;" class="octo-arm"/>
+        <path d="M115.0,115.0 C114.9,115.1 118.7,116.5 119.8,115.4 L133.7,101.6 C136.9,99.2 139.9,98.4 142.2,98.6 C133.8,88.0 127.5,74.4 143.8,58.0 C148.5,53.4 154.0,51.2 159.7,51.0 C160.3,49.4 163.2,43.6 171.4,40.1 C171.4,40.1 176.1,42.5 178.8,56.2 C183.1,58.6 187.2,61.8 190.9,65.4 C194.5,69.0 197.7,73.2 200.1,77.6 C213.8,80.2 216.3,84.9 216.3,84.9 C212.7,93.1 206.9,96.0 205.4,96.6 C205.1,102.4 203.0,107.8 198.3,112.5 C181.9,128.9 168.3,122.5 157.7,114.1 C157.9,116.9 156.7,120.9 152.7,124.9 L141.0,136.5 C139.8,137.7 141.6,141.9 141.8,141.8 Z" fill="currentColor" class="octo-body"/>
+    </svg>
+</a>
+        
+    </nav>
+</header>
+
+
+<script src="/libs/cryptojs/crypto-js.min.js"></script>
+<script>
+    (function() {
+        let pwd = '';
+        if (pwd && pwd.length > 0) {
+            if (pwd !== CryptoJS.SHA256(prompt('请输入访问本文章的密码')).toString(CryptoJS.enc.Hex)) {
+                alert('密码错误，将返回主页！');
+                location.href = '/';
+            }
+        }
+    })();
+</script>
+
+
+
+
+<div class="bg-cover post-cover" style="background-image: url('/medias/featureimages/3.jpg')">
+    <div class="container">
+        <div class="row">
+            <div class="col s12 m12 l12">
+                <div class="brand">
+                    <div class="description center-align post-title">
+                        《GIS原理与技术》平时作业
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+
+
+<main class="post-container content">
+
+    
+    <link rel="stylesheet" href="/libs/tocbot/tocbot.css">
+<style>
+    #articleContent h1::before,
+    #articleContent h2::before,
+    #articleContent h3::before,
+    #articleContent h4::before,
+    #articleContent h5::before,
+    #articleContent h6::before {
+        display: block;
+        content: " ";
+        height: 100px;
+        margin-top: -100px;
+        visibility: hidden;
+    }
+
+    #articleContent :focus {
+        outline: none;
+    }
+
+    .toc-fixed {
+        position: fixed;
+        top: 64px;
+    }
+
+    .toc-widget {
+        padding-left: 20px;
+    }
+
+    .toc-widget .toc-title {
+        margin: 35px 0 15px 0;
+        padding-left: 17px;
+        font-size: 1.5rem;
+        font-weight: bold;
+        line-height: 1.5rem;
+    }
+
+    .toc-widget ol {
+        padding: 0;
+        list-style: none;
+    }
+
+    #toc-content ol {
+        padding-left: 10px;
+    }
+
+    #toc-content ol li {
+        padding-left: 10px;
+    }
+
+    #toc-content .toc-link:hover {
+        color: #42b983;
+        font-weight: 700;
+        text-decoration: underline;
+    }
+
+    #toc-content .toc-link::before {
+        background-color: transparent;
+        max-height: 25px;
+    }
+
+    #toc-content .is-active-link {
+        color: #42b983;
+    }
+
+    #toc-content .is-active-link::before {
+        background-color: #42b983;
+    }
+</style>
+<div class="row">
+    <div class="col s12 m12 l9">
+        <!-- 文章内容详情 -->
+<div id="artDetail">
+    <div class="card">
+        <div class="card-content article-info">
+            <div class="row tag-cate">
+                <div class="col s7">
+                    
+                          <div class="article-tag">
+                            <span class="chip bg-color">无标签</span>
+                          </div>
+                    
+                </div>
+                <div class="col s5 right-align">
+                    
+                    <div class="post-cate">
+                        <i class="fa fa-bookmark fa-fw icon-category"></i>
+                        
+                            <a href="/categories/学习小记/" class="post-category" target="_blank">
+                                学习小记
+                            </a>
+                        
+                    </div>
+                    
+                </div>
+            </div>
+
+            <div class="post-info">
+                <div class="post-date info-break-policy">
+                    <i class="fa fa-calendar-minus-o fa-fw"></i>发布日期:&nbsp;&nbsp;
+                    2018-11-26
+                </div>
+
+                
+                    
+                    <div class="info-break-policy">
+                        <i class="fa fa-file-word-o fa-fw"></i>文章字数:&nbsp;&nbsp;
+                        8k
+                    </div>
+                    
+
+                    
+                    <div class="info-break-policy">
+                        <i class="fa fa-clock-o fa-fw"></i>阅读时长:&nbsp;&nbsp;
+                        27 分
+                    </div>
+                    
+                
+				
+				
+                    <div id="busuanzi_container_page_pv" class="info-break-policy">
+                        <i class="fa fa-eye fa-fw"></i>阅读次数:&nbsp;&nbsp;
+                        <span id="busuanzi_value_page_pv"></span>
+                    </div>
+				
+            </div>
+        </div>
+        <hr class="clearfix">
+        <div class="card-content article-card-content">
+            <div id="articleContent">
+                <p>《<strong>GIS**</strong>原理与技术》平时作业** 专业： 空间信息与数字技术  班级： 1601  学号： 201616060110 姓名： 宋天伦</p>
+<ul>
+<li><strong>问题：</strong></li>
+</ul>
+<ol>
+<li>什么是COM组件？需满足哪些条件？</li>
+<li>简述矢量数据模型的基本思想。试分析ESRI公司三种矢量数据产品的数据结构。</li>
+<li>几何变换如何定义、分类？简述仿射变换的实现过程。</li>
+<li>简述DEM、TIN的模型结构，比较二者的优缺点。</li>
+<li>简述常见的空间插值方法。</li>
+<li>简述最小耗费路径分析、最短路径分析的基本原理，二者有何异同？阐述其实现过程。</li>
+</ol>
+<ul>
+<li><strong>评分标准</strong> <strong>&amp;</strong> <strong>得分统计：</strong></li>
+</ul>
+<p><strong>分值</strong> <strong>观测点</strong></p>
+<p><strong>90-100**</strong>分**</p>
+<p><strong>70-89**</strong>分**</p>
+<p><strong>60-69**</strong>分**</p>
+<p><strong>0-59**</strong>分**</p>
+<p><strong>得分</strong></p>
+<p>作业完成程度 （权重10%）</p>
+<p>按时全部完成</p>
+<p>延时全部完成</p>
+<p>按时部分完成</p>
+<p>延时部分完成</p>
+<p>基本概念的理解 （权重30%）</p>
+<p>概念清晰，知识全面</p>
+<p>主要概念清晰，知识较全面</p>
+<p>部分概念清晰，知识不全面</p>
+<p>基本概念不清，知识缺失严重</p>
+<p>基本原理（思想）的理解与掌握 （权重30%）</p>
+<p>理解准确，知识全面，思路清晰</p>
+<p>理解部分有误，知识较全面，思路基本清晰</p>
+<p>理解有明显错误，知识不全面，思路不清晰</p>
+<p>理解错误较多，知识缺失严重，思路混乱</p>
+<p>基本方法的掌握 （权重30%）</p>
+<p>方法理解透彻,运用熟练</p>
+<p>方法理解较透彻，运用基本熟练</p>
+<p>方法理解有明显错误，运用生疏</p>
+<p>方法理解错误严重，未能掌握</p>
+<p>总分</p>
+<p>  <strong>注意：</strong></p>
+<ol>
+<li>请修改班级、姓名、学号三部分内容，封面中其它内容（含格式）请勿修改；</li>
+<li>平时作业占总评成绩的30%；</li>
+<li>解答部分请勿删除题目内容；</li>
+<li>提交内容包括本文档的纸质版和电子版，二者内容和格式要求一致。</li>
+</ol>
+<ul>
+<li><strong>解答：</strong></li>
+</ul>
+<ol>
+<li>什么是COM组件？需满足哪些条件？</li>
+</ol>
+<p>答：（1）COM是Component Object Model （组件对象模型）的缩写；COM是一个规范，是一个说明如何建立可动态交替更新的组件的规范；COM提供了为保证能够互操作，客户和组件应遵循的标准。所谓规范我的理解是当一件事物要达到全球通用效果时必然的产物，要想生产一个零件拿到全国各地都可以使用，那就必须要系统和组件都遵循一定的标准，在这里这个标准可以理解为就是这个COM规范，而COM规范就是一套为组建架构设置标准的文档。 作为COM组件则是COM规范的一些具体实现，COM组件时以Win32动态链接库（DLL）或可执行文件（EXE）的形式发布的可执行代码组成的。我理解的COM组件更多的是一种思想和体系的体现，COM组件符合COM规范，类似于理论研究和应用研究之间的关系，作为理论研究可以为应用、方法的研究指明发展的方向，而作为应用、发展研究又能验证理论的可行性及完善性，二者互为补充。 COM组件实现的过程中有一个特点，那就是COM组件之间的联系是通过动态链接的方式连接的。COM组件使用DLL动态链接库将组件动态连接起来，从而实现COM的封装性、灵活性。COM组件的优势之一就是其能够很好的提供软件更新迭代，一个组件出问题不需一发而牵动全身，只需要修改相应的组件，再将组件更新到软件相应的位置中，程序就可以实现功能的完善和更新，而不需要修改整个程序，而动态链接的方式可以保证程序的健壮性及可移植性。另外一个特点就是COM组件本身的封装性，二者互为补充互相实现，不可分割。 而在这里还要特别的说明，COM组件绝不是一种计算机语言！COM组件不可以和某一种计算机语言相提并论，COM组件是一种思想，是一种体系，是一种该规范，COM组件是使用程序语言实现后体现的，不同的语言实现起来COM组件有不同的内涵，可以有不同的实现方式，而其内部深度的思想都是类似的，相似的。 COM组件如果仅仅是一些规范，没有具体实现的话，还是会令人感觉非常空洞，即使是能够写一个代码全球通用也很难持续下去这种热情，也就因此COM提供一个被叫做COM库的API，提供对于任何用户都非常有用的组件管理服务，一方面COM库可以提供最基本的功能，一方面COM库还可以提高软件开发的效率，可以使得用户快速的构建一些内容，提升开发速度，避免重复的写相同功能的代码，提升代码复用率，使得用户将精力更多的放在编写核心代码上，可以提升代码开发发展的进程，每个人可以各司其职开发出真正有用的程序代码，同时可以有更广泛的应用。 （2）COM为了实现动态插入或卸载出程序的这种功能，其本身需要符合一定条件：第一，组件必须是动态连接的；第二，它们必须隐蔽（或封装）其内部实现细节。这两者的关系同等重要，不需要比较，就像前面说的那样，二者互相依赖，互相实现，互相促进，不可分割。 对于动态链接来说：动态链接是指组件之间相互的链接必须是动态的，可热插拔的，用户运行的过程中可以将组件替换掉的。即使不是所有的用户程序中都提供这样的自由替换组件的功能，但是拥有这种替换方式的系统相较于其他系统有着不可比拟的优势，仔细想一下如果想要运行过程中实现热插拔，那就一定要实现动态链接。 动态链接对于一个健壮的软件系统来讲是非常重要的。如果软件系统中的所有代码段都是不能独立存在替换的，那如果要实现系统部分功能更新，就必然的需要将其他的所有（包括无变化代码段）代码都进行重新编译、链接来实现。这种方式是非常耗费时间非常得不偿失的，而且在隐约间还增加了用户和软件提供商双方的压力，用户如果没有一些软件只是就很难对出问题的软件系统进行修改，必须依赖软件工程师，而软件工程师需要解决的问题常常是一个非常小的部分，这样牵一发而动全身，非常的耗时耗力，时间被用来做重复性工作，带来了非常大的人力资源浪费，在实际使用过程中这样的资源耗费是实际企业所不能接受的。也就因此，动态链接对于一个健壮的系统来说有着非常重要的作用。 对于封装性来说。封装性是实现动态链接的基础，如果一个软件不是封装好的，是零散的不成体系，组件之间功能分区不具体的，那就必然会带来一系列的问题。动态链接也就失去了其自身的价值。作为普通用户来说，如果一个系统提供给了动态链接功能，可以替换掉特定的组件，而此时组件不是一个完整的，内部细节是可见的，就常常使得用户将精力放在了这些完全不需要了解的部分上。用户更关心的是自己需要什么功能，以及这些组件可以用来做什么，而完全不需要知道组件内部是如何提供功能的。因此一个界限清晰、封装良好，内部不可见的封装性对于软件的组件式开发来说非常重要。 可以说，封装性和动态链接性是相互依存相互促进的，组件的封装性很强，组件之间的界限清晰明了，在进行动态链接时就更方便，更便捷，更高效。同样的如果系统共提供的动态链接性能很高，系统封装良好的组件就能更好的协同工作，同时用户使用的过程中可以更好的进行系统的链接、组件的热插拔等工作。二者共同促进，相互依存，可以更好的帮助软件提供者为用户提供更高效的软件体验，二者共同作用可以发挥出COM组件式开发不可估量的潜力及优势。</p>
+<ol start="2">
+<li>简述矢量数据模型的基本思想。试分析ESRI公司三种矢量数据产品的数据结构。</li>
+</ol>
+<p>答：（1）矢量数据模型的基本思想：矢量数据模型也叫做离散对象模型，是采用离散对象来表示地球表面的空间要素的。矢量数据模型用点、线和面等几何对象来表示简单的空间要素。现实世界中的真实地物分为很多种，如何将地理世界中的物体尽量真实的反应在计算机中，使用计算机能识别的方式进行存储，这是科学家们一直在思考的一个问题。而矢量数据模型是众多的数据模型的一种，以精度和小体量著称。矢量数据模型将地理空间实体看作是一个空域，在此基础上将真实地物抽象为点、线、面以及体等内容，再赋予相应的属性数据，转换为计算机可以存储的数据格式，在计算机中进行存储。 矢量数据将现实世界中的各种地物抽象成为一个个的离散个体，分别对每一个事物的形态特征将其抽象为点、线、面或是体，数据均是以离散的方式存储在计算机中。比如说点的存储在计算机中是一系列的坐标对和属性表的集合，离散的方式存储；而对于线则是一个个点连接在一起的集合构成线条，同样是离散化，读于面则是线和点的集合构成一个个的面对象。由此，地理空间实体中的各种数据均被数字化，使用数字化的形式存储在计算机中，意味着矢量数据的显示将有着得天独厚的天然条件，那就是高精度，即使是放大到再大的范围也不会使得地图失真，对于地理空间实体的描述会非常准确。 矢量数据的生产过程常常是可以有如下三个步骤的：第一步，在一个空的空间将地理空间要素分为点、线、和多边形，并用点及其x、y坐标表示这些要素的位置和形状。第二步，以一个逻辑架构构建这个几何对象的属性和空间关系。第三步，编码并将矢量数据以数字数据文件存储，这样它们可以被访问、解释，并由计算机进行处理。 而在实际的矢量数据生产过程中，矢量数据的来源常常有以下几种：卫星图描绘、地图矢量化、实际测绘。使用卫星图描绘的方式生产的矢量数据，其精度和卫星图的精度息息相关，若是卫星图的分辨率较高，生产出的矢量数据精度也可以达到一个比较高的水平，而如果卫星图的分辨率较低，则很难达到一个比较高的水平。不过使用卫星图进行描绘相较于实际测量其精度会更高，因为其本身就是基于一个特定的坐标系，在其基础上进行标绘不需要进行再一步的配准等操作，减少了误差。作为现有地图矢量化的方式生产的数据常常要经过第一步的配准，配准过程中常常会产生很多不必要的误差，也就因此使用现有栅格地图矢量化的形式常常精度难以保证。而实际测量是最精确的一种方式，同时其生产的矢量数据会更加的精确，有着更加详细的数据反应程度，其数据可行度很有保障，但同时其弊端也是不言而喻，那就是需要大量的人力物力去实力测量，会耗费大量的精力去做，因此这种方式在当代逐渐被其他更搞笑的方式替换。 （2）ESRI公司三种矢量数据产品的数据结构 1）Coverage文件 Coverage 是ArcInfo workstation 的原生数据格式。之所以称之为“基于文件夹的存储”， 是因为在 windows资源管理器下，它的空间信息和属性信息是分别存放在两个文件夹里。例如，在我的电脑 E:\MyTest\example 文件夹中，有 3 个coverage，它们在 windows 资源管理器下的状态所有信息都以文件夹的形式来存储。空间信息以二进制文件的形式存储在独立的文件夹中，文件夹名称即为该 coverage 名称，属性信息和拓扑数据则以 INFO表的形式存储。Coverage将空间信息与属性信息结合起来，并存储要素间的拓扑关系。 然而，通过 ArcCatalog，我们能将存储空间信息的文件夹中的 coverage二进制文件与存储属性信息的 INFO 文件夹中的 INFO表联合表达为 coverage，当使用 ArcCatalog 对 coverage 进行创建、移动、删除或重命名等操作时，ArcCatalog 将自动维护他们的完整性，将 coverage和 INFO文件夹中的内容同步改变。所以对 coverage进行操作，一定要在 ArcCatalog 中进行。 coverage 是一个非常成功的早期地理数据模型，二十多年来深受用户欢迎，很多早期的数据都是 coverage 格式的。ESRI 不公开 coverage 的数据格式，但是提供了 coverage 格式转换的一个交换文件（interchange file，即 E00），并公开数据格式，这样就方便了 coverage 数据与其他格式的数据之间的转换。 Coverage 是一个集合，它可以包含一个或多个要素类。 2）Shapefile 一个ESRI的shapefile数据包含一个主文件（.shp），一个索引文件（.shx）和一个dBASE（.dbf）表。主文件是直接访问的，变长记录的文件，每一条记录都描述一个形状的一系列结点。在索引文件中，每一条记录包含主文件相应记录相对于主文件头的偏移量。dBASE表中每条记录表示一个要素的属性。这种几何结构和属性要素一对一的关系是通过记录号来控制的，表中的属性记录的顺序必须和主文件中的记录顺序相同。 一、主文件： 主文件（.shp）包含一个定长的文件头，之后就是变长的记录。每一条变长的记录都是由一个定长的记录头和变长的记录内容组成的。Shapefile的内容分为两类：一是数据相关，包括主文件记录内容和主文件头的数据描述范围（形状类型，最小矩形外框等）；二是文件管理相关，包括文件和记录的长度和记录的偏移量等。主文件中用于记录数据相关的整型和双精度整型的字节序是little endian（PC或Intel），而用于文件管理相关的字节序则是big endian（Sun or Motorola）。 主文件头长度为100字节。下表列出头的字节位置、值、类型和字节序。</p>
+<p>位置</p>
+<p>字段</p>
+<p>字段值</p>
+<p>字段类型</p>
+<p>字节序</p>
+<p>Byte 0</p>
+<p>文件代码</p>
+<p>9994</p>
+<p>整型</p>
+<p>Big</p>
+<p>4</p>
+<p>未使用</p>
+<p>0</p>
+<p>整型</p>
+<p>Big</p>
+<p>20</p>
+<p>未使用</p>
+<p>0</p>
+<p>整型</p>
+<p>Big</p>
+<p>24</p>
+<p>文件长度</p>
+<p>文件长度</p>
+<p>整型</p>
+<p>Big</p>
+<p>28</p>
+<p>版本</p>
+<p>1000</p>
+<p>整型</p>
+<p>Little</p>
+<p>32</p>
+<p>几何形状</p>
+<p>形状类型</p>
+<p>整型</p>
+<p>Little</p>
+<p>36</p>
+<p>边界框</p>
+<p>X最小值</p>
+<p>双精度浮点型</p>
+<p>Little</p>
+<p>44</p>
+<p>边界框</p>
+<p>Y最小值</p>
+<p>双精度浮点型</p>
+<p>Little</p>
+<p>52</p>
+<p>边界框</p>
+<p>X最大值</p>
+<p>双精度浮点型</p>
+<p>Little</p>
+<p>60</p>
+<p>边界框</p>
+<p>Y最大值</p>
+<p>双精度浮点型</p>
+<p>Little</p>
+<p>68*</p>
+<p>边界框</p>
+<p>Z最小值</p>
+<p>双精度浮点型</p>
+<p>Little</p>
+<p>76*</p>
+<p>边界框</p>
+<p>Z最大值</p>
+<p>双精度浮点型</p>
+<p>Little</p>
+<p>84*</p>
+<p>边界框</p>
+<p>M最小值</p>
+<p>双精度浮点型</p>
+<p>Little</p>
+<p>92*</p>
+<p>边界框</p>
+<p>M最小值</p>
+<p>双精度浮点型</p>
+<p>Little</p>
+<p>注意：如果不是测量或者Z型，带*的部分就没有使用，其值为0.0。 文件长度是文件的所有长度，用16位字表示（即包括50个16位字长度的文件头）。 几何类型的对应值为：无形状（0），点（1），线（3），多边形（5），多点（8），Z型点（11），Z型线（13），Z型多边形（15），Z型多点（18），M型点（21），M型线（23），M型多边形（25），M型多点（28），MultiPatch（31）。 每一条记录的头保存该条记录号和内容长度。记录头是定长的，占8字节。前4字节整型表示记录号，字节序是Big；后4字节整型表示记录内容长度，字节序是Big。内容长度只是内容的长度，用16位字表示。所以，每条记录的长度就是（4＋内容长度）的16位字表示。 主文件的记录内容包含几何类型和几何数据。记录内容的长度取决于形状的部分和结点的数量，每一种几何类型有其相应的记录内容。 （１）无形状：通常无形状是用来占位的，在shapefile创建时设置为无形状，之后再 添加几何数据。</p>
+<p>位置</p>
+<p>字段</p>
+<p>字段值</p>
+<p>字段类型</p>
+<p>个数</p>
+<p>字节序</p>
+<p>Byte 0</p>
+<p>几何形状</p>
+<p>0</p>
+<p>整型</p>
+<p>1</p>
+<p>Little</p>
+<p>（２）X，Y空间的点：包括一对双精度的X，Y坐标值。</p>
+<p>位置</p>
+<p>字段</p>
+<p>字段值</p>
+<p>字段类型</p>
+<p>个数</p>
+<p>字节序</p>
+<p>0</p>
+<p>几何形状</p>
+<p>1</p>
+<p>整型</p>
+<p>1</p>
+<p>Little</p>
+<p>4</p>
+<p>X</p>
+<p>X坐标</p>
+<p>双精度</p>
+<p>1</p>
+<p>Little</p>
+<p>12</p>
+<p>Y</p>
+<p>Y坐标</p>
+<p>双精度</p>
+<p>1</p>
+<p>Little</p>
+<p>（３）X，Y空间的多点：是一个点集。包括边界框、点个数和各个点的坐标。</p>
+<p>位置</p>
+<p>字段</p>
+<p>字段值</p>
+<p>字段类型</p>
+<p>个数</p>
+<p>字节序</p>
+<p>0</p>
+<p>几何形状</p>
+<p>8</p>
+<p>整型</p>
+<p>1</p>
+<p>Little</p>
+<p>4</p>
+<p>边界框</p>
+<p>矩形顶点值</p>
+<p>双精度</p>
+<p>4</p>
+<p>Little</p>
+<p>36</p>
+<p>点数</p>
+<p>点的个数值</p>
+<p>整型</p>
+<p>1</p>
+<p>Little</p>
+<p>40</p>
+<p>点集</p>
+<p>各个点坐标</p>
+<p>点型</p>
+<p>点的个数</p>
+<p>Little</p>
+<p>（４）X，Y空间的线：是一个有序的顶点集合，包括一个或多个部分。部分是指连接两个或两个以上顶点的序列。部分可能会相连也可能不相连，可能相交也可能不相交。包括边界框、部分数、点数、每个部分第一个点的索引序号和各个点的坐标。 注意：X＝44＋4×部分的个数。</p>
+<p>位置</p>
+<p>字段</p>
+<p>字段值</p>
+<p>字段类型</p>
+<p>个数</p>
+<p>字节序</p>
+<p>0</p>
+<p>几何形状</p>
+<p>3</p>
+<p>整型</p>
+<p>1</p>
+<p>Little</p>
+<p>4</p>
+<p>边界框</p>
+<p>矩形顶点值</p>
+<p>双精度</p>
+<p>4</p>
+<p>Little</p>
+<p>36</p>
+<p>部分数</p>
+<p>部分个数值</p>
+<p>整型</p>
+<p>1</p>
+<p>Little</p>
+<p>40</p>
+<p>点数</p>
+<p>点的个数值</p>
+<p>整型</p>
+<p>1</p>
+<p>Little</p>
+<p>44</p>
+<p>部分集</p>
+<p>每个部分第一个点在点集中的序号</p>
+<p>整型</p>
+<p>部分的个数</p>
+<p>Little</p>
+<p>X</p>
+<p>点集</p>
+<p>各个点坐标</p>
+<p>点型</p>
+<p>点的个数</p>
+<p>Little</p>
+<p>（５）X，Y空间的多边形：一个多边形包含一个或多个环。环是一个首尾连接的由4个或4个以上的点组成的一个封闭的，非自交的环路。一个多边形可能包含多重外环路。一个环的顶点顺序或方向显示了环是否位于多边形的内部。内部环是逆时针的，而简单的环状多边形通常是顺时针的。和线类似，多边形也包括边界框、部分数、点数、每个部分第一个点的索引序号和各个点的坐标，只是多边形中把环看做是部分。其内容表同线相同，略。 3）Geodatebase Geodatabase是面向对象的空间数据存储模型，将地理数据存储在普通的文件File Geodatabase中、Personal database（微软的Access数据库的.mdb文件）中或者多用户的关系数据库Enterprise Geodatabase（比如Oracle, Microsoft SQL Server, 或者IBM DB2）。 <strong>总结</strong> 三种数据类型各有特点，其区别界限也比较明显：coverage和shapefile的区别就在于converg是一种包含拓扑关系的数据存储类型，而shapefile是一种非拓扑类型的数据。包含拓扑关系可以加快数据分析速度、更快的构建空间索引、更快的空间查询，有多种优点，而非拓扑的数据有这很强的互操作性和处理速度，得益于二者各自的特色，两种文件形式在当今都非常受欢迎。而geodatebase文件融入了面向对象的思维，除了封装了数据之外还将还将对数据的操作一并封装，具有对特定数据操作的功能，具有面向对象思维的全部优点。</p>
+<ol start="3">
+<li>几何变换如何定义、分类？简述仿射变换的实现过程。</li>
+</ol>
+<p>答：（1）几何变换是利用一系列控制点和转换方程式在投影坐标上配准数字化地图、卫星图象或航空相片的过程。如同此定义所述，几何变换是GIS、遥感和摄影测量学里共同的一种操作。（2）分类：根据几何变换输入端和输入端的不同可将几何变换分为地图到地图和图象到地图的变换。刚数字化完毕的地图，无论是经手工数字化还是扫描文件跟踪，其单元都是基于数字化仪单位。而数字化仪的单位可能是英寸或是点/英寸。这种刚数字化完毕的地图转换到投影坐标的几何变换过程，通常称之为<strong>地图到地图的变换</strong>。而影像到地图的变换适用于遥感数据。这个术语表明这种变换把卫星影像的行和列转换为投影坐标。无论是这两种中的哪一种，都是需要在数据上找到一定数量合适的控制点，通过控制点建立输入端到输出端的空间对应关系，也就是由于控制点的不稳定性，常常导致转换效果的差别。而衡量转换结果也有专门的标准，那就是通过均方根误差的方式来衡量几何变换质量。 （3）仿射变换的实现过程 数字化地图或卫星影像的仿射变换都包括三个步骤：第一步，将所选控制点的x、y坐标更新为真实世界坐标。如果不能更新为真是世界坐标，可通过投影控制点的经纬度获得；第二步，在控制点上运行仿射变换，并检验RMS误差，如果RMS误差在可接受范围之内，那么从控制点估算得出的6个仿射变换系数将会应用于下一步中；第三步，用估算系数和变换方程计算数字化地图的要素或影像像元的x、y坐标。最后一步输出的结果将是一幅全新的基于自定义投影坐标系的地图或是图象。</p>
+<ol start="4">
+<li>简述DEM、TIN的模型结构，比较二者的优缺点。</li>
+</ol>
+<p>答：（1）数字高程模型（Digital Elevation Model)，简称DEM，是通过有限的地形高程数据实现对地面地形的数字化模拟（即地形表面形态的数字化表达），它是用一组有序数值阵列形式表示地面高程的一种实体地面模型，是数字地形模型(Digital Terrain Model，简称DTM)的一个分支，其它各种地形特征值均可由此派生。（2）TIN，又叫做不规则格网的DEM，是基于矢量的数字地理数据的一种形式，通过将一系列折点组成的三角形来构建。各折点通过由一系列边进行连接，最终形成一个三角网。 （3）DEM的优点：规则格网的高程矩阵，可以很容易地用计算机进行处理，特别是栅格数据结构的地理信息系统。它还可以很容易地计算等高线、坡度坡向、山坡阴影和自动提取流域地形，使得它成为DEM 最广泛使用的格式，目前许多国家提供的 DEM数据都是以规则格网的数据矩阵形式提供的。 DEM缺点：1）在地形平坦的地方，存在大量的数据冗余；2）在不改变格网大小的情况下，难以表达复杂地形的突变现象；3）在某些计算，如通视问题，过分强调网格的轴方向。 TIN优点：不规则三角网数字高程由连续的三角面组成，三角面的形状和大小取决于不规则分布的测点，或节点的位置和密度。不规则三角网与高程矩阵方法不同之处是随地形起伏变化的复杂性而改变采样点的密度和决定采样点的位置，因而它能够避免地形平坦时的数据冗余，又能按地形特征点如山脊、山谷线、地形变化线等表示数字高程特征。 TIN缺点：算法实现比较复杂和困难，计算量大，地图渲染速度较慢。</p>
+<ol start="5">
+<li>简述常见的空间插值方法。</li>
+</ol>
+<p>答：空间插值方法可以分为整体插值和局部插值方法两类。整体插值方法用研究区所有采样点的数据进行全区特征拟合；局部插值方法是仅仅用临近的数据点来估计未知点的值。整体插值方法通常不直接用于空间插值，而是用来检测不同于总趋势的最大偏离部分，在去除了宏观地物特征后，可用剩余残差来进行局部插值。由于总体插值方法将短尺度的、局部的变化看作随机的和非结构的噪声，从而丢失了这一部分信息。局部插值方法恰好能弥补整体插值方法的缺陷，可用于局部异常值，而且不受插值表面上其他点的内插值影响。 （1）整体插值法有边界内插法、趋势面分析、变换函数插值。整体插值方法通常使用方差分析和回归方程等标准的统计方法，计算比较简单。其他的许多方法也可用于整体空间插值，如傅里叶级数和小波变换，特别是遥感影像分析方面，但它们需要的数据量大。 （2）局部插值方法只使用临近的数据点来估计未知点的值，需要注意的几个方面是：所使用的插值函数，领域大大小、形状和方向，数据点的个数，数据点的分布行驶是规则的还是不规则的。有最临近点法——泰森多边形方法、移动平均插值方法——距离倒数插值、样条函数插值方法、空间自协方差最佳插值方法——克里金插值。 分类总结： （1）根据使用样本点的数量可将空间插值分为全局和局部拟合法。全局插值法利用现有的每个已知点来估算未知点的值。而局部插值法则是用已知点的样本来估算未知点的值。 （2）根据插值面是否通过所有控制点可将插值方法分为精确的和非精确的插值法。对某个数值已知的点，精确插值法在该店位置的估算值与该点已知值相同。而非精确插值估算的点值可能与已知点不同。 （3）根据是否提供误差检验可将插值方法分为确定性和随机性两种。确定性插值方法不提供预测值，而随机性插值方法考虑变量的随机性和用估计变异提供预测误差的评价。</p>
+<ol start="6">
+<li>简述最小耗费路径分析、最短路径分析的基本原理，二者有何异同？阐述其实现过程。</li>
+</ol>
+<p>答：（1）最小耗费路径分析所需要包括源栅格、耗费栅格、耗费距离量差和生成最小累计耗费路径的算法。简单来说，最小耗费距离分析是以源栅格为基础，以耗费栅格为耗费依照，从起点到终点逐个像元的计算起点/终点到每一个像元所需要耗费的值。 （2）最短路径分析则是在网络中寻找节点间累计阻抗最小的路径。 （3）分析异同：二者都是基于原始数据及阻抗数据计算路径中的起点到终点间的最小消耗；而二者又有着本质的区别：最小耗费路径分析是基于栅格数据进行的计算，也就是说所有计算都是基于栅格的连续性思想进行计算，计算非常简单，运行效率也比较快，极具规律性；而最短路径分析则是基于矢量的路网及其阻抗矩阵，通过一定的算法从众多的路径中找到耗费最短的那一条。这样的方式计算出的路线更直观，但同时也会增加很多计算量，算法的效率在这里显得尤为重要。同时如果路网太过复杂，进行最短路径分析的时间耗费会非常的久。 （4）实现过程：二者的实现过程在前面回答过程中都有稍微提到，在此基础上进行一个小的总结： 最小耗费路径分析：第一步，进行耗费距离量测，基于节点-链接像元的表示方法，计算每一个栅格链接像元耗费以及对角线链接耗费；第二步，生成最小累计耗费路径。基于Dijkstra算法进行迭代，激活与像元邻接的像元，计算出这些香院的耗费，累计执行，直到输出山各种所有像元被赋予他们的最小累计耗费；第三步，输出结果。根据所需要的结果可以输出最小耗费距离栅格、方向栅格、配置栅格、最短路径栅格。 最短路径分析：第一步，获得阻抗矩阵。第二步，基于Dijkstra算法找到两点之间耗费最小的一条通路。</p>
+
+            </div>
+            <hr>
+
+            
+
+            <link rel="stylesheet" type="text/css" href="/libs/share/css/share.min.css">
+
+<div id="article-share">
+    
+    <div class="social-share" data-disabled="qzone" data-wechat-qrcode-helper="<p>微信里点“发现”->“扫一扫”二维码便可查看分享。</p>"></div>
+    
+</div>
+
+<script src="/libs/share/js/social-share.min.js"></script>
+
+            <div class="reprint">
+                <p>
+                    <span class="reprint-tip">
+                        <i class="fa fa-exclamation-circle"></i>&nbsp;&nbsp;转载请注明:
+                    </span>
+                    <a href="https://frytea.com" class="b-link-green">宋天伦</a>
+                    <i class="fa fa-angle-right fa-lg fa-fw text-color"></i>
+                    <a href="/2018/11/26/e3-80-8agis-e5-8e-9f-e7-90-86-e4-b8-8e-e6-8a-80-e6-9c-af-e3-80-8b-e5-b9-b3-e6-97-b6-e4-bd-9c-e4-b8-9a/" class="b-link-green">《GIS原理与技术》平时作业</a>
+                </p>
+            </div>
+        </div>
+    </div>
+
+    
+
+    
+
+    
+
+    
+
+    
+        <style>
+    .valine-card {
+        margin: 1.5rem auto;
+    }
+
+    .valine-card .card-content {
+        padding: 20px 20px 5px 20px;
+    }
+
+    #vcomments input[type=text],
+    #vcomments input[type=email],
+    #vcomments input[type=url],
+    #vcomments textarea {
+        box-sizing: border-box;
+    }
+
+    #vcomments p {
+        margin: 2px 2px 10px;
+        font-size: 1.05rem;
+        line-height: 1.78rem;
+    }
+
+    #vcomments blockquote p {
+        text-indent: 0.2rem;
+    }
+
+    #vcomments a {
+        padding: 0 2px;
+        color: #42b983;
+        font-weight: 500;
+        text-decoration: underline;
+    }
+
+    #vcomments img {
+        max-width: 100%;
+        height: auto;
+        cursor: pointer;
+    }
+
+    #vcomments ol li {
+        list-style-type: decimal;
+    }
+
+    #vcomments ol,
+    ul {
+        display: block;
+        padding-left: 2em;
+        word-spacing: 0.05rem;
+    }
+
+    #vcomments ul li,
+    ol li {
+        display: list-item;
+        line-height: 1.8rem;
+        font-size: 1rem;
+    }
+
+    #vcomments ul li {
+        list-style-type: disc;
+    }
+
+    #vcomments ul ul li {
+        list-style-type: circle;
+    }
+
+    #vcomments table, th, td {
+        padding: 12px 13px;
+        border: 1px solid #dfe2e5;
+    }
+
+    #vcomments table, th, td {
+        border: 0;
+    }
+
+    table tr:nth-child(2n), thead {
+        background-color: #fafafa;
+    }
+
+    #vcomments table th {
+        background-color: #f2f2f2;
+        min-width: 80px;
+    }
+
+    #vcomments table td {
+        min-width: 80px;
+    }
+
+    #vcomments h1 {
+        font-size: 1.85rem;
+        font-weight: bold;
+        line-height: 2.2rem;
+    }
+
+    #vcomments h2 {
+        font-size: 1.65rem;
+        font-weight: bold;
+        line-height: 1.9rem;
+    }
+
+    #vcomments h3 {
+        font-size: 1.45rem;
+        font-weight: bold;
+        line-height: 1.7rem;
+    }
+
+    #vcomments h4 {
+        font-size: 1.25rem;
+        font-weight: bold;
+        line-height: 1.5rem;
+    }
+
+    #vcomments h5 {
+        font-size: 1.1rem;
+        font-weight: bold;
+        line-height: 1.4rem;
+    }
+
+    #vcomments h6 {
+        font-size: 1rem;
+        line-height: 1.3rem;
+    }
+
+    #vcomments p {
+        font-size: 1rem;
+        line-height: 1.5rem;
+    }
+
+    #vcomments hr {
+        margin: 12px 0;
+        border: 0;
+        border-top: 1px solid #ccc;
+    }
+
+    #vcomments blockquote {
+        margin: 15px 0;
+        border-left: 5px solid #42b983;
+        padding: 1rem 0.8rem 0.3rem 0.8rem;
+        color: #666;
+        background-color: rgba(66, 185, 131, .1);
+    }
+
+    #vcomments pre {
+        font-family: monospace, monospace;
+        padding: 1.2em;
+        margin: .5em 0;
+        background: #272822;
+        overflow: auto;
+        border-radius: 0.3em;
+        tab-size: 4;
+    }
+
+    #vcomments code {
+        font-family: monospace, monospace;
+        padding: 1px 3px;
+        font-size: 0.92rem;
+        color: #e96900;
+        background-color: #f8f8f8;
+        border-radius: 2px;
+    }
+
+    #vcomments pre code {
+        font-family: monospace, monospace;
+        padding: 0;
+        color: #e8eaf6;
+        background-color: #272822;
+    }
+
+    #vcomments pre[class*="language-"] {
+        padding: 1.2em;
+        margin: .5em 0;
+    }
+
+    #vcomments code[class*="language-"],
+    pre[class*="language-"] {
+        color: #e8eaf6;
+    }
+
+    #vcomments [type="checkbox"]:not(:checked), [type="checkbox"]:checked {
+        position: inherit;
+        margin-left: -1.3rem;
+        margin-right: 0.4rem;
+        margin-top: -1px;
+        vertical-align: middle;
+        left: unset;
+        visibility: visible;
+    }
+
+    #vcomments b,
+    strong {
+        font-weight: bold;
+    }
+
+    #vcomments dfn {
+        font-style: italic;
+    }
+
+    #vcomments small {
+        font-size: 85%;
+    }
+
+    #vcomments cite {
+        font-style: normal;
+    }
+
+    #vcomments mark {
+        background-color: #fcf8e3;
+        padding: .2em;
+    }
+
+    #vcomments table, th, td {
+        padding: 12px 13px;
+        border: 1px solid #dfe2e5;
+    }
+
+    table tr:nth-child(2n), thead {
+        background-color: #fafafa;
+    }
+
+    #vcomments table th {
+        background-color: #f2f2f2;
+        min-width: 80px;
+    }
+
+    #vcomments table td {
+        min-width: 80px;
+    }
+
+    #vcomments [type="checkbox"]:not(:checked), [type="checkbox"]:checked {
+        position: inherit;
+        margin-left: -1.3rem;
+        margin-right: 0.4rem;
+        margin-top: -1px;
+        vertical-align: middle;
+        left: unset;
+        visibility: visible;
+    }
+</style>
+
+<div class="card valine-card" data-aos="fade-up">
+    <div id="vcomments" class="card-content"></div>
+</div>
+
+<script src="/libs/valine/av-min.js"></script>
+<script src="/libs/valine/Valine.min.js"></script>
+<script>
+    new Valine({
+        el: '#vcomments',
+        appId: 'liLjce0DXTN7FzNcq7H3lIj0-gzGzoHsz',
+        appKey: '1ME2Gjmj8nmtbRg7u5QePaNA',
+        notify: 'true' === 'true',
+        verify: 'false' === 'true',
+        visitor: 'true' === 'true',
+        avatar: 'mm',
+        pageSize: '10',
+        lang: 'zh-cn',
+        placeholder: 'just go go'
+    });
+</script>
+    
+
+    
+
+<article id="prenext-posts" class="prev-next articles">
+    <div class="row article-row">
+        
+        <div class="article col s12 m6" data-aos="fade-up">
+            <div class="article-badge left-badge text-color">
+                <i class="fa fa-chevron-left"></i>&nbsp;上一篇</div>
+            <div class="card">
+                <a href="/2018/12/04/e6-99-ba-e8-83-bd-e7-94-9f-e6-b4-bb-e7-ae-a1-e5-ae-b6-e9-a1-b9-e7-9b-ae-e4-b9-8b-e4-b8-80-e7-b3-bb-e7-bb-9f-e7-ae-80-e4-bb-8b/">
+                    <div class="card-image">
+                        
+                        
+                        <img src="/medias/featureimages/10.jpg" class="responsive-img" alt="智能生活管家项目之一-系统简介">
+                        
+                        <span class="card-title">智能生活管家项目之一-系统简介</span>
+                    </div>
+                </a>
+                <div class="card-content article-content">
+                    <div class="summary">用“智能”决策生活，篆刻生活印记
+随着技术的发展和人类的进步，人们的生活节奏越来越快，每一天都淹没在“数据”的海洋中。我们在享受先进技术、快捷网络以及城市便捷性的同时，越来越追求精神层面的享受。但同样的，在我们中常常会有一些人，他们难以适应</div>
+                    <div class="publish-info">
+                        <span class="publish-date">
+                            <i class="fa fa-clock-o fa-fw icon-date"></i>2018-12-04
+                        </span>
+                        <span class="publish-author">
+                            
+                            <i class="fa fa-bookmark fa-fw icon-category"></i>
+                            
+                            <a href="/categories/学习小记/" class="post-category" target="_blank">
+                                    学习小记
+                                </a>
+                            
+                            
+                        </span>
+                    </div>
+                </div>
+                
+            </div>
+        </div>
+        
+        
+        <div class="article col s12 m6" data-aos="fade-up">
+            <div class="article-badge right-badge text-color">
+                下一篇&nbsp;<i class="fa fa-chevron-right"></i>
+            </div>
+            <div class="card">
+                <a href="/2018/11/25/e3-80-90-e5-bd-b1-e8-af-84-e3-80-91-e5-90-8d-e4-be-a6-e6-8e-a2-e6-9f-af-e5-8d-97-c2-b7-e9-9b-b6-e7-9a-84-e6-89-a7-e8-a1-8c-e4-ba-ba/">
+                    <div class="card-image">
+                        
+                        
+                        <img src="/medias/featureimages/3.jpg" class="responsive-img" alt="【影评】名侦探柯南·零的执行人">
+                        
+                        <span class="card-title">【影评】名侦探柯南·零的执行人</span>
+                    </div>
+                </a>
+                <div class="card-content article-content">
+                    <div class="summary">今天圆了多年来的一个小愿望，那就是去电影院看一场柯南。 真的很开心，小的时候完全是不知道为什么就被名侦探柯南吸引，闲暇之余看会儿柯南是最开心的事情了呢，也许这事情就像是一个人喜欢一个人一样，不需要解释吧。电影结束，片尾曲一出，常态下人们会纷</div>
+                    <div class="publish-info">
+                            <span class="publish-date">
+                                <i class="fa fa-clock-o fa-fw icon-date"></i>2018-11-25
+                            </span>
+                        <span class="publish-author">
+                            
+                            <i class="fa fa-bookmark fa-fw icon-category"></i>
+                            
+                            <a href="/categories/阅读笔记/" class="post-category" target="_blank">
+                                    阅读笔记
+                                </a>
+                            
+                            
+                        </span>
+                    </div>
+                </div>
+                
+            </div>
+        </div>
+        
+    </div>
+</article>
+</div>
+
+
+<script>
+    $('#articleContent').on('copy', function (e) {
+        // IE8 or earlier browser is 'undefined'
+        if (typeof window.getSelection === 'undefined') return;
+
+        var selection = window.getSelection();
+        // if the selection is short let's not annoy our users.
+        if (('' + selection).length < Number.parseInt('120')) {
+            return;
+        }
+
+        // create a div outside of the visible area and fill it with the selected text.
+        var bodyElement = document.getElementsByTagName('body')[0];
+        var newdiv = document.createElement('div');
+        newdiv.style.position = 'absolute';
+        newdiv.style.left = '-99999px';
+        bodyElement.appendChild(newdiv);
+        newdiv.appendChild(selection.getRangeAt(0).cloneContents());
+
+        // we need a <pre> tag workaround.
+        // otherwise the text inside "pre" loses all the line breaks!
+        if (selection.getRangeAt(0).commonAncestorContainer.nodeName === 'PRE') {
+            newdiv.innerHTML = "<pre>" + newdiv.innerHTML + "</pre>";
+        }
+
+        var url = document.location.href;
+        newdiv.innerHTML += '<br />'
+            + '来源: 宋天伦<br />'
+            + '作者: 宋天伦<br />'
+            + '链接: <a href="' + url + '">' + url + '</a><br />'
+            + '本文章著作权归作者所有，任何形式的转载都请注明出处。';
+
+        selection.selectAllChildren(newdiv);
+        window.setTimeout(function () {bodyElement.removeChild(newdiv);}, 200);
+    });
+</script>
+
+    </div>
+    <div class="col l3 hide-on-med-and-down">
+        <div class="toc-widget">
+            <div class="toc-title"><i class="fa fa-list-alt"></i>&nbsp;&nbsp;目录</div>
+            <div id="toc-content"></div>
+        </div>
+    </div>
+</div>
+
+<script src="/libs/tocbot/tocbot.min.js"></script>
+<script>
+    $(function () {
+        tocbot.init({
+            tocSelector: '#toc-content',
+            contentSelector: '#articleContent',
+            headingsOffset: -($(window).height() * 0.4 - 45),
+            // headingsOffset: -205,
+            headingSelector: 'h1, h2, h3, h4'
+        });
+
+        // modify the toc link href to support Chinese.
+        let i = 0;
+        let tocHeading = 'toc-heading-';
+        $('#toc-content a').each(function () {
+            $(this).attr('href', '#' + tocHeading + (++i));
+        });
+
+        // modify the heading title id to support Chinese.
+        i = 0;
+        $('#articleContent').children('h1, h2, h3, h4').each(function () {
+            $(this).attr('id', tocHeading + (++i));
+        });
+
+        // Set scroll toc fixed.
+        let tocHeight = parseInt($(window).height() * 0.4 - 64);
+        let $tocWidget = $('.toc-widget');
+        $(window).scroll(function () {
+            let scroll = $(window).scrollTop();
+            /* add post toc fixed. */
+            if (scroll > tocHeight) {
+                $tocWidget.addClass('toc-fixed');
+            } else {
+                $tocWidget.removeClass('toc-fixed');
+            }
+        });
+    });
+</script>
+    
+
+</main>
+
+
+<footer class="page-footer bg-color">
+    <div class="container row center-align">
+        <div class="col s12 m8 l8 copy-right">
+            本站由&copy;<a href="https://demo.frytea.com" target="_blank">宋天伦</a>基于
+            <a href="https://hexo.io/" target="_blank">Hexo</a> 的
+            <a href="https://github.com/blinkfox/hexo-theme-matery" target="_blank">matery</a>主题搭建.
+
+            
+                &nbsp;<i class="fa fa-area-chart"></i>&nbsp;站点总字数:&nbsp;
+                <span class="white-color">113.4k</span>
+            
+
+            
+			
+                <br>
+                
+                <span id="busuanzi_container_site_pv">
+                    <i class="fa fa-heart-o"></i>
+                    本站总访问量 <span id="busuanzi_value_site_pv" class="white-color"></span>
+                </span>
+                
+                
+                <span id="busuanzi_container_site_uv">
+                    <i class="fa fa-users"></i>
+                    次,&nbsp;访客数 <span id="busuanzi_value_site_uv" class="white-color"></span> 人.
+                </span>
+                
+            
+        </div>
+        <div class="col s12 m4 l4 social-link social-statis">
+    <a href="https://github.com/songtianlun" class="tooltipped" target="_blank" data-tooltip="访问我的GitHub" data-position="top" data-delay="50">
+        <i class="fa fa-github"></i>
+    </a>
+
+
+
+    <a href="http://mail.qq.com/cgi-bin/qm_share?t=qm_mailme&amp;email=ybqmp669oKinpbynia_7sL2sqOeqpqQ" class="tooltipped" target="_blank" data-tooltip="邮件联系我" data-position="top" data-delay="50">
+        <i class="fa fa-envelope-open"></i>
+    </a>
+
+
+
+    <a href="tencent://AddContact/?fromId=50&fromSubId=1&subcmd=all&uin=1305647042" class="tooltipped" data-tooltip="QQ联系我: 1305647042" data-position="top" data-delay="50">
+        <i class="fa fa-qq"></i>
+    </a>
+
+  
+  
+    <a href="https://frytea.com/sitemap.xml" class="tooltipped" data-tooltip="站点地图" data-position="top" data-delay="50">
+        <i class="fa fa-sitemap"></i>
+    </a>
+
+
+
+    <a href="/atom.xml" class="tooltipped" target="_blank" data-tooltip="RSS 订阅" data-position="top" data-delay="50">
+        <i class="fa fa-rss"></i>
+    </a>
+</div>
+    </div>
+</footer>
+
+<div class="progress-bar"></div>
+
+
+<!-- 搜索遮罩框 -->
+<div id="searchModal" class="modal">
+    <div class="modal-content">
+        <div class="search-header">
+            <span class="title"><i class="fa fa-search"></i>&nbsp;&nbsp;搜索</span>
+            <input type="search" id="searchInput" name="s" placeholder="请输入搜索的关键字" class="search-input" autofocus>
+        </div>
+        <div id="searchResult"></div>
+    </div>
+</div>
+
+<script src="/js/search.js"></script>
+<script type="text/javascript">
+    searchFunc("/" + "search.xml", 'searchInput', 'searchResult');
+</script>
+<!-- 回到顶部按钮 -->
+<div id="backTop" class="top-scroll">
+    <a class="btn-floating btn-large waves-effect waves-light" href="#!">
+        <i class="fa fa-angle-up"></i>
+    </a>
+</div>
+
+
+<script src="/libs/materialize/js/materialize.min.js"></script>
+<script src="/libs/masonry/masonry.pkgd.min.js"></script>
+<script src="/libs/aos/aos.js"></script>
+<script src="/libs/scrollprogress/scrollProgress.min.js"></script>
+<script src="/libs/lightGallery/js/lightgallery-all.min.js"></script>
+<script src="/js/matery.js"></script>
+
+<!-- Global site tag (gtag.js) - Google Analytics -->
+
+<script async src="https://www.googletagmanager.com/gtag/js?id=UA-136094326-1"></script>
+<script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag() {
+        dataLayer.push(arguments);
+    }
+
+    gtag('js', new Date());
+    gtag('config', 'UA-136094326-1');
+</script>
+
+
+
+    <script src="/libs/others/clicklove.js"></script>
+
+
+<!-- Global site tag (gtag.js) - Google Analytics -->
+
+<script async src="https://www.googletagmanager.com/gtag/js?id=UA-136094326-1"></script>
+<script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag() {
+        dataLayer.push(arguments);
+    }
+
+    gtag('js', new Date());
+    gtag('config', 'UA-136094326-1');
+</script>
+
+
+
+    <script src="/libs/others/clicklove.js"></script>
+
+
+    <script async src="/libs/others/busuanzi.pure.mini.js"></script>
+
+
+<script src="/live2dw/lib/L2Dwidget.min.js?0c58a1486de42ac6cc1c59c7d98ae887"></script><script>L2Dwidget.init({"pluginRootPath":"live2dw/","pluginJsPath":"lib/","pluginModelPath":"assets/","tagMode":false,"debug":false,"model":{"jsonPath":"/live2dw/assets/hijiki.model.json"},"log":false});</script></body>
+</html>
