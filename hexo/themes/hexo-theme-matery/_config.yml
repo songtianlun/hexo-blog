@@ -83,9 +83,9 @@ indexbtn:
 # icon/button will not show up if you leave the corresponding socialLink empty
 # 首页 banner 中的第二行个人信息配置，留空即不启用
 socialLink:
-  #qq: 1305647042
+  qq: 1305647042
   github: https://github.com/songtianlun
-  email: songtianlun@frytea.com
+  email: http://mail.qq.com/cgi-bin/qm_share?t=qm_mailme&email=ybqmp669oKinpbynia_7sL2sqOeqpqQ
   sitemap: https://frytea.com/sitemap.xml
 
 # Whether to activate the Post TOC, and Configure which title types are supported by TOC support.
