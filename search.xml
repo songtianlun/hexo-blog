@@ -1250,8 +1250,8 @@
     
     <entry>
       <title>About</title>
-      <link href="/2019/02/22/untitled/"/>
-      <url>/2019/02/22/untitled/</url>
+      <link href="/2019/02/22/guan-yu-wo/"/>
+      <url>/2019/02/22/guan-yu-wo/</url>
       
         <content type="html"><![CDATA[<h1 id="关于我"><a href="#关于我" class="headerlink" title="关于我"></a>关于我</h1><p>大家好，我是宋天伦。来自新疆石河子，现就读于郑州某大学。</p><p><img src="http://pnabaentf.bkt.clouddn.com/15507683356687.jpg" alt></p><h1 id="关于我-1"><a href="#关于我-1" class="headerlink" title="关于我"></a>关于我</h1><p>嗨，你好！我是宋天伦！<br>出生在新疆石河子，<br>现就读于河南工业大学！<br>爱好读书，写字。<br>热爱编程，写程序总是可以带给我无限的快乐！<br>奈何现实所迫，我不想成为一个完全的程序员，而更想让编程作为带给我快乐的源泉！</p><h1 id="开源声明"><a href="#开源声明" class="headerlink" title="开源声明"></a>开源声明</h1><h2 id="个人主页"><a href="#个人主页" class="headerlink" title="个人主页"></a>个人主页</h2><p>托管：GitHub<br>引擎：<a href="https://hexo.io/zh-cn/" title="Random" target="_blank" rel="noopener">Hexo</a><br>theme：<a href="https://github.com/stiekel/hexo-theme-random" title="Random" target="_blank" rel="noopener">Random</a></p><hr><h2 id="个人博客"><a href="#个人博客" class="headerlink" title="个人博客"></a>个人博客</h2><p>个人博客托管：阿里云轻量服务器<br>个人博客引擎：<a href="https://cn.wordpress.org/" title="Wordpress" target="_blank" rel="noopener">Wordpress</a><br>个人博客主题： No.7（ 作者<a href="http://qzhai.net/" title="衫小寨" target="_blank" rel="noopener">衫小寨</a> ） </p><hr><h2 id="个人导航"><a href="#个人导航" class="headerlink" title="个人导航"></a>个人导航</h2><p>托管：阿里云轻量服务器<br>引擎：<a href="http://typecho.org/" title="Typecho" target="_blank" rel="noopener">Typecho</a><br>主题：<br>Design by <a href="http://webstack.cc/" title="Webstack" target="_blank" rel="noopener">Webstack</a><br>Modify by <a href="https://www.seogo.me/" title="Seogo" target="_blank" rel="noopener">Seogo</a> </p><h2 id="访客统计"><a href="#访客统计" class="headerlink" title="访客统计"></a>访客统计</h2><p><a href="https://clustrmaps.com/site/1ambp" title="Visit tracker" target="_blank" rel="noopener"><img src="//www.clustrmaps.com/map_v2.png?d=Gt34Z7bze3OveuSDhlQvkMupJHPl9vTuDofeUUB7oOs&cl=ffffff"></a></p><hr>]]></content>
       
@@ -1263,10 +1263,10 @@
     
     <entry>
       <title>Hexo在GitHub及gitee配置小记</title>
-      <link href="/2019/02/22/hexo-e5-9c-a8github-e5-8f-8agitee-e9-85-8d-e7-bd-ae-e5-b0-8f-e8-ae-b0/"/>
-      <url>/2019/02/22/hexo-e5-9c-a8github-e5-8f-8agitee-e9-85-8d-e7-bd-ae-e5-b0-8f-e8-ae-b0/</url>
+      <link href="/2019/02/22/hexo-zai-github-ji-gitee-pei-zhi-xiao-ji/"/>
+      <url>/2019/02/22/hexo-zai-github-ji-gitee-pei-zhi-xiao-ji/</url>
       
-        <content type="html"><![CDATA[<h2 id="成果"><a href="#成果" class="headerlink" title="成果"></a>成果</h2><ul><li><a href="https://hexo.frytea.com" target="_blank" rel="noopener">location</a></li><li><a href="https://Songtianlun.github.io" target="_blank" rel="noopener">GitHub</a></li><li><a href="https://Songtianlun.gitee.io" target="_blank" rel="noopener">Gitee</a></li><li><a href="https://github.com/songtianlun/songtianlun.github.io" target="_blank" rel="noopener">GitHub Repository</a></li><li><a href="https://gitee.com/songtianlun/songtianlun" target="_blank" rel="noopener">Gitee Repository</a></li></ul><h2 id="参考文献"><a href="#参考文献" class="headerlink" title="参考文献"></a>参考文献</h2><ul><li><a href="https://easyhexo.com" target="_blank" rel="noopener">EasyHexo</a></li><li><a href="https://valine.js.org" target="_blank" rel="noopener">valine</a></li><li><a href="https://www.jianshu.com/p/21c94eb7bcd1" target="_blank" rel="noopener">绝配：hexo+next主题及我走过的坑</a></li><li><a href="https://blog.csdn.net/u011475210/article/details/79023429" target="_blank" rel="noopener">我的个人博客之旅：从jekyll到hexo</a></li><li><a href="https://blog.csdn.net/csnd_ayo/article/details/72681884" target="_blank" rel="noopener">svn 国内码云与国际Github的项目同步</a></li><li><a href="https://m.gitee.com/help/articles/4136" target="_blank" rel="noopener">码云Pages</a></li><li><a href="https://www.cnblogs.com/liuxianan/p/build-blog-website-by-hexo-github.html" target="_blank" rel="noopener">使用hexo+github搭建免费个人博客详细教程</a></li><li><a href="https://segmentfault.com/a/1190000007740693" target="_blank" rel="noopener">为自定义域名的GitHub Pages添加SSL 完整方案</a></li><li><a href="https://www.jianshu.com/p/8d50ff70b3d9" target="_blank" rel="noopener">个人博客搭建 github page绑定域名、https跳转</a></li></ul>]]></content>
+        <content type="html"><![CDATA[<h2 id="问题小记"><a href="#问题小记" class="headerlink" title="问题小记"></a>问题小记</h2><ul><li>hexo d操作后将源代码上传而不是上传静态网页<br>解决方案是设置git账户，<pre><code>$ git config --global user.name &quot;liuxianan&quot;// 你的github用户名，非昵称$ git config --global user.email  &quot;xxx@qq.com&quot;// 填写你的github注册邮箱</code></pre><blockquote><p>猜测还有可能是因为cloud studio的不稳定性</p></blockquote></li></ul><h2 id="成果"><a href="#成果" class="headerlink" title="成果"></a>成果</h2><ul><li><a href="https://hexo.frytea.com" target="_blank" rel="noopener">location</a></li><li><a href="https://Songtianlun.github.io" target="_blank" rel="noopener">GitHub</a></li><li><a href="https://Songtianlun.gitee.io" target="_blank" rel="noopener">Gitee</a></li><li><a href="https://github.com/songtianlun/songtianlun.github.io" target="_blank" rel="noopener">GitHub Repository</a></li><li><a href="https://gitee.com/songtianlun/songtianlun" target="_blank" rel="noopener">Gitee Repository</a></li></ul><h2 id="参考文献"><a href="#参考文献" class="headerlink" title="参考文献"></a>参考文献</h2><ul><li><a href="https://easyhexo.com" target="_blank" rel="noopener">EasyHexo</a></li><li><a href="https://valine.js.org" target="_blank" rel="noopener">valine</a></li><li><a href="https://www.jianshu.com/p/21c94eb7bcd1" target="_blank" rel="noopener">绝配：hexo+next主题及我走过的坑</a></li><li><a href="https://blog.csdn.net/u011475210/article/details/79023429" target="_blank" rel="noopener">我的个人博客之旅：从jekyll到hexo</a></li><li><a href="https://blog.csdn.net/csnd_ayo/article/details/72681884" target="_blank" rel="noopener">svn 国内码云与国际Github的项目同步</a></li><li><a href="https://m.gitee.com/help/articles/4136" target="_blank" rel="noopener">码云Pages</a></li><li><a href="https://www.cnblogs.com/liuxianan/p/build-blog-website-by-hexo-github.html" target="_blank" rel="noopener">使用hexo+github搭建免费个人博客详细教程</a></li><li><a href="https://segmentfault.com/a/1190000007740693" target="_blank" rel="noopener">为自定义域名的GitHub Pages添加SSL 完整方案</a></li><li><a href="https://www.jianshu.com/p/8d50ff70b3d9" target="_blank" rel="noopener">个人博客搭建 github page绑定域名、https跳转</a></li></ul>]]></content>
       
       
       <categories>
@@ -1333,8 +1333,8 @@
     
     <entry>
       <title>Markdown语法</title>
-      <link href="/2019/02/21/markdown-e8-af-ad-e6-b3-95/"/>
-      <url>/2019/02/21/markdown-e8-af-ad-e6-b3-95/</url>
+      <link href="/2019/02/21/markdown-yu-fa/"/>
+      <url>/2019/02/21/markdown-yu-fa/</url>
       
         <content type="html"><![CDATA[<p>在了解 Markdown 语法之前，博主十分强烈的推荐大家一款简洁易用的 Markdown 编辑器——Typora，按照官方的说法就是<strong>简单而强大</strong>，它不仅支持原生的 Markdown 语法，也支持对应的快捷键，更重要的是它还可以实时预览 ，简直不要太优秀了。这里附上Typora的下载地址：<a href="https://www.typora.io/" target="_blank" rel="noopener">https://www.typora.io/</a>，有兴趣的小伙伴可以下载来试试哦</p><p>好，下面开始进入正题，介绍一些常用的 Markdown 语法</p><h4 id="（1）标题"><a href="#（1）标题" class="headerlink" title="（1）标题"></a>（1）标题</h4><p><strong>Markdown 语法</strong>  </p><pre><code># 一级标题## 二级标题### 三级标题#### 四级标题##### 五级标题###### 六级标题</code></pre><p><strong>Typora 快捷键：</strong></p><p>Ctrl+1：一级标题</p><p>Ctrl+2：二级标题</p><p>Ctrl+3：三级标题</p><p>Ctrl+4：四级标题</p><p>Ctrl+5：五级标题</p><p>Ctrl+6 ：六级标题</p><p>Ctrl+0：段落</p><h4 id="（2）粗体、斜体、删除线和下划线"><a href="#（2）粗体、斜体、删除线和下划线" class="headerlink" title="（2）粗体、斜体、删除线和下划线"></a>（2）粗体、斜体、删除线和下划线</h4><p><strong>Markdown 语法：</strong></p><pre><code>*斜体***粗体*****加粗斜体***~~删除线~~</code></pre><p><strong>Typora 快捷键：</strong></p><p>Ctrl+I：斜体<br>Ctrl+B：粗体<br>Ctrl+U：下划线<br>Alt+Shift+5：删除线</p><h4 id="（3）引用块"><a href="#（3）引用块" class="headerlink" title="（3）引用块"></a>（3）引用块</h4><p><strong>Markdown 语法：</strong></p><pre><code>&gt; 文字引用</code></pre><p><strong>Typora 快捷键：</strong> Ctrl+Shift+Q</p><h4 id="（4）代码块"><a href="#（4）代码块" class="headerlink" title="（4）代码块"></a>（4）代码块</h4><p><strong>Markdown 语法：</strong></p><pre><code>`行内代码````多行代码多行代码```</code></pre><p><strong>Typora 快捷键：</strong></p><p>行内代码： Ctrl+Shift+`<br>多行代码：Ctrl+Shift+K</p><p>`</p><h4 id="（5）公式块"><a href="#（5）公式块" class="headerlink" title="（5）公式块"></a>（5）公式块</h4><p><strong>Markdown 语法：</strong></p><pre><code>$$数学公式$$</code></pre><p><strong>Typora 快捷键：</strong> Ctrl+Shift+M</p><h4 id="（6）分割线"><a href="#（6）分割线" class="headerlink" title="（6）分割线"></a>（6）分割线</h4><p><strong>Markdown 语法：</strong></p><pre><code>方法一：---方法二：+++方法三：***</code></pre><h4 id="（7）列表"><a href="#（7）列表" class="headerlink" title="（7）列表"></a>（7）列表</h4><p><strong>Markdown 语法：</strong></p><pre><code>1. 有序列表项* 无序列表项+ 无序列表项</code></pre><p><strong>Typora 快捷键：</strong></p><p>有序列表项：Ctrl+Shift+[<br>无序列表项：Ctrl+Shift+]</p><h4 id="（8）表格"><a href="#（8）表格" class="headerlink" title="（8）表格"></a>（8）表格</h4><p><strong>Markdown 语法：</strong></p><pre><code>表头1|表头2-|-|-内容11|内容12内容21|内容22</code></pre><p><strong>Typora 快捷键：</strong> Ctrl+T （这里就充分体现使用 Typora 快捷键的便捷性了）</p><h4 id="（9）超链接"><a href="#（9）超链接" class="headerlink" title="（9）超链接"></a>（9）超链接</h4><p><strong>Markdown语法：</strong></p><pre><code>方法一：[链接文字](链接地址 &quot;链接描述&quot;)例如：[我的博客](https://forwhfang.github.io/ &quot;我的博客&quot;)方法二：&lt;链接地址&gt;例如：&lt;https://forwhfang.github.io&gt;</code></pre><p><strong>Typora快捷键：</strong> Ctrl+K</p><h4 id="（10）图片"><a href="#（10）图片" class="headerlink" title="（10）图片"></a>（10）图片</h4><p><strong>Markdown语法：</strong></p><pre><code>![图片文字] (图片地址 &quot;图片描述&quot;)例如：![示例图片] (https://www.example.com/example.PNG &quot;示例图片&quot;)</code></pre><p><strong>Typora快捷键：</strong> Ctrl+Shift+I</p><h3 id="特殊格式"><a href="#特殊格式" class="headerlink" title="特殊格式"></a>特殊格式</h3><h4 id="水平线"><a href="#水平线" class="headerlink" title="水平线"></a>水平线</h4><hr><h4 id="任务"><a href="#任务" class="headerlink" title="任务"></a>任务</h4><ul><li style="list-style: none"><input type="checkbox" checked> 任务</li></ul><h4 id="图表"><a href="#图表" class="headerlink" title="图表"></a>图表</h4><h5 id="饼图"><a href="#饼图" class="headerlink" title="饼图"></a>饼图</h5><pre class=" language-chart"><code class="language-chart">,Budget,Income,Expenses,DebtJune,5000,8000,4000,6000July,3000,1000,4000,3000Aug,5000,7000,6000,3000Sep,7000,2000,3000,1000Oct,6000,5000,4000,2000Nov,4000,3000,5000,type: pietitle: Monthly Revenuex.title: Amounty.title: Monthy.suffix: $</code></pre><h5 id="折线图"><a href="#折线图" class="headerlink" title="折线图"></a>折线图</h5><pre class=" language-chart"><code class="language-chart">,Budget,Income,Expenses,DebtJune,5000,8000,4000,6000July,3000,1000,4000,3000Aug,5000,7000,6000,3000Sep,7000,2000,3000,1000Oct,6000,5000,4000,2000Nov,4000,3000,5000,type: linetitle: Monthly Revenuex.title: Amounty.title: Monthy.suffix: $</code></pre><h5 id="柱状图"><a href="#柱状图" class="headerlink" title="柱状图"></a>柱状图</h5><pre class=" language-chart"><code class="language-chart">,Budget,Income,Expenses,DebtJune,5000,8000,4000,6000July,3000,1000,4000,3000Aug,5000,7000,6000,3000Sep,7000,2000,3000,1000Oct,6000,5000,4000,2000Nov,4000,3000,5000,type: columntitle: Monthly Revenuex.title: Amounty.title: Monthy.suffix: $</code></pre><h5 id="横向柱状图"><a href="#横向柱状图" class="headerlink" title="横向柱状图"></a>横向柱状图</h5><pre class=" language-chart"><code class="language-chart">,Budget,Income,Expenses,DebtJune,5000,8000,4000,6000July,3000,1000,4000,3000Aug,5000,7000,6000,3000Sep,7000,2000,3000,1000Oct,6000,5000,4000,2000Nov,4000,3000,5000,type: bartitle: Monthly Revenuex.title: Amounty.title: Monthy.suffix: $</code></pre><h4 id="数学公式"><a href="#数学公式" class="headerlink" title="数学公式"></a>数学公式</h4><pre class=" language-math"><code class="language-math">e^{i\pi} + 1 = 0</code></pre><h4 id="流程图"><a href="#流程图" class="headerlink" title="流程图"></a>流程图</h4><pre class=" language-mermaid"><code class="language-mermaid">graph TDA[模块A] -->|A1| B(模块B)B --> C{判断条件C}C -->|条件C1| D[模块D]C -->|条件C2| E[模块E]C -->|条件C3| F[模块F]</code></pre><h4 id="时序图"><a href="#时序图" class="headerlink" title="时序图"></a>时序图</h4><pre class=" language-mermaid"><code class="language-mermaid">sequenceDiagramA->>B: 是否已收到消息？B-->>A: 已收到消息</code></pre><h4 id="甘特图"><a href="#甘特图" class="headerlink" title="甘特图"></a>甘特图</h4><pre class=" language-mermaid"><code class="language-mermaid">gantttitle 甘特图dateFormat  YYYY-MM-DDsection 项目A任务1           :a1, 2018-06-06, 30d任务2     :after a1  , 20dsection 项目B任务3      :2018-06-12  , 12d任务4      : 24d</code></pre><p><strong>说明</strong>：在Hexo中插入图片时，请按照以下步骤进行设置</p><p>（1）将站点配置文件中的 <code>post_asset_folde</code> 选项设置成 true</p><p>（2）在站点文件夹中打开 git bash，输入命令 <code>npm install hexo-asset-image --save</code> 安装插件</p><p>（3）此时使用 <code>hexo new title</code> 创建文章时，将同时在 source/_post 文件夹中生成一个与 title 同名的文件夹，我们只需将待添加的图片放进此文件夹中，然后在文章中通过 Markdown 语法进行引用即可</p><p>例如，在资源文件夹（就是那个与 title 同名的文件夹）中添加了图片 example.PNG，则可以在对应的文章中使用语句 <code>![示例图片](title/example.PNG &quot;示例图片&quot;)</code> 添加图片</p><p>参考文献</p><ul><li><a href="https://blog.csdn.net/wsmrzx/article/details/81478945" target="_blank" rel="noopener">Hexo撰写文章</a></li></ul>]]></content>
       
@@ -1352,8 +1352,8 @@
     
     <entry>
       <title>linux后台运行hexo</title>
-      <link href="/2019/02/21/linux-e5-90-8e-e5-8f-b0-e8-bf-90-e8-a1-8chexo/"/>
-      <url>/2019/02/21/linux-e5-90-8e-e5-8f-b0-e8-bf-90-e8-a1-8chexo/</url>
+      <link href="/2019/02/21/linux-hou-tai-yun-xing-hexo/"/>
+      <url>/2019/02/21/linux-hou-tai-yun-xing-hexo/</url>
       
         <content type="html"><![CDATA[<p>hexo是一个非常高效的博客，但由于其设计特点，目的是为了转换为静态页面，因此不必要一直在后台运行，但是我想随时随地写博客同步到github，使用hexo admin编辑器，这就需要hexo一直在后台运行，于是在网上找到了pm2托管的方式。</p><p>首先安装pm2</p><pre><code>$ npm  install -g pm2</code></pre><p>第二步，写一个运行脚本，在博客根目录下面创建一个<strong>hexo_run.js</strong></p><pre><code>//runconst { exec } = require(&#39;child_process&#39;)exec(&#39;hexo server&#39;,(error, stdout, stderr) =&gt; {        if(error){                console.log(&#39;exec error: ${error}&#39;)                return        }        console.log(&#39;stdout: ${stdout}&#39;);        console.log(&#39;stderr: ${stderr}&#39;);})</code></pre><p>第三步，cd到博客根目录下运行脚本</p><pre><code># pm2 start hexo_run.js</code></pre><p><img src="https://blog.frytea.com/wp-content/uploads/2019/02/IMG_0192-1024x768.png" alt></p><h4 id="参考文献"><a href="#参考文献" class="headerlink" title="参考文献"></a>参考文献</h4><p><a href="https://blog.csdn.net/tangcuyuha/article/details/80331169" target="_blank" rel="noopener">让hexo一直在后台运行</a></p>]]></content>
       
@@ -1371,8 +1371,8 @@
     
     <entry>
       <title>Hexo右上角添加GitHub Corner</title>
-      <link href="/2019/02/21/hexo-e5-8f-b3-e4-b8-8a-e8-a7-92-e6-b7-bb-e5-8a-a0github-corner/"/>
-      <url>/2019/02/21/hexo-e5-8f-b3-e4-b8-8a-e8-a7-92-e6-b7-bb-e5-8a-a0github-corner/</url>
+      <link href="/2019/02/21/hexo-you-shang-jiao-tian-jia-github-corner/"/>
+      <url>/2019/02/21/hexo-you-shang-jiao-tian-jia-github-corner/</url>
       
         <content type="html"><![CDATA[<p>使用hexo主题及github发布了博客，想在现有博客上添加一个github corner，于是使用下面的方法，由于我只想在主页添加，于是在主题目录下找到index.swig文件，添加如下代码：</p><pre><code>&lt;a href=&quot;https://your-url&quot; class=&quot;github-corner&quot; aria-label=&quot;View source on GitHub&quot;&gt;&lt;svg width=&quot;80&quot; height=&quot;80&quot; viewBox=&quot;0 0 250 250&quot; style=&quot;fill:#fff; color:#151513; position: absolute; top: 0; border: 0; right: 0;&quot; aria-hidden=&quot;true&quot;&gt;&lt;path d=&quot;M0,0 L115,115 L130,115 L142,142 L250,250 L250,0 Z&quot;&gt;&lt;/path&gt;&lt;path d=&quot;M128.3,109.0 C113.8,99.7 119.0,89.6 119.0,89.6 C122.0,82.7 120.5,78.6 120.5,78.6 C119.2,72.0 123.4,76.3 123.4,76.3 C127.3,80.9 125.5,87.3 125.5,87.3 C122.9,97.6 130.6,101.9 134.4,103.2&quot; fill=&quot;currentColor&quot; style=&quot;transform-origin: 130px 106px;&quot; class=&quot;octo-arm&quot;&gt;&lt;/path&gt;&lt;path d=&quot;M115.0,115.0 C114.9,115.1 118.7,116.5 119.8,115.4 L133.7,101.6 C136.9,99.2 139.9,98.4 142.2,98.6 C133.8,88.0 127.5,74.4 143.8,58.0 C148.5,53.4 154.0,51.2 159.7,51.0 C160.3,49.4 163.2,43.6 171.4,40.1 C171.4,40.1 176.1,42.5 178.8,56.2 C183.1,58.6 187.2,61.8 190.9,65.4 C194.5,69.0 197.7,73.2 200.1,77.6 C213.8,80.2 216.3,84.9 216.3,84.9 C212.7,93.1 206.9,96.0 205.4,96.6 C205.1,102.4 203.0,107.8 198.3,112.5 C181.9,128.9 168.3,122.5 157.7,114.1 C157.9,116.9 156.7,120.9 152.7,124.9 L141.0,136.5 C139.8,137.7 141.6,141.9 141.8,141.8 Z&quot; fill=&quot;currentColor&quot; class=&quot;octo-body&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;&lt;style&gt;.github-corner:hover .octo-arm{animation:octocat-wave 560ms ease-in-out}@keyframes octocat-wave{0%,100%{transform:rotate(0)}20%,60%{transform:rotate(-25deg)}40%,80%{transform:rotate(10deg)}}@media (max-width:500px){.github-corner:hover .octo-arm{animation:none}.github-corner .octo-arm{animation:octocat-wave 560ms ease-in-out}}&lt;/style&gt;</code></pre><p>就有了下图这样的效果</p><p><img src="https://blog.frytea.com/wp-content/uploads/2019/02/IMG_0191-1024x768.png" alt></p><p>当然，除了这种样式，还有很多样式</p><p>下边是GitHub Corner的项目地址，一共有10种颜色样式，任君选择！</p><ul><li><a href="http://tholman.com/github-corners/" target="_blank" rel="noopener">GitHub Corners项目地址</a></li></ul><p>参考文献</p><p><a href="https://blog.csdn.net/lewky_liu/article/details/81149145" target="_blank" rel="noopener">Hexo瞎折腾系列(3) - 添加GitHub彩带和GitHub Corner</a></p>]]></content>
       
@@ -1390,8 +1390,8 @@
     
     <entry>
       <title>ssh连接提示 &quot;Connection closed by remote host&quot;</title>
-      <link href="/2019/02/21/ssh-e8-bf-9e-e6-8e-a5-e6-8f-90-e7-a4-ba-connection-closed-by-remote-host/"/>
-      <url>/2019/02/21/ssh-e8-bf-9e-e6-8e-a5-e6-8f-90-e7-a4-ba-connection-closed-by-remote-host/</url>
+      <link href="/2019/02/21/ssh-lian-jie-ti-shi-connection-closed-by-remote-host/"/>
+      <url>/2019/02/21/ssh-lian-jie-ti-shi-connection-closed-by-remote-host/</url>
       
         <content type="html"><![CDATA[<p>最近在研究如何将博客放在github page中，搜索之后发现要使用hexo博客引擎，过程中使用到了ssh，我使用的阿里云轻量服务器出现了一些问题，最终成功，将过程中出现的问题及简单步骤记录如下：</p><h4 id="创建ssh-key及获取ssh-key"><a href="#创建ssh-key及获取ssh-key" class="headerlink" title="创建ssh key及获取ssh key"></a>创建ssh key及获取ssh key</h4><pre><code>$ cd ~/. ssh #检查本机已存在的ssh密钥</code></pre><p>如果提示：No such file or directory 说明你是第一次使用git。</p><pre><code>$ ssh-keygen -t rsa -C &quot;邮件地址&quot;</code></pre><p>最终会生成一个文件在用户目录下，打开用户目录，找到<code>.ssh\id_rsa.pub</code>文件，记事本打开并复制里面的内容，打开你的github主页，进入个人设置 -&gt; SSH and GPG keys -&gt; New SSH key：</p><p>之后测试是否连接成功</p><pre><code>$ ssh -T git@github.com</code></pre><p>若出现问题，可以使用如下代码输出调试信息</p><pre><code>$ ssh -T -v git@github.com</code></pre><h4 id="ssh连接提示-“Connection-closed-by-remote-host”"><a href="#ssh连接提示-“Connection-closed-by-remote-host”" class="headerlink" title="ssh连接提示 “Connection closed by remote host”"></a>ssh连接提示 “Connection closed by remote host”</h4><p>我先是遇到了无响应的问题，解决方式是修改/etc/ssh/sshd_config文件中的port端口  </p><p>之后遇到的问题如题，解决方案依旧在上述文件中，修改如下字段  </p><h1 id="MaxSessions-10"><a href="#MaxSessions-10" class="headerlink" title="MaxSessions 10"></a>MaxSessions 10</h1><p>现去掉#，再将数值改大。</p><p>当然也可以通过代码查看ssh连接状态</p><pre><code>$ who</code></pre><p>如果想要停止连接</p><pre><code>$ ps aux |grep sshd </code></pre><p>再使用获取到的people id停止</p><pre><code>$ kill -111</code></pre>]]></content>
       
@@ -1656,8 +1656,8 @@
     
     <entry>
       <title>BBC纪录片《中国春节》</title>
-      <link href="/2019/01/25/bbc-e7-ba-aa-e5-bd-95-e7-89-87-e3-80-8a-e4-b8-ad-e5-9b-bd-e6-98-a5-e8-8a-82-e3-80-8b/"/>
-      <url>/2019/01/25/bbc-e7-ba-aa-e5-bd-95-e7-89-87-e3-80-8a-e4-b8-ad-e5-9b-bd-e6-98-a5-e8-8a-82-e3-80-8b/</url>
+      <link href="/2019/01/25/bbc-ji-lu-pian-zhong-guo-chun-jie/"/>
+      <url>/2019/01/25/bbc-ji-lu-pian-zhong-guo-chun-jie/</url>
       
         <content type="html"><![CDATA[<p>哈尔滨的冰雪城堡，哈尔滨人民冬泳。</p><p><img src="https://blog.songtianlun.cn/wp-content/uploads/2019/01/IMG_0131-1024x768.png" alt></p><p>摩托车队</p><p>还有火树花</p><p><img src="https://blog.songtianlun.cn/wp-content/uploads/2019/01/IMG_0132-1024x768.png" alt></p><p>英国人眼中的中国春节，很不一样。</p><p>他们更加惊叹于中国人过节之兴奋，氛围之热烈，归家之心切。这样的感情让他们也很感动。同时31小时的列车以及全球最大的摩托车迁徙也在不断的刷新他们对于中国的认识。</p><p>中国人，是世界上最特别的种族之一。</p>]]></content>
       
@@ -1795,8 +1795,8 @@
     
     <entry>
       <title>wordpress邮件通知插件Notification使用小记</title>
-      <link href="/2019/01/17/wordpress-e9-82-ae-e4-bb-b6-e9-80-9a-e7-9f-a5-e6-8f-92-e4-bb-b6notification-e4-bd-bf-e7-94-a8-e5-b0-8f-e8-ae-b0/"/>
-      <url>/2019/01/17/wordpress-e9-82-ae-e4-bb-b6-e9-80-9a-e7-9f-a5-e6-8f-92-e4-bb-b6notification-e4-bd-bf-e7-94-a8-e5-b0-8f-e8-ae-b0/</url>
+      <link href="/2019/01/17/wordpress-you-jian-tong-zhi-cha-jian-notification-shi-yong-xiao-ji/"/>
+      <url>/2019/01/17/wordpress-you-jian-tong-zhi-cha-jian-notification-shi-yong-xiao-ji/</url>
       
         <content type="html"><![CDATA[<p>Notification是wordpress上一款功能强劲的插件，可以实现wordpress各种事件的邮件通知功能，更可以根据自己的实际需求定制自己的邮件通知内容，插件提供了很多的短代码，能够很方便的协助用户完成邮件的模板创建。</p><p>在这里，简单记下几种常见通知中可以使用的段代码，方便以后使用。</p><p>【发布新文章通知（New Post Published）】</p><p>网站简码<br>这些短代码可用于任何通知。</p><p>网站标题：[global_site_title]<br>网站标语：[global_site_tagline]<br>网站网址：[global_site_url]<br>网站管理员电子邮件：[admin_email]<br>当前日期：[current_date]<br>当前时间：[current_time]</p><p>收件人用户密码<br>这些短代码只能用于具有“发送至”字段的通知以及在您的网站上拥有WordPress帐户的用户，即它们不适用于使用“ 发送到任意电子邮件”手动添加的电子邮件地址 - 在。</p><p>收件人用户ID：[email_user_id]<br>收件人用户登录：[email_user_login]<br>收件人用户Nicename：[email_user_nicename]<br>收件人用户电子邮件：[email_user_email]<br>收件人用户URL：[email_user_url]<br>收件人用户注册：[email_user_registered]<br>收件人显示名称：[email_user_display_name]<br>收件人用户名：[email_user_firstname]<br>收件人用户姓氏：[email_user_lastname] 收件人<br>昵称：[email_user_nickname]<br>收件人用户说明：[email_user_description]<br>收件人功能：[email_user_wp_capabilities]<br>收件人用户头像：[email_user_avatar]<br>收件人用户配置文件自定义字段：[email_user_custom_field field =“ X“] （仅限自定义字段附加组件<br>管理WP管理员配置文件中的BNFW通知订阅：[user_subscription_page]（仅限订阅附加组件）</p><p>发布/页面/自定义发布类型短代码<br>永久链接：[ permalink ]<br>帖子ID：[ID]<br>原帖帖子作者：[post_author]<br>发布日期：[post_date]<br>发布日期（GMT）：[post_date_gmt]<br>帖子内容：[post_content]<br>帖子标题：[post_title]<br>帖子分类：[post_category ]<br>帖子的第一类分类：[post_category_slug]<br>帖子术语：[post_term taxonomy =“TAXONOMY_NAME”]<br>帖子标签：[post_tag]<br>帖子摘录：[post_excerpt]<br>帖子状态：[post_status]<br>评论状态：[comment_status ]<br>Ping状态：[ping_status]<br>发布密码：[post_password]<br>帖子名称：[post_name]<br>要Ping：[to_ping] Pinged<br>：[pinged]<br>Post Modified：[post_modified]<br>修改后的（GMT）：[post_modified_gmt]<br>过滤后的内容：[post_content_filtered]<br>后期父母：[post_parent]<br>GUID：[guid]<br>菜单顺序：[menu_order]<br>帖子类型：[post_type]<br>发布MIME类型：[post_mime_type]<br>评论数：[ comment_count]<br>编辑帖子链接：[edit_post]<br>Post Slug：[post_slug]<br>永久链接到帖子后：[post_parent_permalink] 链接到帖子<br>作者档案：[author_link]<br>链接到帖子类型档案：[post_type_archive]<br>特色图片：[featured_image]<br>第一张图片发布：[first_image]<br>自定义字段：[custom_field field =“X”] （仅限自定义字段附加组件）</p><p>用户简码<br>这些多用途短代码涉及触发通知的人。这很可能是帖子的作者或正在注册的用户。</p><p>用户ID：[user_id]<br>用户登录：[user_login]<br>用户角色：[user_role]<br>用户Nicename：[user_nicename]<br>用户电子邮件：[user_email]<br>用户URL：[user_url]<br>用户注册：[user_registered]<br>显示名称：[display_name]<br>用户名：[user_firstname]<br>用户姓氏：[user_lastname]<br>昵称：[昵称]<br>用户说明：[user_description]<br>功能：[wp_capabilities]<br>用户头像：[user_avatar]<br>用户配置文件自定义字段：[user_custom_field field =“X”] （自定义字段添加 -上唯一）</p><p>更多内容见Notification帮助文档：<a href="https://betternotificationsforwp.com/documentation/notifications/shortcodes/?notification=new-post" target="_blank" rel="noopener">Shortcodes</a></p>]]></content>
       
@@ -1804,6 +1804,8 @@
       <categories>
           
           <category> 技术博文 </category>
+          
+          <category> wordpress </category>
           
       </categories>
       
@@ -1890,8 +1892,8 @@
     
     <entry>
       <title>ArcGis综合运用实践</title>
-      <link href="/2019/01/15/arcgis-e7-bb-bc-e5-90-88-e8-bf-90-e7-94-a8-e5-ae-9e-e8-b7-b5/"/>
-      <url>/2019/01/15/arcgis-e7-bb-bc-e5-90-88-e8-bf-90-e7-94-a8-e5-ae-9e-e8-b7-b5/</url>
+      <link href="/2019/01/15/arcgis-zong-he-yun-yong-shi-jian/"/>
+      <url>/2019/01/15/arcgis-zong-he-yun-yong-shi-jian/</url>
       
         <content type="html"><![CDATA[<h2 id="准备工作"><a href="#准备工作" class="headerlink" title="准备工作"></a>准备工作</h2><p>环境：windows 10 home<br>软件：Arcgis 10.5<br>数据：<br>（1）新乡市矢量边界<br>（2）包含新乡及周边的dem高程数据<br>（3）新乡市多波段合成遥感数据</p><p>环境：windows 10 home<br>软件：Arcgis 10.5<br>数据：<br>（1）新乡市矢量边界<br>（2）包含新乡及周边的dem高程数据<br>（3）新乡市多波段合成遥感数据</p><p>环境：windows 10 home<br>软件：Arcgis 10.5<br>数据：<br>（1）新乡市矢量边界<br>（2）包含新乡及周边的dem高程数据<br>（3）新乡市多波段合成遥感数据</p><p>在进行综合实验之前先总结一下小实验都做过哪些内容。</p><h2 id="小实验内容总结："><a href="#小实验内容总结：" class="headerlink" title="小实验内容总结："></a>小实验内容总结：</h2><p>实验四：<br>（1）dem数据掩膜提取<br>（2）投影转换<br>（3）矢量数据选择提取<br>实验五：<br>（1）专题图表达<br>实验七<br>（1）居住适宜性分析<br>（2）最短路径分析<br>实验八：<br>（1）学校选址适宜性分析<br>（2）最佳路径分析<br>（3）熊猫分布密度分析（插值）<br>（4）GDP区域分布图（插值）<br>（5）山顶点提取<br>实验九：<br>（1）地形指标提取（坡度、坡度变率、地形起伏度、地面粗糙度）<br>（2）地形特征信息提取（正负地形、山脊线、山谷线 -栅格提取）<br>（3）三维表面创建<br>（4）污物蓄水层分布可视化<br>（5）模拟飞行<br>（6）爆炸影响分析<br>实验十：<br>（1）克里金方法内插生成高程曲面<br>实验十一：<br>（1）地形提取（水文分析方法提取-山脊线、山谷线、正负地形）<br>（2）鞍部提取<br>（3）沟壑网络提取及沟壑密度计算  </p><h2 id="综合实验目标："><a href="#综合实验目标：" class="headerlink" title="综合实验目标："></a>综合实验目标：</h2><p>（1）制作山体阴影晕渲图<br>（2）提取山脊线<br>（3）提取山谷线<br>（4）创建研究区三维表面（TIN）<br>（5）在三维表面上显示山脊线、山谷线<br>（6）制作三维场景飞行动画  </p><p>计划拓展：<br>（1）鞍部提取<br>（2）沟壑网络提取</p><h2 id="准备工作：dem数据掩模提取"><a href="#准备工作：dem数据掩模提取" class="headerlink" title="准备工作：dem数据掩模提取"></a>准备工作：dem数据掩模提取</h2><p>dem属于栅格数据，常常是长宽相同的正方形形状，想要准确的提取研究区dem数据首先进行掩膜提取。</p><p>在arcgis软件中打开dem数据和研究区边界栅格数据</p><p><img src="https://blog.songtianlun.cn/wp-content/uploads/2019/01/image-32.png" alt></p><p>实用掩模提取工具</p><p><img src="https://blog.songtianlun.cn/wp-content/uploads/2019/01/image-33.png" alt></p><p>设置输入的dem，按照矢量数据提取，生成结果如下：</p><p><img src="https://blog.songtianlun.cn/wp-content/uploads/2019/01/image-34.png" alt></p><h2 id="任务一、晕渲图制作"><a href="#任务一、晕渲图制作" class="headerlink" title="任务一、晕渲图制作"></a>任务一、晕渲图制作</h2><p>首先，使用arcgis山体阴影制作工具制作山体阴影</p><p><img src="https://blog.songtianlun.cn/wp-content/uploads/2019/01/image-35.png" alt></p><p>生成山体阴影后，改变其透明度为60%，放在dem数据上层，再将dem数据配色修改为如下色块：</p><p><img src="https://blog.songtianlun.cn/wp-content/uploads/2019/01/image-36.png" alt></p><p>最终叠置生成山体晕渲图。</p><p><img src="https://blog.songtianlun.cn/wp-content/uploads/2019/01/image-37.png" alt></p><h2 id="任务二、提取山脊线"><a href="#任务二、提取山脊线" class="headerlink" title="任务二、提取山脊线"></a>任务二、提取山脊线</h2><p>在这里采用水文分析中的方法进行山脊线提取。</p><p>1）正负地形的提取。</p><p>（1）使用arcgis领域分析→焦点统计工具，利用领域分析方法以11*11的的窗口计算平均值。</p><p><img src="https://blog.songtianlun.cn/wp-content/uploads/2019/01/image-38-1024x428.png" alt></p><p>（2）使用地图代数→栅格计算器。使用上一步进行过领域分析后的数据同源dem数据做减法运算</p><p><img src="https://blog.songtianlun.cn/wp-content/uploads/2019/01/image-39-1024x455.png" alt></p><p>（3）重分类。使用重分类→重分类工具，首先分类给大于“1”的数据赋值“1”其余“0”，得出正地形；再给小于“1”的数据赋值“1”<br>其余“0” ，得到负地形。得出的二值化数据如下图。</p><p><img src="https://blog.songtianlun.cn/wp-content/uploads/2019/01/image-40-1024x412.png" alt></p><p>2）山脊线提取</p><p>（1）洼地填充。首先处理洼地数据，避免流域分析过程中将洼地误提取为河流导致关系错误。使用space analyse工具→水文分析→填洼，输入原始dem数据，输出填洼后的dem数据。</p><p><img src="https://blog.songtianlun.cn/wp-content/uploads/2019/01/image-41-1024x462.png" alt></p><p>（2）水流流向计算。使用水文分析→流向，对去洼地后的数据进行流向分析。</p><p><img src="https://blog.songtianlun.cn/wp-content/uploads/2019/01/image-42-1024x463.png" alt></p><p>（3）汇流流量计算。使用水流分析→流量，分析水流汇流流量。</p><p><img src="https://blog.songtianlun.cn/wp-content/uploads/2019/01/image-43-1024x451.png" alt></p><p>（4）汇流流量为零值提取。使用地图代数→栅格计算器，计算汇流流量图层==0的数据。</p><p><img src="https://blog.songtianlun.cn/wp-content/uploads/2019/01/image-44-1024x467.png" alt></p><p>（5）进一步提取。会发现提取出来的线很多不是山脊线，此时需要进行一次处理，将求出的内容进行一次领域分析，使用3*3领域分析，求均值，使数据变得平滑。</p><p><img src="https://blog.songtianlun.cn/wp-content/uploads/2019/01/image-45-1024x467.png" alt></p><p>（6）制作等值线。使用表面分析→等值线，制作50、100、200三种等值线，作为下一步提取山脊线的依据。</p><p><img src="https://blog.songtianlun.cn/wp-content/uploads/2019/01/image-46-1024x467.png" alt></p><p>（7）提取山脊线。进入上一步数据的属性，打开山体阴影作为底图，配合山体阴影和等值线对数据进行重分类。结合直方图，发现在0.5附近出现了断点，因此选择在这个部分取值。</p><p><img src="https://blog.songtianlun.cn/wp-content/uploads/2019/01/image-47.png" alt></p><p>再结合晕渲图及等高线图，选择最终的中断值为0.546496469。</p><p><img src="https://blog.songtianlun.cn/wp-content/uploads/2019/01/image-48.png" alt></p><p>（8）重分类，根据中断值提取山脊线所在位置。使用重分类→重分类，将接近1的部分赋值1，其余为0。</p><p><img src="https://blog.songtianlun.cn/wp-content/uploads/2019/01/image-49-1024x450.png" alt></p><p>（9）得到山脊线。将重分类后的结果和正地形相乘，去除错误山脊线。再将结果重分类，将属性不为“1”的值赋为“NO DATA”，得到山脊线。</p><p><img src="https://blog.songtianlun.cn/wp-content/uploads/2019/01/image-50-1024x456.png" alt></p><h2 id="任务三、提取山谷线"><a href="#任务三、提取山谷线" class="headerlink" title="任务三、提取山谷线"></a>任务三、提取山谷线</h2><p>山谷线的提取方法同山脊线，只是对反地形（即使用一个足够大的值减去dem得到反地形，再求得山脊线，即正地形的山谷线）。<br>提过过程中的几个部分如图所示。</p><p><img src="https://blog.songtianlun.cn/wp-content/uploads/2019/01/image-51.png" alt></p><p>中断点</p><p><img src="https://blog.songtianlun.cn/wp-content/uploads/2019/01/image-52.png" alt></p><p>根据如图所示的直方图和等高线及晕渲图，选择中断值为：0.751669156</p><p>再进行重分类、将结果和负地形相乘，去除错误山谷线，然后将数据重分类，将赋值为1的值提取出来，就得到了山谷线。</p><p><img src="https://blog.songtianlun.cn/wp-content/uploads/2019/01/image-53.png" alt></p><h2 id="任务四、创建研究区三维表面"><a href="#任务四、创建研究区三维表面" class="headerlink" title="任务四、创建研究区三维表面"></a>任务四、创建研究区三维表面</h2><p>1）打开软件ArcScna</p><p>2）加载50米等高线数据</p><p>3）创建区域TIN表面<br>（1）打开工具箱 3D ANALYSE→TIN管理→创建TIN<br>（2）输入等高线数据，选择软边，生成TIN</p><p><img src="https://blog.songtianlun.cn/wp-content/uploads/2019/01/image-54-1024x480.png" alt></p><p>此时显示效果不够明显，可以右键tin数据选择属性，进入对高程夸张显示，在下图位置设置夸大倍率。</p><p><img src="https://blog.songtianlun.cn/wp-content/uploads/2019/01/image-55-1024x555.png" alt></p><p>最终显示效果如图所示：</p><p><img src="https://blog.songtianlun.cn/wp-content/uploads/2019/01/image-56.png" alt></p><p>还可以对数据显示符号进行重分类，将分类个数选择为32，显示效果更为精细。</p><p><img src="https://blog.songtianlun.cn/wp-content/uploads/2019/01/image-57.png" alt></p>]]></content>
       
@@ -1928,8 +1930,8 @@
     
     <entry>
       <title>wordpress评论区爆炸特效</title>
-      <link href="/2019/01/15/wordpress-e8-af-84-e8-ae-ba-e5-8c-ba-e7-88-86-e7-82-b8-e7-89-b9-e6-95-88/"/>
-      <url>/2019/01/15/wordpress-e8-af-84-e8-ae-ba-e5-8c-ba-e7-88-86-e7-82-b8-e7-89-b9-e6-95-88/</url>
+      <link href="/2019/01/15/wordpress-ping-lun-qu-bao-zha-te-xiao/"/>
+      <url>/2019/01/15/wordpress-ping-lun-qu-bao-zha-te-xiao/</url>
       
         <content type="html"><![CDATA[<p><img src="https://blog.songtianlun.cn/wp-content/uploads/2019/01/image-30.png" alt></p><p>一直羡慕别人的博客输入有这样一个特效，想自己做一个，终于在这个博客找到了解决方案，于是尝试一下成功了！</p><p><a href="https://www.macrr.com/comment-input-effects.html" target="_blank" rel="noopener">WordPress优化：给博客添加评论输入特效</a></p><p>第一步：下载js代码，放入网站目录某文件夹下，我放在【/www/wwwroot/blog.songtianlun.cn/wp-content/themes/hestia/mouseclink】目录下</p><p>js文件：<a href="https://data.songtianlun.cn/website%20tools/wordpress/wordpress-%E8%AF%84%E8%AE%BA%E5%8C%BA%E8%BE%93%E5%85%A5%E7%88%86%E7%82%B8.zip" target="_blank" rel="noopener">下载</a></p><p>第二步：在主题目录下footer.php文件中添加如下依赖</p><pre><code>&lt;script src=&quot;https://blog.songtianlun.cn/wp-content/uploads/2018/10/WordpressCommentBomb/activate-power-mode.js&quot;&gt;&lt;/script&gt;  &lt;script&gt;  POWERMODE.colorful = true; // make power mode colorful  POWERMODE.shake = false; // turn off shake  document.body.addEventListener(&#39;input&#39;, POWERMODE);  &lt;/script&gt; </code></pre><p><img src="https://blog.songtianlun.cn/wp-content/uploads/2019/01/image-31-1024x457.png" alt></p><p>保存，测试一下，大功告成！</p>]]></content>
       
@@ -1947,8 +1949,8 @@
     
     <entry>
       <title>Linux 常用命令</title>
-      <link href="/2019/01/14/linux-e5-b8-b8-e7-94-a8-e5-91-bd-e4-bb-a4/"/>
-      <url>/2019/01/14/linux-e5-b8-b8-e7-94-a8-e5-91-bd-e4-bb-a4/</url>
+      <link href="/2019/01/14/linux-chang-yong-ming-ling/"/>
+      <url>/2019/01/14/linux-chang-yong-ming-ling/</url>
       
         <content type="html"><![CDATA[<h2 id="Centos"><a href="#Centos" class="headerlink" title="(Centos)"></a>(Centos)</h2><h4 id="端口占用查询"><a href="#端口占用查询" class="headerlink" title="端口占用查询"></a>端口占用查询</h4><pre><code>netstat -apn</code></pre><h4 id="Centos查看端口占用情况命令"><a href="#Centos查看端口占用情况命令" class="headerlink" title="Centos查看端口占用情况命令"></a>Centos查看端口占用情况命令</h4><blockquote><p>比如查看80端口占用情况使用如下命令：</p></blockquote><p><code>lsof -i tcp:80</code></p><h4 id="列出所有端口"><a href="#列出所有端口" class="headerlink" title="列出所有端口"></a>列出所有端口</h4><p><code>netstat -ntlp</code></p><h4 id="程序归属（master为例）"><a href="#程序归属（master为例）" class="headerlink" title="程序归属（master为例）"></a>程序归属（master为例）</h4><pre><code>locate  master | grep &#39;/master$&#39;</code></pre><h4 id="初始化（新安装命令生效）"><a href="#初始化（新安装命令生效）" class="headerlink" title="初始化（新安装命令生效）"></a>初始化（新安装命令生效）</h4><pre><code>sudo updatedb</code></pre><h4 id="查进程"><a href="#查进程" class="headerlink" title="查进程"></a>查进程</h4><pre><code>ps命令查找与进程相关的PID号：    ps a 显示现行终端机下的所有程序，包括其他用户的程序。    ps -A 显示所有程序。    ps c 列出程序时，显示每个程序真正的指令名称，而不包含路径，参数或常驻服务的标示。    ps -e 此参数的效果和指定&quot;A&quot;参数相同。    ps e 列出程序时，显示每个程序所使用的环境变量。    ps f 用ASCII字符显示树状结构，表达程序间的相互关系。    ps -H 显示树状结构，表示程序间的相互关系。    ps -N 显示所有的程序，除了执行ps指令终端机下的程序之外。    ps s 采用程序信号的格式显示程序状况。    ps S 列出程序时，包括已中断的子程序资料。    ps -t&lt;终端机编号&gt; 指定终端机编号，并列出属于该终端机的程序的状况。    ps u 以用户为主的格式来显示程序状况。    ps x 显示所有程序，不以终端机来区分。</code></pre><h4 id="杀进程"><a href="#杀进程" class="headerlink" title="杀进程"></a>杀进程</h4><pre><code>使用kill命令结束进程：kill xxx 例：kill －9 324   Linux下还提供了一个killall命令，可以直接使用进程的名字而不是进程标识号，例如：# killall -9 NAME</code></pre><h4 id="Docker-stop停止-remove删除所有容器"><a href="#Docker-stop停止-remove删除所有容器" class="headerlink" title="Docker stop停止/remove删除所有容器"></a>Docker stop停止/remove删除所有容器</h4><pre><code>$ docker ps // 查看所有正在运行容器$ docker stop containerId // containerId 是容器的ID$ docker ps -a // 查看所有容器$ docker ps -a -q // 查看所有容器ID$ docker stop $(docker ps -a -q) //  stop停止所有容器$ docker  rm $(docker ps -a -q) //   remove删除所有容器</code></pre><h4 id="批量删除Docker中已经停止的容器"><a href="#批量删除Docker中已经停止的容器" class="headerlink" title="批量删除Docker中已经停止的容器"></a>批量删除Docker中已经停止的容器</h4><p>方法一： #显示所有的容器，过滤出Exited状态的容器，取出这些容器的ID， sudo docker ps -a|grep Exited|awk ‘{print $1}’ #查询所有的容器，过滤出Exited状态的容器，列出容器ID，删除这些容器 sudo docker rm `docker ps -a|grep Exited|awk ‘{print $1}’` 方法二： #删除所有未运行的容器（已经运行的删除不了，未运行的就一起被删除了） sudo docker rm $(sudo docker ps -a -q) 方法三： #根据容器的状态，删除Exited状态的容器 sudo docker rm $(sudo docker ps -qf status=exited) 方法四： #Docker 1.13版本以后，可以使用 docker containers prune 命令，删除孤立的容器。 sudo docker container prune #删除所有镜像 sudo docker rmi $(docker images -q)</p><h4 id="统计当前目录下所有文件及文件夹大小"><a href="#统计当前目录下所有文件及文件夹大小" class="headerlink" title="统计当前目录下所有文件及文件夹大小"></a>统计当前目录下所有文件及文件夹大小</h4><pre><code>du -h --max-depth=1</code></pre><h4 id="git-“ssh-add-ssh-id-rsa”-Could-not-open-a-connection-to-your-authentication-agent问题解决"><a href="#git-“ssh-add-ssh-id-rsa”-Could-not-open-a-connection-to-your-authentication-agent问题解决" class="headerlink" title="git “ssh-add ~/.ssh/id_rsa” Could not open a connection to your authentication agent问题解决"></a>git “ssh-add ~/.ssh/id_rsa” Could not open a connection to your authentication agent问题解决</h4><p>使用git，添加私钥时发生如下错误</p><p><code>ssh-add ~/.ssh/id_rsa</code><br>输出错误： <code>Could not open a connection to your authentication agent</code></p><p>解决此问题的方法是执行下<br><code>eval `ssh-agent -s</code><br>然后再次执行ssh-add ~/.ssh/id_rsa就可以顺利执行了</p>]]></content>
       
@@ -1966,8 +1968,8 @@
     
     <entry>
       <title>vps使用Shadowsocks搭建vpn</title>
-      <link href="/2019/01/12/vps-e4-bd-bf-e7-94-a8shadowsocks-e6-90-ad-e5-bb-bavpn/"/>
-      <url>/2019/01/12/vps-e4-bd-bf-e7-94-a8shadowsocks-e6-90-ad-e5-bb-bavpn/</url>
+      <link href="/2019/01/12/vps-shi-yong-shadowsocks-da-jian-vpn/"/>
+      <url>/2019/01/12/vps-shi-yong-shadowsocks-da-jian-vpn/</url>
       
         <content type="html"><![CDATA[<p><img src="https://www.linode.com/docs/networking/vpn/create-a-socks5-proxy-server-with-shadowsocks-on-ubuntu-and-centos7/shadowsocks.jpg" alt="Create a SOCKS5 Proxy Server with Shadowsocks on Ubuntu and CentOS 7"></p><h1 id="简介"><a href="#简介" class="headerlink" title="简介"></a>简介</h1><p>编程需要经常需要翻墙，当年的我天真无邪上了不少当，每次的vpn经历无一不遇奸商！于是下决心搭建自己的vpn！就在今天，vpn终于搭建成功，在这里分享一下成功的喜悦同时贴出自己搭建的过程仅供参考！</p><p><img src="https://blog.songtianlun.cn/wp-content/uploads/2019/01/image-10-1024x355.png" alt></p><h1 id="服务器端配置"><a href="#服务器端配置" class="headerlink" title="服务器端配置"></a>服务器端配置</h1><h2 id="环境"><a href="#环境" class="headerlink" title="环境"></a>环境</h2><p>vps提供商：阿里云<br>系统：CentOS 7.3<br>节点：香港<br>峰值带宽：35MB</p><h2 id="方法一"><a href="#方法一" class="headerlink" title="方法一"></a>方法一</h2><h3 id="第一步：远程登入服务器，运行如下代码"><a href="#第一步：远程登入服务器，运行如下代码" class="headerlink" title="第一步：远程登入服务器，运行如下代码"></a>第一步：远程登入服务器，运行如下代码</h3><pre><code>wget --no-check-certificate -O shadowsocks-all.sh https://raw.githubusercontent.com/teddysun/shadowsocks_install/master/shadowsocks-all.shchmod +x shadowsocks-all.sh./shadowsocks-all.sh 2&gt;&amp;1 | tee shadowsocks-all.log</code></pre><h3 id="第二步：选择一种脚本"><a href="#第二步：选择一种脚本" class="headerlink" title="第二步：选择一种脚本"></a>第二步：选择一种脚本</h3><pre><code>Which Shadowsocks server you&#39;d select:1.Shadowsocks-Python2.ShadowsocksR3.Shadowsocks-Go4.Shadowsocks-libevPlease enter a number (default 1):</code></pre><p>在这里我选择了第一个python，输入3，回车！</p><h3 id="第三步：输入密码和端口，回车！"><a href="#第三步：输入密码和端口，回车！" class="headerlink" title="第三步：输入密码和端口，回车！"></a>第三步：输入密码和端口，回车！</h3><h3 id="第四步：等待安装完成！"><a href="#第四步：等待安装完成！" class="headerlink" title="第四步：等待安装完成！"></a>第四步：等待安装完成！</h3><p>安装完成后的标志如下:</p><pre><code>Congratulations, Shadowsocks-Python server install completed!Your Server IP        :  *************************Your Server Port      :  ****Your Password         :  ********Your Encryption Method:  aes-256-cfbYour QR Code: (For Shadowsocks Windows, OSX, Android and iOS clients) ss://YWVzLTI1Ni1jZmI6c290aWx1ODM4OEAxNDkuMTI5Ljg5LjIxMjo4Mzg4Your QR Code has been saved as a PNG file path: /root/shadowsocks_python_qr.pngWelcome to visit: https://teddysun.com/486.htmlEnjoy it!</code></pre><h2 id="方法二"><a href="#方法二" class="headerlink" title="方法二"></a>方法二</h2><p>shadowsocks Python 一键安装</p><h3 id="获取脚本"><a href="#获取脚本" class="headerlink" title="获取脚本"></a>获取脚本</h3><p>使用root用户登录，运行以下命令：</p><pre><code>wget --no-check-certificate https://raw.githubusercontent.com/teddysun/shadowsocks_install/master/shadowsocks.shchmod +x shadowsocks.sh./shadowsocks.sh 2&gt;&amp;1 | tee shadowsocks.log</code></pre><p>安装完成后，脚本提示如下：</p><pre><code>Congratulations, shadowsocks install completed!   Your Server IP:your_server_ip   Your Server Port:your_server_port   Your Password:your_password   Your Local IP:127.0.0.1   Your Local Port:1080   Your Encryption Method:aes-256-cfb   Welcome to visit:http://teddysun.com/342.html   Enjoy it! </code></pre><h3 id="卸载方法："><a href="#卸载方法：" class="headerlink" title="卸载方法："></a>卸载方法：</h3><p>使用root用户登录，运行以下命令：</p><p><code>./shadowsocks.sh uninstall</code></p><h2 id="单用户配置文件-Sample"><a href="#单用户配置文件-Sample" class="headerlink" title="单用户配置文件 Sample"></a>单用户配置文件 Sample</h2><p>配置文件路径：<br>vi /etc/shadowsocks.json</p><pre><code>{      &quot;server&quot;:&quot;0.0.0.0&quot;,      &quot;server_port&quot;:8989,       &quot;local_address&quot;:&quot;127.0.0.1&quot;,      &quot;local_port&quot;:1080,      &quot;password&quot;:&quot;yourpassword&quot;,      &quot;timeout&quot;:300,      &quot;method&quot;:&quot;aes-256-cfb&quot;,      &quot;fast_open&quot;: false  }</code></pre><h2 id="多用户多端口配置文件-Sample"><a href="#多用户多端口配置文件-Sample" class="headerlink" title="多用户多端口配置文件 Sample"></a>多用户多端口配置文件 Sample</h2><p>配置文件路径：</p><pre><code>vi /etc/shadowsocks.json{      &quot;server&quot;:&quot;0.0.0.0&quot;,    &quot;local_address&quot;:&quot;127.0.0.1&quot;,    &quot;local_port&quot;:1080,    &quot;port_password&quot;:{         &quot;8989&quot;:&quot;password0&quot;,         &quot;9001&quot;:&quot;password1&quot;,         &quot;9002&quot;:&quot;password2&quot;,         &quot;9003&quot;:&quot;password3&quot;,         &quot;9004&quot;:&quot;password4&quot;    },    &quot;timeout&quot;:300,    &quot;method&quot;:&quot;aes-256-cfb&quot;,    &quot;fast_open&quot;: false}</code></pre><h3 id="使用命令"><a href="#使用命令" class="headerlink" title="使用命令"></a>使用命令</h3><p>（2015 年 08 月 28 日修正）：</p><pre><code>启动：/etc/init.d/shadowsocks start停止：/etc/init.d/shadowsocks stop重启：/etc/init.d/shadowsocks restart状态：/etc/init.d/shadowsocks status写入自启echo &quot;ssserver -c /etc/shadowsocks.json -d restart&quot; &gt;&gt; /etc/rc.local查看日志less /var/log/shadowsocks.log</code></pre><p>说明： 从 Shadowsocks 2.6 开始，你可以直接在后台运行 Shadowsocks，无需 Supervisor 。 这样省掉了 Supervisor 进程占用的内存。</p><pre><code>ssserver -c /etc/shadowsocks.json -d startssserver -c /etc/shadowsocks.json -d stopssserver -c /etc/shadowsocks.json -d restart</code></pre><h3 id="查看连接的人数"><a href="#查看连接的人数" class="headerlink" title="查看连接的人数"></a>查看连接的人数</h3><pre><code>Ubuntu:apt-get install lsof -yCentOs:yum install lsof -y</code></pre><p>假设服务器端口1080, 查看连接数<br><code>sudo lsof -i -n -P | egrep -c &#39;:1080.+ESTABLISHED&#39;</code></p><h3 id="查看连接列表"><a href="#查看连接列表" class="headerlink" title="查看连接列表"></a>查看连接列表</h3><p><code>sudo lsof -i -n -P | egrep &#39;:1080.+ESTABLISHED&#39;</code></p><h3 id="监控"><a href="#监控" class="headerlink" title="监控"></a>监控</h3><p>利用脚本查看连接列表，并添加定时任务<br>新建目录mkdir test里添加以下脚本</p><pre><code>#!/bin/bash## File: port-ip-monitor.sh## Created: Wednesday, August 27 2014 by Hua Liang[Stupid ET] &lt;et@everet.org&gt;#filename=&quot;port-ip-monitor.log&quot;regex=&quot;8888&quot;  # monitor 你的端口date +&quot;[%Y-%m-%d %H:%M:%S]&quot; &gt;&gt; $filenamenetstat -anp | egrep $regex | grep -E &quot;tcp.*ESTABLISHED&quot; | awk &#39;{print $4, $5}&#39; | cut -d: -f2 | sort -u &gt;&gt; $filename</code></pre><p>编辑crontab -e里增加<em> </em> <em> </em> * (cd /test/ &amp;&amp; bash port-ip-monitor.sh)<br>启动服务service crond start<br>然后我们在/test/里就看到port-ip-monitor.log了<br>查看日志less /test/port-ip-monitor.log</p><blockquote><p>参考链接：<br><a href="https://shadowsocks.be/1.html" target="_blank" rel="noopener">https://shadowsocks.be/1.html</a><br><a href="http://everet.org/shadowsocks.html" target="_blank" rel="noopener">http://everet.org/shadowsocks.html</a></p></blockquote><h1 id="客户端"><a href="#客户端" class="headerlink" title="客户端"></a>客户端</h1><h2 id="第一步：下载客户端登陆"><a href="#第一步：下载客户端登陆" class="headerlink" title="第一步：下载客户端登陆"></a>第一步：下载客户端登陆</h2><p>安卓、windows的客户端均已上传至本站资源共享站，苹果可在应用商店搜索<strong>shadowsocks</strong>下载安装即可。</p><p>安卓客户端：<a href="https://data.songtianlun.cn/vpn/shadowsocks--universal-4.6.5.apk" target="_blank" rel="noopener">下载</a></p><p>windows客户端：<a href="https://data.songtianlun.cn/vpn/Shadowsocks-4.1.3.1.zip" target="_blank" rel="noopener">下载</a></p><h2 id="第二步：客户端配置参数"><a href="#第二步：客户端配置参数" class="headerlink" title="第二步：客户端配置参数"></a>第二步：客户端配置参数</h2><p>以windows配置为例，首先打开软件（若在c盘下需以管理员身份运行），之后填写相关参数，完成。</p><p><img src="https://blog.songtianlun.cn/wp-content/uploads/2019/01/image-11.png" alt></p><p>之后在任务栏右键，选择<strong>启动系统代理</strong></p><p>大功告成！</p><p><img src="https://blog.songtianlun.cn/wp-content/uploads/2019/01/image-13-1024x531.png" alt></p><p>主要参考文献：</p><ul><li><a href="https://www.diycode.cc/topics/738" target="_blank" rel="noopener">轻松在 VPS 搭建 Shadowsocks 翻墙 ($5/月 支付宝)</a></li><li><a href="https://github.com/iMeiji/shadowsocks_install/wiki/shadowsocks-Python-%E4%B8%80%E9%94%AE%E5%AE%89%E8%A3%85" target="_blank" rel="noopener">shadowsocks Python 一键安装</a></li></ul>]]></content>
       
@@ -2031,8 +2033,8 @@
     
     <entry>
       <title>wordpress 添加下雪特效</title>
-      <link href="/2019/01/11/wordpress-e6-b7-bb-e5-8a-a0-e4-b8-8b-e9-9b-aa-e7-89-b9-e6-95-88/"/>
-      <url>/2019/01/11/wordpress-e6-b7-bb-e5-8a-a0-e4-b8-8b-e9-9b-aa-e7-89-b9-e6-95-88/</url>
+      <link href="/2019/01/11/wordpress-tian-jia-xia-xue-te-xiao/"/>
+      <url>/2019/01/11/wordpress-tian-jia-xia-xue-te-xiao/</url>
       
         <content type="html"><![CDATA[<p>最近非常热衷于逛博客，各大博主博客都非常出彩，弄得我心里面痒痒的也想弄，就先从一个下雪效果开始吧！</p><p>在网上找了很多资料，最后找到一个非常靠谱的，步骤非常简单！</p><p>第一步：将snow上传至主题根目录并解压</p><p>第二步：修改其中js文件指定雪花的地址</p><p><img src="https://blog.songtianlun.cn/wp-content/uploads/2019/01/image-4-1024x136.png" alt></p><p>第三步：编辑主题中的footer.php文件，添加以下代码引用效果</p><pre><code>&lt;script type=&quot;text/javascript&quot; src=&quot;&lt;?php bloginfo(&#39;template_url&#39;);?&gt;/snow/snow.js&quot;&gt;&lt;/script&gt;</code></pre><p><img src="https://blog.songtianlun.cn/wp-content/uploads/2019/01/image-3.png" alt></p><p>第四步：清清缓存！</p><p>效果可以看本页！</p><p><img src="https://blog.songtianlun.cn/wp-content/uploads/2019/01/image-2.png" alt></p><p>sonw文件在这里下载：<a href="https://data.songtianlun.cn/website%20tools/wordpress-snow.zip" target="_blank" rel="noopener">点击下载</a></p><p>在本页资源分享站中也可找到：<a href="https://data.songtianlun.cn" target="_blank" rel="noopener">https://data.songtianlun.cn</a></p><p>差点忘记一个非常重要的事情，</p><p>参考文章： <a href="http://www.cyblogs.cn/archives/189" target="_blank" rel="noopener">wordpress 添加下雪特效</a></p>]]></content>
       
@@ -2050,8 +2052,8 @@
     
     <entry>
       <title>wordpress自动推送新文章收录百度</title>
-      <link href="/2019/01/11/wordpress-e8-87-aa-e5-8a-a8-e6-8e-a8-e9-80-81-e6-96-b0-e6-96-87-e7-ab-a0-e6-94-b6-e5-bd-95-e7-99-be-e5-ba-a6/"/>
-      <url>/2019/01/11/wordpress-e8-87-aa-e5-8a-a8-e6-8e-a8-e9-80-81-e6-96-b0-e6-96-87-e7-ab-a0-e6-94-b6-e5-bd-95-e7-99-be-e5-ba-a6/</url>
+      <link href="/2019/01/11/wordpress-zi-dong-tui-song-xin-wen-zhang-shou-lu-bai-du/"/>
+      <url>/2019/01/11/wordpress-zi-dong-tui-song-xin-wen-zhang-shou-lu-bai-du/</url>
       
         <content type="html"><![CDATA[<p>百度站长工具提供了很多种页面收录方式，在百度资源搜索平台提供了多种提交方式，比如自动提交，手动提交，以及sitemap。</p><p>百度资源搜索平台：<a href="https://ziyuan.baidu.com/" target="_blank" rel="noopener">https://ziyuan.baidu.com/</a></p><p>在这里介绍两种方式，一种是使用代码的方式，一种是使用插件，不知道是否能成功，如果大家能在百度搜索到这篇文章，自然代表着成功啦！</p><p>先说第一种，代码！</p><p>在主题function.php文件中插入如下代码：</p><pre><code>//文章发布自动推送if(!function_exists(&#39;Baidu_Submit&#39;)){   function Baidu_Submit($post_ID) {     $WEB_TOKEN = &#39;token值&#39;; //这里请换成你的网站的百度主动推送的token值     $WEB_DOMAIN = get_option(&#39;home&#39;); //已成功推送的文章不再推送     if(get_post_meta($post_ID,&#39;Baidusubmit&#39;,true) == 1) return;     $url = get_permalink($post_ID);     $api = &#39;http://data.zz.baidu.com/urls?site=&#39;.$WEB_DOMAIN.&#39;&amp;token=&#39;.$WEB_TOKEN;     $request = new WP_Http; $result = $request-&gt;request( $api , array( &#39;method&#39; =&gt; &#39;POST&#39;, &#39;body&#39; =&gt; $url , &#39;headers&#39; =&gt; &#39;Content-Type: text/plain&#39;) );     $result = json_decode($result[&#39;body&#39;],true); //如果推送成功则在文章新增自定义栏目Baidusubmit，值为1     if (array_key_exists(&#39;success&#39;,$result)) { add_post_meta($post_ID, &#39;Baidusubmit&#39;, 1, true);                                              } } add_action(&#39;publish_post&#39;, &#39;Baidu_Submit&#39;, 0); }</code></pre><p>即可在文章发布后自动推送百度，在百度资源可以看到推送结果。</p><p>第二种，插件！</p><p>在wordpress插件搜索<strong>BaiduXZH Submit</strong>，安装即可！</p><p>声明</p><p>第一种方式来源页：<a href="http://www.zhutihome.com/8098.html" target="_blank" rel="noopener">免插件实现WordPress主动推送文章到百度</a></p><p>第二种插件官网：<a href="http://xzh.i3geek.com/" target="_blank" rel="noopener">爱上极客</a></p><p>希望能成功！</p>]]></content>
       
@@ -2069,8 +2071,8 @@
     
     <entry>
       <title>wordpress检测文章手否被百度收录</title>
-      <link href="/2019/01/11/wordpress-e6-a3-80-e6-b5-8b-e6-96-87-e7-ab-a0-e6-89-8b-e5-90-a6-e8-a2-ab-e7-99-be-e5-ba-a6-e6-94-b6-e5-bd-95/"/>
-      <url>/2019/01/11/wordpress-e6-a3-80-e6-b5-8b-e6-96-87-e7-ab-a0-e6-89-8b-e5-90-a6-e8-a2-ab-e7-99-be-e5-ba-a6-e6-94-b6-e5-bd-95/</url>
+      <link href="/2019/01/11/wordpress-jian-ce-wen-zhang-shou-fou-bei-bai-du-shou-lu/"/>
+      <url>/2019/01/11/wordpress-jian-ce-wen-zhang-shou-fou-bei-bai-du-shou-lu/</url>
       
         <content type="html"><![CDATA[<p>开通博客后就痴迷于让更多的人看到自己的博客，在百度搜索资源提交链接，又配置了文章自动提交百度的代码，还是想知道文章是否被百度收录，于是找到了下面这篇文章：</p><p><a href="http://www.1mayi.com/9655.html" target="_blank" rel="noopener">WordPress百度是否已收录查询插件WP-Baidu-Record</a></p><p>文章提供了一种方式，不需要安装插件就可以实现文章是否提交百度的检测及显示，一步搞定！</p><p>在主题function.php文件中插入如下代码即可:</p><pre><code>/*Plugin Name: Baidu-AcceptPlugin URI: http://www.d4v.com.cnDescription: 判断当前文章是否被百度收录，若没有被收录则可点击提交至百度，加速收录！(此插件在文章页面仅管理员可见) Version: 1.0Author: JovaeAuthor URI: http://www.d4v.com.cnLicense: GPL*/function d4v($url){    $url=&#39;http://www.baidu.com/s?wd=&#39;.$url;    $curl=curl_init();    curl_setopt($curl,CURLOPT_URL,$url);    curl_setopt($curl,CURLOPT_RETURNTRANSFER,1);    $rs=curl_exec($curl);    curl_close($curl);    if(!strpos($rs,&#39;没有找到&#39;)){        return 1;    }else{        return 0;    }}add_filter( &#39;the_content&#39;,  &#39;baidu_submit&#39; );function baidu_submit( $content ) {    if( is_single() &amp;&amp; current_user_can( &#39;manage_options&#39;) )        if(d4v(get_permalink()) == 1)            $content=&quot;&lt;p align=right&gt;百度已收录(仅管理员可见)&lt;/p&gt;&quot;.$content;        else            $content=&quot;&lt;p align=right&gt;&lt;b&gt;&lt;a style=color:red target=_blank href=http://zhanzhang.baidu.com/sitesubmit/index?sitename=&quot;.get_permalink().&quot;&gt;百度未收录!点击此处提交&lt;/a&gt;&lt;/b&gt;(仅管理员可见)&lt;/p&gt;&quot;.$content;        return $content;    }</code></pre><p>之后就可以查看文章是否被收录了！</p><p><img src="https://blog.songtianlun.cn/wp-content/uploads/2019/01/image-1-1024x315.png" alt></p><p>文章核心内容来源：<a href="http://www.1mayi.com/9655.html" target="_blank" rel="noopener">http://www.1mayi.com/9655.html</a></p>]]></content>
       
@@ -2106,47 +2108,9 @@
     
     
     <entry>
-      <title>世界，您好！</title>
-      <link href="/2019/01/09/hello-world-1/"/>
-      <url>/2019/01/09/hello-world-1/</url>
-      
-        <content type="html"><![CDATA[<p>欢迎使用WordPress。这是您的第一篇文章。编辑或删除它，然后开始写作吧！</p>]]></content>
-      
-      
-      <categories>
-          
-          <category> 未分类 </category>
-          
-      </categories>
-      
-      
-    </entry>
-    
-    
-    
-    <entry>
       <title>DirectoryLister搭建个人资源分享站点及私人云盘搭建小记</title>
-      <link href="/2019/01/08/directorylister-e6-90-ad-e5-bb-ba-e4-b8-aa-e4-ba-ba-e8-b5-84-e6-ba-90-e5-88-86-e4-ba-ab-e7-ab-99-e7-82-b9-e5-8f-8a-e7-a7-81-e4-ba-ba-e4-ba-91-e7-9b-98-e6-90-ad-e5-bb-ba-e5-b0-8f-e8-ae-b0/"/>
-      <url>/2019/01/08/directorylister-e6-90-ad-e5-bb-ba-e4-b8-aa-e4-ba-ba-e8-b5-84-e6-ba-90-e5-88-86-e4-ba-ab-e7-ab-99-e7-82-b9-e5-8f-8a-e7-a7-81-e4-ba-ba-e4-ba-91-e7-9b-98-e6-90-ad-e5-bb-ba-e5-b0-8f-e8-ae-b0/</url>
-      
-        <content type="html"><![CDATA[<p>喜大普奔！本站开通了资源共享站点及私人云盘！</p><p>简直是好一通折腾，故事说来话长，本文主要谈谈私人共享站点搭建过程中遇到的问题及体会</p><h2 id="引言"><a href="#引言" class="headerlink" title="引言"></a>引言</h2><p>一直想要搭建一个属于自己的资源共享小站，把一些不好寻找的资源放在站点上供我的朋友们下载，随着博客、主页的陆续开通，想着时机已到，于是开始着手准备了解各种资源。</p><p>没做的时候以为类似的资料会很少，但是从一篇博文中了解到其实有很多种开源的目录列表程序</p><p>文章跳转：<a href="http://www.laozuo.org/6300.html" target="_blank" rel="noopener">5款简单实用的免费目录列表程序（Directory Lister）演示及下载</a></p><h2 id="经过"><a href="#经过" class="headerlink" title="经过"></a>经过</h2><p>尝试了h5ai之后，发现了自己云虚拟主机的限制，于是采用更加自由的director lister进行搭建，搭建过程非常简单：</p><p>第一步：下载程序：官网（<a href="http://www.directorylister.com/" target="_blank" rel="noopener">http://www.directorylister.com/</a>）</p><p>第二步：将压缩包解压至web服务器根目录下</p><p>第三步：使用域名进行访问</p><p>若使用二级目录，需要对程序进行一些调整，调整方法大概就是对<code>resources/themes/bootstrap/</code>目录下的<code>index.php</code>中的css/js引用进行修改，修改路径为域名解析到二级目录，详情见<strong>优化</strong>中的博文！</p><p>第四步：将需要共享的文件放置在resource同级目录下，就可以看到分享的文件啦！</p><h2 id="优化"><a href="#优化" class="headerlink" title="优化"></a>优化</h2><p>在实际使用过程中发现一个问题，</p><p>那就是一个字：</p><p>慢！</p><p>查了一下原因，是因为原生的页面中使用了google的字体，而谷歌字体在国内虽然能用，但是苟延残喘，也就是因此大大降低了页面加载速度，同样的，在网上找到一篇博文很完美的解决了这个问题！</p><p>博文跳转：<a href="http://www.iyu.co/web/directory-lister/" target="_blank" rel="noopener">通过 Directory Lister 简单实现服务器目录列表展示</a></p><p>上面的文章中介绍了原因，同时提供了一个修改过的版本，在博文中可以下载，同时在本站资源共享站也提供下载（资源站：<a href="https://songtianlun.cn/dateshare" target="_blank" rel="noopener">https://songtianlun.cn/dateshare</a>）</p><h2 id="结束"><a href="#结束" class="headerlink" title="结束"></a>结束</h2><p>至此，实用Directory Lister搭建的个人资源共享小站大功告成，欢迎大家来玩！</p><p>演示链接：<a href="https://songtianlun.cn/dateshare" target="_blank" rel="noopener">https://songtianlun.cn/dateshare</a></p><p>宋天伦</p><p>2019.1.8</p>]]></content>
-      
-      
-      <categories>
-          
-          <category> 技术博文 </category>
-          
-      </categories>
-      
-      
-    </entry>
-    
-    
-    
-    <entry>
-      <title>DirectoryLister搭建个人资源分享站点及私人云盘搭建小记</title>
-      <link href="/2019/01/08/directorylister-e6-90-ad-e5-bb-ba-e4-b8-aa-e4-ba-ba-e8-b5-84-e6-ba-90-e5-88-86-e4-ba-ab-e7-ab-99-e7-82-b9-e5-8f-8a-e7-a7-81-e4-ba-ba-e4-ba-91-e7-9b-98-e6-90-ad-e5-bb-ba-e5-b0-8f-e8-ae-b0-1/"/>
-      <url>/2019/01/08/directorylister-e6-90-ad-e5-bb-ba-e4-b8-aa-e4-ba-ba-e8-b5-84-e6-ba-90-e5-88-86-e4-ba-ab-e7-ab-99-e7-82-b9-e5-8f-8a-e7-a7-81-e4-ba-ba-e4-ba-91-e7-9b-98-e6-90-ad-e5-bb-ba-e5-b0-8f-e8-ae-b0-1/</url>
+      <link href="/2019/01/08/directorylister-da-jian-ge-ren-zi-yuan-fen-xiang-zhan-dian-ji-si-ren-yun-pan-da-jian-xiao-ji/"/>
+      <url>/2019/01/08/directorylister-da-jian-ge-ren-zi-yuan-fen-xiang-zhan-dian-ji-si-ren-yun-pan-da-jian-xiao-ji/</url>
       
         <content type="html"><![CDATA[<p>喜大普奔！本站开通了资源共享站点及私人云盘！</p><p>简直是好一通折腾，故事说来话长，本文主要谈谈私人共享站点搭建过程中遇到的问题及体会</p><h2 id="引言"><a href="#引言" class="headerlink" title="引言"></a>引言</h2><p>一直想要搭建一个属于自己的资源共享小站，把一些不好寻找的资源放在站点上供我的朋友们下载，随着博客、主页的陆续开通，想着时机已到，于是开始着手准备了解各种资源。</p><p>没做的时候以为类似的资料会很少，但是从一篇博文中了解到其实有很多种开源的目录列表程序</p><p>文章跳转：<a href="http://www.laozuo.org/6300.html" target="_blank" rel="noopener">5款简单实用的免费目录列表程序（Directory Lister）演示及下载</a></p><h2 id="经过"><a href="#经过" class="headerlink" title="经过"></a>经过</h2><p>尝试了h5ai之后，发现了自己云虚拟主机的限制，于是采用更加自由的director lister进行搭建，搭建过程非常简单：</p><p>第一步：下载程序：官网（<a href="http://www.directorylister.com/" target="_blank" rel="noopener">http://www.directorylister.com/</a>）</p><p>第二步：将压缩包解压至web服务器根目录下</p><p>第三步：使用域名进行访问</p><p>若使用二级目录，需要对程序进行一些调整，调整方法大概就是对<code>resources/themes/bootstrap/</code>目录下的<code>index.php</code>中的css/js引用进行修改，修改路径为域名解析到二级目录，详情见<strong>优化</strong>中的博文！</p><p>第四步：将需要共享的文件放置在resource同级目录下，就可以看到分享的文件啦！</p><h2 id="优化"><a href="#优化" class="headerlink" title="优化"></a>优化</h2><p>在实际使用过程中发现一个问题，</p><p>那就是一个字：</p><p>慢！</p><p>查了一下原因，是因为原生的页面中使用了google的字体，而谷歌字体在国内虽然能用，但是苟延残喘，也就是因此大大降低了页面加载速度，同样的，在网上找到一篇博文很完美的解决了这个问题！</p><p>博文跳转：<a href="http://www.iyu.co/web/directory-lister/" target="_blank" rel="noopener">通过 Directory Lister 简单实现服务器目录列表展示</a></p><p>上面的文章中介绍了原因，同时提供了一个修改过的版本，在博文中可以下载，同时在本站资源共享站也提供下载（资源站：<a href="https://songtianlun.cn/dateshare" target="_blank" rel="noopener">https://songtianlun.cn/dateshare</a>）</p><h2 id="结束"><a href="#结束" class="headerlink" title="结束"></a>结束</h2><p>至此，实用Directory Lister搭建的个人资源共享小站大功告成，欢迎大家来玩！</p><p>演示链接：<a href="https://songtianlun.cn/dateshare" target="_blank" rel="noopener">https://songtianlun.cn/dateshare</a></p><p>宋天伦</p><p>2019.1.8</p>]]></content>
       
@@ -2259,8 +2223,8 @@
     
     <entry>
       <title>2018年12月29日</title>
-      <link href="/2018/12/29/2018-e5-b9-b412-e6-9c-8829-e6-97-a5/"/>
-      <url>/2018/12/29/2018-e5-b9-b412-e6-9c-8829-e6-97-a5/</url>
+      <link href="/2018/12/29/2018-nian-12-yue-29-ri/"/>
+      <url>/2018/12/29/2018-nian-12-yue-29-ri/</url>
       
         <content type="html"><![CDATA[<p>今天是元旦假期的前一天，中午挥斥方裘了一番提交了作业就急急火火的赶到高铁站，可惜还是晚了，买的车票是两点五十二开车，可两点钟我才交了作业，只怪自己不好，没有学精学透，不会什么东西怨不得别人只能怪自己过去没有去学精。</p><p>既然已经这样子了那就没什么好说的了，交了作业就赶紧收拾东西，奔向花店！</p><p>来到花店挑了几棵很好看的紫色的满天星，哇塞真的好喜欢哟，放在一起好好看呢，不知道婷婷会不会喜欢呢？嘻嘻嘻。</p><p>买下来带着，搭上了出租车，虽然已经这样了但是还是要抓紧时间赶一赶呀，到了高铁站花了七十九块钱，天呢这真是一笔巨资，上一次回家忘带东西从郑州站往返也不过八十元左右，这次仅仅是去高铁站就花了七十九，哎只怪今天人多车多路上拥堵吧。其实司机给我绕路了别以为我看不出来！不过没关系，这样的事情该怎样怎样，下一次长记性了！</p><p>到了高铁站赶快去改签，看手机上还有一辆十分钟后发车的二等座，但可惜柜台查询结果是，最早的一辆车是下午六点五十四。满心不能接受，但又无可奈何，因为我已经付钱了呀！</p><p>他于是就在高铁站等着，拿出ipad听了半节课，后面实在是挡不住饥肠辘辘，上楼去找吃的，特别想吃肯德基的炸鸡汉堡，于是就上楼去啦！</p><p>吃饱饭时间也差不多了，赶快上车啦。</p><p>嘿嘿，此时此刻我已经到了婷婷宿舍门口，在食堂一楼感受着珞珈学子们学习的热情，一边写下自己一天的感悟。等待着婷婷图书馆归来，不知道见面的那一刻会发生什么呢。哎，没跟婷婷带些吃的，等一下一定记得买一些呢！</p><p>嘻嘻嘻，很激动，很开心，我就在这里等着吧，不要声张，避开婷婷的室友们，去给她一个小惊喜吧，嘻嘻嘻</p><p>宋天伦</p><p>2018.12.29</p>]]></content>
       
@@ -2278,8 +2242,8 @@
     
     <entry>
       <title>2018年年末的一些思考</title>
-      <link href="/2018/12/29/2018-e5-b9-b4-e5-b9-b4-e6-9c-ab-e7-9a-84-e4-b8-80-e4-ba-9b-e6-80-9d-e8-80-83/"/>
-      <url>/2018/12/29/2018-e5-b9-b4-e5-b9-b4-e6-9c-ab-e7-9a-84-e4-b8-80-e4-ba-9b-e6-80-9d-e8-80-83/</url>
+      <link href="/2018/12/29/2018-nian-nian-mo-de-yi-xie-si-kao/"/>
+      <url>/2018/12/29/2018-nian-nian-mo-de-yi-xie-si-kao/</url>
       
         <content type="html"><![CDATA[<p>太阳照常升起-久石让</p><p>元旦刚过，已经迎来2019年的怀抱，这一年里确实是发生了一些让自己想要去记住忘不掉的事情，也有一些新的思考新的认识，一篇文章总是难以承载下一年的所有事情，但是也只能这样子尽量的去回想尽量的去记录，这样子回过头来看才能清晰的看到自己走过的印记，而不是走过哪里都是一屁股糊涂账。</p><p>下面就让我记下自己这一年来一些自己回想起来还是会很感动的事情以及感受吧。一年到头，总有一些收获，一些感悟，一些改变，还有就是一些畅想。</p><p>一、影响深刻的几件事儿</p><p><strong>1.第十六届超图杯全国大学生GIS大赛</strong></p><p>这次大赛无论是参赛过程还是最终的结果都给我留下了太深的映像，给我带来了太大的改变，无论是认识还是什么。刚从北京回来的那几天，久久不能平静，不知是因为被清华的气息所感染，还是被北大的精神所震撼，抑或是整个决赛答辩的过程印象深刻。无论如何，这都是一次不平凡的旅途。</p><p><strong>开端</strong></p><p>故事的开端是从2018年的暑假开始讲起。这个暑期很不一样，一方面面临着未来考研还是工作的抉择（虽然我早就打定主意要考研了）一方面内心有着一种强烈的想要证明自己的欲望，我想要去做一些事情证明自己的价值，更想要去做一些事情，让自己的生活充实起来，抑或是想要赶快收获一些东西，让自己看到一丁点儿希望。反正无论怎么说吧，我都已经开始自己的假期，开始了一段特立独行的日子。</p><p>就在这一些不甘心又无知中匆忙的开始了自己的2018年暑假，匆匆忙忙的确定了主体，就开始了编码工作。那段日子里每天都早早的前去实验室，一开始的时候是有人陪伴一起的，但是很明显的感受到他们很不情愿呆在这里，做东西的时候常常是有一点不情愿的。也就因此那段日子里做事情是很孤独的，特别是当遇到了一些问题无法解决，抓耳挠腮又无人可倾诉，解决不了很难受，解决了也很难受，因为解决了这个问题下一步做什么呀？很疑惑，因为什么都不懂就开始了，那时的我单纯善良，不懂空间信息还有属性表一说，不懂软件工程还有概要设计详细设计一说，只以为那些只不过是写完软件以后慢慢完成的给别人看的文字罢了，直至参加完决赛我才惊觉了这文档的重要性。</p><p>就在那段日子里，基本上从零开始，那时的我，没有学过空间数据库，算了什么空间数据库，数据库也没咋用过，基本上没有做过安卓软件开发，没有弄过云主机，没有做过什么webgis数据服务，没有做过什么地图服务，没有弄过定位，有的，就只是地图学中一点儿配图的经验，卫星定位系统中学到的一点儿定位基础知识，还有学长断断续续讲给我的一些小知识，以及大一万行C语言程序微不足道的一些经验。拿着这些东西就开始了，什么不会就开怼，抽着什么算什么，管它是啥弄上去再说。现在回想起来那段时间也真是不知道哪里来的动力呢。</p><p>在实验室的那段日子里，每天都会很老师汇报，每天的进度多多少少都有一些，每天花费的时间绝对充足，甚至有时直接睡在实验室，最后提交了一个作品上去，赶在作品截止前一周左右完成了作品的最后编码，算是完成了一个可以看的东西，还有一点点可以玩的东西，但是还是依旧很迷茫，不知前程究竟是如何。后面的软件市场发布，都很顺利。</p><p><strong>中期</strong></p><p>提交了作品之后就没有再去管太多了，去专心准备科目二考试，最后也是顺利通过，都结束了去电影院“包场”看了电影《我不是药神》，在电影院哭的稀里哗啦一个人。后来短暂的日子回家呆了一周左右，有很多遗憾但总归是回家看了看，没有尽到儿子、孙子的职责，就只是回去看了看，没做什么事情，现在还是又一些懊悔。</p><p>开学后的一切都是照常，课表照常的课程密度，作业压力照常的又大又笑，各种事物该来的时候都来的没有少的，也没有多的。但没想到的是，这个比赛竟然会是贯穿了我一个多学期的一个大事情，没想到老师会如此的重视，没想到老师对于我们进了决赛的消息还是有一点点开心。那天晚上老师把我叫过去，跟我说我们的作品进决赛了，让我们准备去北京的答辩。那一天真的是很激动，哇塞，要去北京，我人生第一次去北京呀。另一方面心里说不出来的有一些发颤，不知道自己还该做什么，但总觉得还有些事情没又去做，但是貌似一切都很顺利，看不出问题，但总觉有问题，也许生活就是这样的迷茫，非要栽一些大跟头才能懂得一些事情。</p><p><strong>尾声</strong><br>最后，我们一行人去了北京，前期花费了一个星期没日没夜的准备各种文档，最终形成了一个一百多页的大技术报告，把我们这几个月来学到的用到的全部技术都写在里面，拿着这份文档心里还是很开心的，这里面承载的就是我们的工作量呀！</p><p>到了北京，首先是一阵子敬畏。这里就是我们祖国伟大的首都呀！下面就是各种事情，当夜就是熬了很晚很晚，准备演示，ppt总是达不到效果，老师很着急，我们自己熬夜身心已经到了麻木的程度。第二天的演讲也是漏洞百出，老师说我声音发颤全是废话，但我当时觉得自己已经尽了自己最大的努力，并不知道自己还有什么没有达到当时最好状态的，也许是服装吧，因为一些影响我们没有穿正装去现场。最后的演示很匆忙，没有前面的经验，即使是最后一个上场我依然是找不到北没有胸有成竹，最后的结果可想而知拿了三等奖，也许是因为我们的技术用的足够多，没有得倒一，但是从最终的完整度来说确实是不如前面的两队。</p><p>和其他选手交流，才发现走在我们前面的两队准备周期都是很长，至少都是我们的两倍，二等奖的聊城大学团队从三月饭就开始准备，而且是团队传承制度，每年都有人带着下一届参赛的同学去现场。一等奖的武大，项目提出人就是一个14级学长，整张比我们高了两级，虽然去汇报的并不是那学长，但是无论是经验积累还是技术积累都比我们这个作品要厚重太多。反观自己的作品，老师一直强调团队传承，但是很对不起老师，我们的上一级和我们的传承出现了断层，我在参赛之前对于比赛一无所获知，我没有听过上一届分享，一些技术手段也没有及时的传授，最终被老师训斥也无话可说，因为东西有，但是没有传承，没有消化吸收，我想这要说错，都是我一个人的错，但是这时候怪罪错误又有什么用呢。</p><p>结束了比赛，在北京还有一天的时间，老师带我们参观了三个地方，一个是北京师范大学，董卫华教授的眼动实验室，一上午的时间感受到北京师范大学一种特别的气氛，说不出来，但让人异常向往。</p><p>下午，第一站就去了清华大学参观。这里就是清华大学呀，安静、肃穆，校外人头攒动，校内安静平和，所有人都是那样子的认真。走过教学楼，忍不住走进去看看，偶遇一件小教室里有一群人在分享，透过门上的小玻璃看到里面听讲的人是那么的认真，每个人都用自己的电子设备认真的记录笔记，一会儿听的入神，恍然发现已经结束了一个人的汇报，才发现这里面似乎没有老师，有的是一群爱学习的学子。</p><p>匆匆结束了清华参观，赶忙前往北大，进入北大由于没有预约，着实花费了功夫，如果不是老师带我们去也许我们围着北大兜圈子都进不去。一样的安静、肃穆，有意思，有格调，未名湖畔游人很多，校园内还是美丽的，大气的北大红令人沉醉。遥感院，地空院，真想去参观一下他们的地图学是一个什么样子。机会不是等来的， 是自己创造的，回去好好加油吧！</p><p><strong>结语</strong></p><p>北京之行也许是我大学影响最大的事情之一。虽然成绩并不好，虽然没有到自己的预期，即使千般不好万般不好，这是开始。一直以来都梦想去北京，想去那里工作，想去哪里学习，但有时候又会想，自己这样的想法看上去是那样子的无知，那样子的幼稚，那样子的不切实际没有说服力。我说我想去北京，究竟哪里是怎样？会不会是我想象的那样子。眼见为实，用事实说话，这次在北京出场让我感觉自己像是一个小丑，但我又有自信自己未来终会蜕变为这里的一只白天鹅。话不多说，还是做出来再说。</p><p><strong>2.开通了自己的个人博客</strong></p><p>我叫宋天伦，几个月前搜索我的名字，还只能看到别人的精彩，但是如今，在百度搜索我的名字，已经可以看到我的个人主页。这是我今年特别开心的事情之一。</p><p>宋天伦-热衷科技，拥抱艺术，回归自然（<a href="https://songtianlun.cn）" target="_blank" rel="noopener">https://songtianlun.cn）</a></p><p>在这里，短短的三个多月时间，完成了很多次的更新，从界面到功能都焕然一新。进入我的主页，可以看到我的博客，可以看到我的摄影展，可以看到我的地图门户，可以看到我的码云主页。</p><p>开通自己的博客一直以来都自己的愿望之一，从很久以前就有了这一个想法，但是一只都受制于技术等因素，这一想法终于在今天变成了现实。在今年，学会了云主机的基本使用，注册了自己的域名，学了基本的网站编程，搭建自己的博客，这里面所有的东西都是我说了算，非常的开心。甚至在很长一段时间里，做自己的网站更新维护工作是最开心的事情，现在也是最开心，因为我可以把自己最喜欢的事情写在这里面，我可以自由地跟自己的朋友们分享，真的很开心。</p><p>开通了博客，这也许只是一个开始。今年接触到了太多优秀的人，见识到了他们的博客，更是看到了他们博客中的内容，让我赞叹让我热血沸腾更让我自愧不如，我要奋起直追！</p><p>这个世界上还有太多东西值得学习值得探索，也许学习到其中的一小部分又凑巧处于一个可以用上的环境中，这就足以给一个人足够的自信和满足感。但是看的越多才越觉天高地厚，走的越远才越知世界有多大。留心处处皆学问，用心做好每一件事情，无愧于自己一腔热血，朋友们舍身相助，还有养活自己长这么大的家人。</p><p>最后，希望自己能一直追求自己的热爱，活成自己喜欢的样子，做一个有意思有用的人！</p><p>二、几个比较深刻的认识</p><p>1.永远不要活在自己的世界里不问世事</p><p>生而为人，大自然孕育的结果，大自然伟大的自然规律造就了多彩的世界。作为所谓“万物之灵”若果妄图本末倒置狂妄自大，终会受到应有的惩罚。也就因此不要总活在自己的世界中不问世事，要多多交流多多探索，其实见得多了了解多了，这才是对自己最好的了解，因为只有对比才能看出差异，只有尝试才能知道效果，一昧的空想误事误国，走到更远的地方，才能看到全新的自己。</p><p>2.不要死板恪守“应当”，去做正确的事情</p><p>常常听到“大家都这么做，所以我这么做”，做事情也常常看前人怎么做，模仿着做很少创新，即使前面是个火坑看着前面的人跳下去后面跟着的人难保一定不会跳下去。思维的固化很可怕，学习知识不就是让我们学会灵活的处理未来多变的态势吗？</p><p>3.学会用幽默的角度去看世界</p><p>有意思的事情常常有人喜欢做，而能把一件大多数人做起来枯燥乏味的事情做出趣味，这真的是一种能力。看世界的角度有很多种，可以从逻辑的角度去审视，可以从神秘世界的角度去审视，更可以从幽默的角度看世界，毫无疑问最后一个是最高级的角度，因为能从更敢于从幽默的角度看问题不但是头脑灵活的结果，更是知识积淀丰富的产物。</p><p>三、下一年的计划与设想</p><p>2019年已经到来，在这一年中，我的计划主线是考验，很简单的一句话概括：我要去我想去的地方，找我想找的人，组建属于自己的圈子，过上自己喜欢的生活。</p><p>我从来不认为生活会是一帆风顺，更不认为会有一个所谓最佳选项，选择考研就意味着接下来的一年可能 会是困难的，但也许又意味着这一年会是轻松愉快的，这些不能确定，但是能确定的是，我不为了游乐而读研，我想要见识到更多的知识，学到更多的东西。我想要成为一个有用的人，我更想成为一个有意思的人，最想成为自己喜欢的人。</p><p>所以加油，坚持写日记，记录下自己的每一天，多见识，多奔走。新的一年，不需要太繁琐的文字描述，我准备好了，这就够了。</p><p>宋天伦</p><p>2019年1月2日</p><p>欢迎关注我的最新文章</p>]]></content>
       
@@ -2316,8 +2280,8 @@
     
     <entry>
       <title>2018地图与空间认知会议总计及感受</title>
-      <link href="/2018/12/28/2018-e5-9c-b0-e5-9b-be-e4-b8-8e-e7-a9-ba-e9-97-b4-e8-ae-a4-e7-9f-a5-e4-bc-9a-e8-ae-ae-e6-80-bb-e8-ae-a1-e5-8f-8a-e6-84-9f-e5-8f-97/"/>
-      <url>/2018/12/28/2018-e5-9c-b0-e5-9b-be-e4-b8-8e-e7-a9-ba-e9-97-b4-e8-ae-a4-e7-9f-a5-e4-bc-9a-e8-ae-ae-e6-80-bb-e8-ae-a1-e5-8f-8a-e6-84-9f-e5-8f-97/</url>
+      <link href="/2018/12/28/2018-di-tu-yu-kong-jian-ren-zhi-hui-yi-zong-ji-ji-gan-shou/"/>
+      <url>/2018/12/28/2018-di-tu-yu-kong-jian-ren-zhi-hui-yi-zong-ji-ji-gan-shou/</url>
       
         <content type="html"><![CDATA[<p>会议时间：2018年12月28日</p><p>会议地点：郑州大学</p><p>会议主题：地图与空间认知</p><p>会议议程：</p><ol><li>地图与空间认知的邂逅——高俊院士</li><li>地图理解和空间认知-人和机器的异同——孟立秋院士</li><li>地图要素的快速提取与级联更新——张新长院士</li><li>从VGE到机器地图-空间认知手段的新发展——游雄教授</li><li>基于影像深度学习的户外增强现实系统设计与实现——杜清运教授</li><li>地理认知与GIS数据模型——闾国年教授</li><li>地理信息技术支持的长江保护土地整治——李春满教授</li><li>地图空间认知与地图思维——齐清文研究员</li><li>地理大数据支持下的社会感知——刘瑜教授</li><li>近10年来地图学眼动与视觉认知新进展——董卫华教授</li><li>地图空间认知与高院士学术思想评析——万刚教授</li><li>地图信息设计的调性认知与审美重建——唐曦副教授</li><li>眼动追踪技术在空间认知中的应用——郑束蕾博士</li></ol><p>相关记录：</p><p>【一、地图与空间认知的邂逅】</p><p>主讲人：高俊院士</p><p><img src="blob:https://songtianlun.cn/f8d13634-c8cf-457d-8d71-d040468d4d36" alt></p><p>高院士讲述生动有趣，见解深刻独到，思想前沿准确，用词一针见血。听完高院士的讲座真的是受益匪浅，深深的被高院士这种精神打动。高院士多次提到了空间认知、地图的使用等问题，同时一针见血得提出了“中国人不会使用地图”，着实是让我感觉满头冷汗，细想真的就是这样子，高院士的话给我了很大的警醒，地图相较于文字可以在有限的篇幅中表达更多的信息，同时地图不仅仅只能被约束在传统制图方法中，也不该如此。虽然当今时代电子地图发展迅速，人们的日常生活中已经离不开地图，但是地图的运用不该仅仅是用来看的，地图可以发挥更加深刻的作用，最后真的就像院士所说的那样子，“图到用时方恨少，我辈还需多努力”！</p><p>【地图理解和空间认知-人和机器的异同】</p><p>主讲人：孟立秋院士</p><p><img src="blob:https://songtianlun.cn/ed5d8a7a-9969-47dd-af0c-28d68b95273e" alt></p><p>孟立秋院士是德国慕尼黑工业大学的校长，讲解生动形象，她是高院士的学生，讲述的内容生动形象、逻辑严密，同时优雅动人，讲述十分的引人入胜。孟院士讲述的内容十分全面的讲授了机器地图的相关信息，提出了自动驾驶会不会对于当前城市格局产生一定的影响？等等一针见血让人回味无穷的问题，受益匪浅。</p><p>【三、地图要素的快速提取与级联更新】</p><p>主讲人：张新长院士</p><p>主要内容：张院士主要是介绍了自己团队开发的一整套基于人工智能方法的智能地理信息处理系统，主要目的是地图要素的快速提取与级联更新。他讲了传统机器学习的局限性，需要一个合适的对象分割尺度，深度学习的工作效果取决于网络深度等。后提出了使用新的一套提起完成建筑物要素的提取、道路要素的提取及建筑物变动等，使用到了基于神经网络决策树的变化信息监测等，最终的目标是实现自动地图制图、多尺度联动更新与应用等。张院士的回报全程高能，将人工智能的相关技术尽可能高效的运用到地学处理中，最终实现了效率超高的系统，这其中有太多值得学习的地方，也让我见识到了人工智能运用到地学中的必然性。<br>【四、从VGE到机器地图-空间认知手段的新发展】</p><p>主讲人：游雄教授</p><p>主要内容：虚拟地理环(Virtual Geographic Environments )境以虚拟现实理念/虚拟现实技术为核心，基于地理信息、遥感信息、以及赛博空间网络信息与移动空间信息，研究现实地理环境和赛博空间的现象与规律。通过虚拟地理环境，可以促进实验地理学、地理/遥感信息科学、信息地理学、以及虚拟地理学的研究与发展。（来自第三维度）游教授讲述中举了一个消防员使用手套和头盔进行手饰交互的例子，感觉非常的酷炫，同时还有眼动交互，分为基于视频的和非基于视频的；而对于生理计算交互则需要脑机接口。教授还讲了时空分析与推演计算的优势所在，比如说一次天安门的阅兵需要一个亿，但是做了推演之后可以最大限度的减少浪费。推演还包括作战计划推演，过去推演都是通过地图和沙盘，效率较低，现在可以在动态尺度下进行推演。讲完了这些教授讲了一个我有些不懂的词，那就是语意网络和知识图谱，包括结构化和半结构化内容，根据情报中的语义关系可以推演出联络人的关系网，这里倒是听懂了一些。通过知识图谱可以推演出语义网络。后面教授提到很多空间认知工具：有全系位置地图、兵棋地图、增强现实环境和虚拟地理环境。在当代，机器自主能力得到很大提升，而无人平台的作用主要包括探测、建模和决策等，而在当前世界，在无人驾驶技术盛行的今天，提出了一个机器地图的概念，是以机器为主体的认知工具，信息包括先验知识和传感器知识。机器地图的提出是在无人驾驶的大环境之下，雷达+视觉导航的结合，可以预测前方的道路，预判实时路况并作出提前规避，使用的地图包括了栅格图、特征图和拓扑图，传感器一旦开始工作就开始成图的，成图的过程是从传感器开始工作算起的。在当今这个时代急需提升的几大基础，有测图技术、制图技术和用图技术。最后，游教授提出了几点启发，首先是地图的内涵和外延正在发生着重大的变化，三大特征和两大功能都在变化。其二是认知科学、ai和地图学深度融合，地图学将焕发生机。其三是网络空间认知需求迫切，网络地图应运而生，但缺乏表述网络与现实关系的地图，总觉深度不够。最后还是那句话：图到用时方恨少，我辈还需多努力。</p><p>【五、基于影像深度学习的增强现实系统】</p><p>主讲人：任福教授（代武大资环杜清远教授）</p><p>主要内容：教授结合一个典型的学生制作案例讲述基于影像的深度学习增强现实系统。在此之前介绍了一下ar和vr，ar是将计算机的世界在现实世界展现，而vr是将现实世界放入计算机世界中，ar和vr融合成为mr。教授结合学生制作的一个系统，系统使用了基于各种机器学习技术，使用手机的cpu进行计算，使用手机的镜头搜集信息，通过建立训练集等方式实现了户外增强现实系统视觉技术和传感器技术相结合。是一个非常具体的项目，是学生在老师指导下从零开始一点点实现的，虽然看上去很小，但是这是一次革新，是非常具有代表性的，这代表着当代的新技术在地图有着很多的可借鉴之处。在最后教授还讲述了一些自己对于当代新技术的理解，首先是先进技术的推动力，有iot、ai/vr、block chain/bim、cloud computing、big data、edge computing，其中的细节我有很多没有理解，先记下来，等日后慢慢消化。其二是计算能力，看到算到谋到断，同样我听的有些迷糊，但是隐隐感觉是有些道理，似乎是当代人工智能相关技术加持下的决策相关步骤，还是等待日后慢慢消化；最后提出了一个很有意思的问题，那就是gis人的标签，在经过一番思考，gis人可以概括为两个词，分别是degigner和storyteller，两个都是很有前途很有意思的标签，很生动很直接很棒的概括了gis相关，又很有外延性，值得深思。</p><p>【六、地理认知与gis数据模型】</p><p>主讲人：南京师范大学闾国年教授</p><p>主要内容：教授讲述的内容生动有趣，很多都是颠覆性的，还讲到了地学第四定律，这教授看来不但地理学的好，物理一定也不差吧？言归正传，教授对于很多个词的概括简洁有力，比如对于地理，就是关于地球的道理，关于地理学，就是时空分布、空间分布格局、演化过程规律等。在地学现有理论下有个地学第一定律：空间相似性，第二定律：空间同质性，第三定律：地理景观相似性定律。甚至还有第四定律：地理综合体定律。教授很有意思，提出这个就是为了让大家批评的，细想还真是这么个道理，只有活跃了气氛才有创新，只有革新才能改变吧。抽象描述七要素包括时间、地点、人物、事件、事物、现象、场景等。场景又可以分为自然、空间、时空、表达形式、领域性。地理表达可以分为语义描述、空间定位、几何形态、演化过程、要素关系、属性特征、语义、名词解释、分类体系等，空间定位分为坐标、地标、地名、地址等等。概括的似乎很直接了当有些不能接受，但是想一想暂时又只能接受，还是先记下慢慢消化等等吧。教授随后将到了数据挖掘与信息聚合，将到了地理学、语义学、认知科学还有科学认知。同样很幽默风趣，但是还是有太多地方脑子跟不上手也跟不上，记不下听不懂，只好尽可能记下来一些慢慢内化思考吧。后面教授很快的讲了gis数据模型、gis数据结构、gis数据表达等内容，在做后做了展望，就是地图学最终发展会向场景学靠近，场景是人类普适性的交流语言，可以承载所有，可见教授飞的很高！</p><p>【七、地理信息保护下的长江保护】</p><p>主讲人：李春满教授</p><p>主要内容：教授讲述了一个很接地气的长江流域的保护问题，使用相关调查，查看地图发现了一些对于长江流域发展不利的因素，比如化工厂开在沿江地区等等，还将到了使用夜光遥感地图提取城乡开发边界，避让生态保护红线。教授的汇报让我受益匪浅，原来地理信息在保护自然环境资源这项工作中可以发挥如此重要的作用。</p><p>【八、地图空间认知与地图思维】</p><p>主讲人：齐清文研究员</p><p>老师讲授了地图空间认知及地图思维相关内容，讲到了图形/图像思维和地图思维的异同，还讲到了地图思维的核心是地图空间认知，未来最佳的形式是地图自适应、自组织、自导航。老师的讲解重新将内容拉回到空间认知，还提到了更深层次的思维，这样的内容非常值得思考。</p><p>【九、地理大数据支持下的社会感知】</p><p>主讲人：刘教授</p><p>主要内容：教授讲述的内容将地理大数据运用到社会感知中，就比如从通讯数据中挖掘人群密度信息，比如从导航数据挖掘人流向数据等等，刘教授的讲授非常详细，开拓了视野，在地理大数据下可以挖掘出如此多有意思的数据，大数据时代能做的事情还有哪些呢？<br>【十、近10年来地图学眼动与视觉认知研究新进展】</p><p>主讲人：董卫华教授</p><p>主要内容：前些日子有幸去董教授的实验室参观，期间参观到了眼动仪，还亲身体验了一下，如此这次教授的汇报在我有了更加不一样的感受。教授首先是描述了最近几年地图学眼动研究发展历程，大体介绍了地图学眼动研究方法，后面讲到了几个地图学眼动与视觉认知的新进展，主要有以下几个趋势：趋势一、刺激材料从静态地图到动态交互地图趋势二、地图维度从二维地图到三维地图趋势三、研究范围从地图认知到地图空间认知趋势四、实验环境从虚拟环境到真实环境趋势五、被试从群体差异到个体差异趋势六、研究目的从规律探究到实践运用趋势七、研究手段从单一传感器到多源传感器在最后教授进行了几点小结：首先眼动为地图视觉认知研究提供了新的研究方法与手段研究范围：由理论实验研究范式走向数据驱动研究范式研究领域由单一学科走向跨学科交叉研究领域而要真正的实现眼动研究的自动化、实用化和智能化还有相当长的一段路要走。董教授是国内从事地图学眼动研究不多的团队指导之一，眼动研究为研究地图设计等领域提供了直观的优化途径，在当代多个领域都可有所运用，我对于该领域研究有很强的兴趣。</p><p>【十一、地图空间认知与高院士学术思想评析】</p><p>主讲人：万刚教授（信息工程大学）</p><p>万刚教授讲述内容逻辑清晰叙述清楚，开篇名义认知科学、一体两翼、空间认知等手段，还有一个很重要的心像地图的概念。大脑的空间认知常常是基于心像地图的。接下来万刚教授讲述了高院士的几大开创性工作，再次之前说到几个很重要的结论。1.地图空间认知理论2.地图是空间认知工具3.低头做事多，抬头看路少高院士强调人的认识因素对于制图的影响，还有地图感受与地图设计的关系，明确提出了认知地图学理论，超前开展地图设计专家系统的工作。在第二阶段，不断丰富完善地图认知理论体系1.建立战场环境仿真新方向2.地图空间认知理论的不断深化3.提出战场空间感知理论4.设计作战环境学理论体系第三阶段，空间认知发展1.地图空间认知1）地图学基础理论2）地图设计与制图综合3）地理信息系统4）虚拟地理环境到空间认知的新窗口5）地图学史与古地图2.地理空间认知1）空间认知相关的生理与认知关系2）服务于教育、训练的空间认知应用3）大数据支撑下的智能空间认知4）认知计算与智能机器人万教授致此，大致介绍完毕高院士的相关开创性工作及重要理论，让我们对于高院士对于地图学的重要贡献又了一个大致了解。</p><p>【十二、地图信息设计的调性认知与审美重建】</p><p>主讲人：唐曦副教授</p><p>教授讲授的内容可谓是生动形象，极其美观，讲到激动处真的非常动人，唐教授深刻的解释了当前地图学一个切实存在的现况，那就是测绘和地理的链接不牢，作为地图的设计者不能称之为一个设计师，而常只能算是一个美工匠，具体表征为找不着调儿！主要原因则是没有引入人的认知体系，就像是现在的地图集是使用目录堆积内容，仅能算是资料的堆叠而且常常跟风模仿外国，缺乏原创。非人本化，无始无终。在当前国内地图学发展情况，制图进步了，但是制图能力却不见上升。下面什么是调性呢？最早的调性是从音乐、绘画、建筑特别是品牌中找到的，调性是基于符号营造的一种可感知的情感特质，物质对象与人实现价值沟通的情绪场接口。在当代如果想做出更有创造力的地图，那就需要突破传统地图设计的限制，站在上帝视角看问题，头脑风暴找到调性。其实在原来的中国有很棒的设计，当年的上海美术电影制片厂很多作品都获得了国际大奖，但是为什么在当今时代找不到呢？那是因为传承断了。那些很好的东西没有传承下来。在当代，如果想要做好地图，就不得不去了解地图制图的哲学，美的哲学，艺术领域常常借鉴地图中的内容，但是地图很少去拿，太少了从中去拿出东西，没有完善，还没有突破传统的枷锁，图美悟真，如果想要发挥地图真正的威力，创新和哲学定是少不了的步骤。总之，唐教授的报告打开了视野，让我看到了一个新的精彩的世界！  </p><p>【十三、眼动追踪技术在空间认知中的应用】</p><p>主讲人：郑束蕾博士</p><p>主要内容：郑博士在全场处在一个很关键的位置，是一个承上启下的重要角色， 她的汇报让我们看到了地图的新生活力，让我们看到了未来。郑博士的汇报主要是她们团队在眼动研究方面取得的一些成果，让我进一步的拓宽了眼界，发现了更大的世界。<br>总结总之，一天的地图之旅受益匪浅，拓宽了视野，看到了更大的世界，更加的坚定了我要去更好的地方更高的平台看到更先进技术的决心！我想未来怎样，是我们这一代人去创造的，地图学未来会是如何，地图究竟能不能突破现有传统的限制真正发挥其应有的作用，就看我们这一代人了！所以还是那句话，图到用时方恨少，吾辈还需多努力！  </p><p>宋天伦</p><p>2018年12月28日</p>]]></content>
       
@@ -2354,8 +2318,8 @@
     
     <entry>
       <title>2018年12月27日</title>
-      <link href="/2018/12/28/2018-e5-b9-b412-e6-9c-8827-e6-97-a5/"/>
-      <url>/2018/12/28/2018-e5-b9-b412-e6-9c-8827-e6-97-a5/</url>
+      <link href="/2018/12/28/2018-nian-12-yue-27-ri/"/>
+      <url>/2018/12/28/2018-nian-12-yue-27-ri/</url>
       
         <content type="html"><![CDATA[<p>今天考完了决策系统，考得并不好。很多内容没有背到，还有一些背了忘记了，好在计算题写的还好吧，答案似乎又有些问题。算了不想了，加油看书吧，想想更重要的是从中吸取教训继续努力。</p><p>今天ipad到了，很开心，我现在正在用新的ipad写下今天的日记。</p><p>新的ipad到手了，像是水到渠成，似乎没什么大起大落，有惊喜但又没有那么惊喜，似乎一切都是应该的。确实是这样子，自己一直很喜欢苹果，只是一直没有使用过苹果的设备，这次终于有一款属于自己的苹果设备了，很开心，也算是如愿以偿吧。</p><p>下载了一些软件，新键盘还挺好用。花了五十块钱买了一款早就看上的书写笔记软件，很棒，效果很不错，配合apple pencil使用真的特别棒，嘻嘻嘻，多多使用多多尝试吧，还有很多东西等带我去挖掘呢。</p><p>不过要记得，我购买ipad是为了学习，所以不能用来玩哟，要好好的把它使用起来呢。</p><p>嘻嘻嘻，加油！</p>]]></content>
       
@@ -2373,8 +2337,8 @@
     
     <entry>
       <title>2018年12月26日</title>
-      <link href="/2018/12/26/2018-e5-b9-b412-e6-9c-8826-e6-97-a5/"/>
-      <url>/2018/12/26/2018-e5-b9-b412-e6-9c-8826-e6-97-a5/</url>
+      <link href="/2018/12/26/2018-nian-12-yue-26-ri/"/>
+      <url>/2018/12/26/2018-nian-12-yue-26-ri/</url>
       
         <content type="html"><![CDATA[<p>今天主要是复习，</p><p>上午十点抢到了京东十二期免息券，</p><p>很开心的下单ipad了</p><p>明天就可以到了。</p><p>不过给自己规定，</p><p>先去领了，</p><p>晚上考完试才许拆快递。</p><p>今天上午去还鞋子。</p><p>路上看到李老师电话，</p><p>回去以后说我们都不去实验室，</p><p>也不汇报进展</p><p>不合适。</p><p>我心里还是有些难受。</p><p>一看到李老师就想到超图比赛那一段让自己饱受开心激动还有失落。</p><p>还能想到老师痛斥我们，心里隐隐的作痛，不承认子虚乌有。</p><p>但有非得承受。</p><p>觉得大学真的激不起我的激情了。</p><p>我要去到更好的地方学习。</p><p>我要去汲取知识。</p><p>我要考研。</p><p>加油！</p><p>加油！</p><p>加油！</p>]]></content>
       
@@ -2392,8 +2356,8 @@
     
     <entry>
       <title>2018年12月25日</title>
-      <link href="/2018/12/25/2018-e5-b9-b412-e6-9c-8825-e6-97-a5/"/>
-      <url>/2018/12/25/2018-e5-b9-b412-e6-9c-8825-e6-97-a5/</url>
+      <link href="/2018/12/25/2018-nian-12-yue-25-ri/"/>
+      <url>/2018/12/25/2018-nian-12-yue-25-ri/</url>
       
         <content type="html"><![CDATA[<p>今天圣诞节呢。</p><p>今天去参加创业之星颁奖，</p><p>没想到这过奖这么多人获得呀，</p><p>什么也没有带回来，</p><p>不过露个脸认识一些人也是极好的。</p><p>明天加油复习啦！</p>]]></content>
       
@@ -2411,8 +2375,8 @@
     
     <entry>
       <title>2018年12月23日</title>
-      <link href="/2018/12/23/2018-e5-b9-b412-e6-9c-8823-e6-97-a5/"/>
-      <url>/2018/12/23/2018-e5-b9-b412-e6-9c-8823-e6-97-a5/</url>
+      <link href="/2018/12/23/2018-nian-12-yue-23-ri/"/>
+      <url>/2018/12/23/2018-nian-12-yue-23-ri/</url>
       
         <content type="html"><![CDATA[<p>考研结束了。</p><p>宝贝终于可以轻松一些了。</p><p>不用面对这么大的心理压力。</p><p>今天宝贝腿上外伤，上了脓包，</p><p>去医院开了药，希望她快点好起来。</p><p>哎，我可怜的宝贝呀，真想给你所有的好，把所有的痛苦跟我承受。</p><p>今天下单买了ipad的保护套和一个毛毡袋，基本上确定要买了，</p><p>希望钱快点攒够呀，</p><p>还是很期待买下的，</p><p>等到元旦后购置吧。</p><p>每每提到你界超图杯，</p><p>就会悲喜交加，</p><p>得奖，但是没有做到老师要求的，怎么像都感觉很不对，</p><p>总结经验。</p><p>我想我更喜欢去持久的做一件喜欢的事情。</p><p>慢慢来，不要做太多预判，</p><p>事情总会好起来的。</p><p>学会给生活埋彩蛋，</p><p>做一个有意思的人，</p><p>让自己的生活有意思，</p><p>坚持下去做事情，</p><p>所谓坚持，并不只是坚持。</p><p>这世上用心可以做好事情，但不是所有事情都是可以依靠用心去做好的。</p><p>开始考研复习，克服万难，乐在其中。</p><p>给自己加油!</p><p>晚安</p>]]></content>
       
@@ -2430,8 +2394,8 @@
     
     <entry>
       <title>2018年12月21日</title>
-      <link href="/2018/12/22/2018-e5-b9-b412-e6-9c-8821-e6-97-a5/"/>
-      <url>/2018/12/22/2018-e5-b9-b412-e6-9c-8821-e6-97-a5/</url>
+      <link href="/2018/12/22/2018-nian-12-yue-21-ri/"/>
+      <url>/2018/12/22/2018-nian-12-yue-21-ri/</url>
       
         <content type="html"><![CDATA[<p>又是新的一周，刚刚结束的一周里，体验了开始的绝望和最终结果的轻快，也许这样的紧张感真的是平分，开始多则最终轻，反之亦然罢了。</p><p>这一周结束了数字工程和决策支持，尤感畅快，一个是因为终于不用再”浪费时间”，一个是因为太过精彩!</p><p>今天睡了一会儿觉，觉得睡觉真的是最重要的事情了。</p><p>键盘声音太大了，希望赶快到月底吧，好好写东西。</p>]]></content>
       
@@ -2449,8 +2413,8 @@
     
     <entry>
       <title>2018年12月20日</title>
-      <link href="/2018/12/21/2018-e5-b9-b412-e6-9c-8820-e6-97-a5/"/>
-      <url>/2018/12/21/2018-e5-b9-b412-e6-9c-8820-e6-97-a5/</url>
+      <link href="/2018/12/21/2018-nian-12-yue-20-ri/"/>
+      <url>/2018/12/21/2018-nian-12-yue-20-ri/</url>
       
         <content type="html"><![CDATA[<p>今天有些累，上午一上午课，空间数据库上的真是又爱又恨。老师尽力教好，真的好棒。只是老师说学生对老师很挑剔，一点讲不好就不听。不是很认同。不过确实学生没有做好。</p><p>今天很快把决策支持系统论文写完了，还是就这样子结束，果然什么事情赶快去做好一些。</p><p>感觉写的东西越来越差，得多看多写，就从每天日记开始吧。</p><p>赶快攒钱，买个ipad，键盘已经买了，抓紧时间做事情，好好学习，加油!</p>]]></content>
       
@@ -2468,8 +2432,8 @@
     
     <entry>
       <title>2018年12月17日</title>
-      <link href="/2018/12/17/2018-e5-b9-b412-e6-9c-8817-e6-97-a5/"/>
-      <url>/2018/12/17/2018-e5-b9-b412-e6-9c-8817-e6-97-a5/</url>
+      <link href="/2018/12/17/2018-nian-12-yue-17-ri/"/>
+      <url>/2018/12/17/2018-nian-12-yue-17-ri/</url>
       
         <content type="html"><![CDATA[<p>慢慢的找回写日记的习惯吧。</p><p>今天上午是满课，下午没了，中午又回宿舍睡了一中午，睡到快四点钟，起来开始准备复习计算机网络的考试。</p><p>中午的烤鱼很好吃，还有金牌烤翅，虽然对于老板做事情很不满意，但是挡不住这食物的美味啊。</p><p>掐指一算，超图杯决赛已经过去一周多了，这一周补觉补的差不多了，已经报了考研政治和考研数学的班，打算月底购买考研政治，同时筹划购置一个ipad pro，需求还是挺强烈的。</p><p>宝贝这这周末就要考研了，她没怎么复习我自然是心知肚明，但是她底子不错呀，希望能有一个好结果吧，祈祷!加油婷婷，不管结果怎样，我都愿意陪着你。</p><p>每每回忆起大赛结束后那个”不眠之夜”，心有不甘又无可奈何，熬了足够多的夜，没有达到想要的效果，老师说的话再难听再刺耳也不为过。虽然接受，但是心里不舒服，也有不甘，我不承认自己是骗子!</p><p>早点休息，晚安。</p>]]></content>
       
@@ -2487,8 +2451,8 @@
     
     <entry>
       <title>2018年12月14日</title>
-      <link href="/2018/12/14/2018-e5-b9-b412-e6-9c-8814-e6-97-a5/"/>
-      <url>/2018/12/14/2018-e5-b9-b412-e6-9c-8814-e6-97-a5/</url>
+      <link href="/2018/12/14/2018-nian-12-yue-14-ri/"/>
+      <url>/2018/12/14/2018-nian-12-yue-14-ri/</url>
       
         <content type="html"><![CDATA[<p>小日记 思考一个问题。 生而在世从事各种工作的人有许多许多。 可无论从事什么职业，总是有人可以做到这个行业的顶尖， 且长期立于不败之地难以撼动。   在想为什么他们可以做到如此出类拔萃， 为什么他们会如此坚定的从事所做的事情。   又在想为什么这世上的这么多人， 很多很多都是在纠结的路上错过了生命。   或许是一种精神? 或许是一种思想? 或许是一种源于内心的力量? 世界上有这么多事情可以做， 没有标准答案约束一个人究竟该做什么。   音乐人李健，清华男神，水利工程系，又是当今很出色的音乐人。 身边的一些老师，音乐老师黄老师，艺术出身，先不说联系艺术要抵抗的所谓传统的压力，再有就是她在工作岗位上做到如此高的地位，再说她还是校级的教学督导员。 还有最近参加比赛接触到的同龄人，他们和我们年纪相仿，却已经取得了很高的成就。</p>]]></content>
       
@@ -2819,25 +2783,6 @@
       <categories>
           
           <category> 学习小记 </category>
-          
-      </categories>
-      
-      
-    </entry>
-    
-    
-    
-    <entry>
-      <title>世界，您好！</title>
-      <link href="/2018/10/07/hello-world-2/"/>
-      <url>/2018/10/07/hello-world-2/</url>
-      
-        <content type="html"><![CDATA[<p>欢迎使用WordPress。这是您的第一篇文章。编辑或删除它，然后开始写作吧！</p>]]></content>
-      
-      
-      <categories>
-          
-          <category> 未分类 </category>
           
       </categories>
       
