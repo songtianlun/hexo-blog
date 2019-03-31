@@ -13,7 +13,7 @@ aria2是一款开源的多线程文件下载工具，其强大的下载能力令
 
 在这里就介绍一下这三个部分，一个是配置aria，我将其配置在自己的云主机上实现了离线下载；第二个是web面板的配置，第三个是桌面版的下载工具。
 
-一、aira2安装
+# 一、aira2安装
 ---------
 
 使用一键安装脚本，在控制台运行如下代码：
@@ -26,7 +26,7 @@ aria2是一款开源的多线程文件下载工具，其强大的下载能力令
 
 安装成功
 
-二、Web控制面板下载
+# 二、Web控制面板下载
 -----------
 
 1.AreaNg作为下载前台
@@ -59,7 +59,7 @@ aria2是一款开源的多线程文件下载工具，其强大的下载能力令
 
   
 
-三、桌面版下载工具  
+# 三、桌面版下载工具  
 在下面下载地址可以下载到windows的桌面下载工具  
 桌面版：[Persepolis Download Manager](https://github.com/persepolisdm/persepolis/releases/tag/3.1.0)
 
@@ -71,7 +71,14 @@ Aria2脚本管理命令：
     
     重启：/etc/init.d/aria2 restart
 
-参考文献
+# 四、重要补充
+在使用了很久aria2之后，经历了本地硬盘空间不足等一系列问题后，发现了目前知道的最佳解决方案：
+* [Aria2 一键安装管理脚本](https://p3terx.com/archives/aria2-oneclick-installation-management-script.html)
+* [一键安装脚本GitHub](https://github.com/P3TERX/aria2.sh)
+* [Aria2 + Rclone 实现 OneDrive、Google Drive 等网盘离线下载](https://p3terx.com/archives/offline-download-of-onedrive-gdrive.html)
+* [百度网盘转存到 OneDrive 、Google Drive 等其他网盘](https://p3terx.com/archives/baidunetdisk-transfer-to-onedrive-and-google-drive.html)
+
+# 参考文献
 
 *   [Aria2离线下载+H5ai在线观看](https://blog.67cc.cn/archives/tutorialaria2-offline-download-h5ai-online-watch.html)
 *   [替代迅雷！小白都会用的免配置 Aria2 图形界面版免费开源下载软件 PDM](https://www.iplaysoft.com/persepolis-download-manager.html)
