@@ -4,6 +4,31 @@
   
     
     <entry>
+      <title>物联网技术概论</title>
+      <link href="/2019/04/09/wu-lian-wang-ji-zhu-gai-lun/"/>
+      <url>/2019/04/09/wu-lian-wang-ji-zhu-gai-lun/</url>
+      
+        <content type="html"><![CDATA[<blockquote><p>教材《物联网概论》——崔艳荣、周贤善</p></blockquote><h2 id="第一章"><a href="#第一章" class="headerlink" title="第一章"></a>第一章</h2><ol><li>简述对物联网（IOT）的概念理解</li><li>简述物联网技术特征</li><li>物联网与互联网的关系</li><li>你对智慧地球的理解</li><li>对泛在网的认识</li><li>三网融合</li><li>纳入物联网的“物”需要的条件</li><li>分析说明T2T、H2T以及M2M</li><li>从IP地址上计算说明IPV6取代IPV4</li><li>信息物理系统</li><li>中国物联网的发展情况<br>12.了解下一代物联网</li></ol><h2 id="第二章"><a href="#第二章" class="headerlink" title="第二章"></a>第二章</h2><ol><li>物联网的基本组成</li><li>感知识别层的主要功能，解决的核心问题</li><li>湿度传感器、振动传感器以及CCD的工作方式（原理）</li><li>射频系统主要构成和工作方式</li><li>微机电系统</li><li>相比一维条形码，二维条形码的优点</li><li>生物识别技术主要利用人体何种特性，包括的主要技术</li><li>网络传输层的主要功能，关键技术</li><li>应用支撑层的主要功能</li><li>嵌入式技术</li><li>云计算</li><li>中间件技术</li><li><del>应用接口层的功能</del></li><li>物联网发展面临的挑战</li><li>简述物联网在某一领域的应用</li></ol>]]></content>
+      
+      
+      <categories>
+          
+          <category> 学习笔记 </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> 物联网 </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
       <title>考研规划记录总表</title>
       <link href="/2019/04/03/gui-hua-ji-lu-zong-biao/"/>
       <url>/2019/04/03/gui-hua-ji-lu-zong-biao/</url>
@@ -1311,31 +1336,6 @@
     
     
     <entry>
-      <title>【学习笔记】和家人和睦相处的法则</title>
-      <link href="/2019/02/23/xue-xi-bi-ji-he-jia-ren-he-mu-xiang-chu-de-fa-ze/"/>
-      <url>/2019/02/23/xue-xi-bi-ji-he-jia-ren-he-mu-xiang-chu-de-fa-ze/</url>
-      
-        <content type="html"><![CDATA[<p>最近考虫赠送了重塑思维的十五讲，尚龙老师主讲的课程，今天讲到了【和家人和睦相处的法则】这一讲，感触良多，分享出来自己的笔记以及自己的想法。  </p><p>3.经济独立，用独立去获得自由</p><p>经济独立是基于所有基础之上的，经济独立，身体自由，灵魂自由</p><p>毕业后的建议</p><p>1）如果迷茫，就先赚钱</p><p>如果在村庄，离开村庄去大城市</p><p>2）</p><p>3）先尽忠，再尽孝</p><p>父母在，不远游；欲远游，必有方。</p><p>4.不要用语言对抗，用行动去沟通</p><p>1）不要用语言对抗，用行为沟通</p><p>2）孝顺的主要含义是顺，而不是孝</p><p>3）有时候该蹩就蹩</p><p>我们又时候很喜欢争口舌的输赢，其实真理常常蕴含在行动中。</p><p>5.去影响父母，和他们共同成长</p><p>1）要多把你看到的新事物告诉父母</p><p>2）要多问父母一些问题，哪怕这些问题你有答案</p><p>3）不要烦，他们当时就是这么对你的</p><p>4）沟通才能减少误会，哪怕是吵架</p>]]></content>
-      
-      
-      <categories>
-          
-          <category> 生活心得 </category>
-          
-      </categories>
-      
-      
-        <tags>
-            
-            <tag> 学习笔记 </tag>
-            
-        </tags>
-      
-    </entry>
-    
-    
-    
-    <entry>
       <title>【书评】一百个人的十年</title>
       <link href="/2019/02/23/shu-ping-yi-bai-ge-ren-de-shi-nian/"/>
       <url>/2019/02/23/shu-ping-yi-bai-ge-ren-de-shi-nian/</url>
@@ -1353,6 +1353,31 @@
         <tags>
             
             <tag> 书评 </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>【学习笔记】和家人和睦相处的法则</title>
+      <link href="/2019/02/23/xue-xi-bi-ji-he-jia-ren-he-mu-xiang-chu-de-fa-ze/"/>
+      <url>/2019/02/23/xue-xi-bi-ji-he-jia-ren-he-mu-xiang-chu-de-fa-ze/</url>
+      
+        <content type="html"><![CDATA[<p>最近考虫赠送了重塑思维的十五讲，尚龙老师主讲的课程，今天讲到了【和家人和睦相处的法则】这一讲，感触良多，分享出来自己的笔记以及自己的想法。  </p><p>3.经济独立，用独立去获得自由</p><p>经济独立是基于所有基础之上的，经济独立，身体自由，灵魂自由</p><p>毕业后的建议</p><p>1）如果迷茫，就先赚钱</p><p>如果在村庄，离开村庄去大城市</p><p>2）</p><p>3）先尽忠，再尽孝</p><p>父母在，不远游；欲远游，必有方。</p><p>4.不要用语言对抗，用行动去沟通</p><p>1）不要用语言对抗，用行为沟通</p><p>2）孝顺的主要含义是顺，而不是孝</p><p>3）有时候该蹩就蹩</p><p>我们又时候很喜欢争口舌的输赢，其实真理常常蕴含在行动中。</p><p>5.去影响父母，和他们共同成长</p><p>1）要多把你看到的新事物告诉父母</p><p>2）要多问父母一些问题，哪怕这些问题你有答案</p><p>3）不要烦，他们当时就是这么对你的</p><p>4）沟通才能减少误会，哪怕是吵架</p>]]></content>
+      
+      
+      <categories>
+          
+          <category> 生活心得 </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> 学习笔记 </tag>
             
         </tags>
       
