@@ -89,7 +89,7 @@ deploy:
   type: git
   repo: 
     github: git@github.com:songtianlun/songtianlun.github.io.git 
-  #  coding: git@git.dev.tencent.com:songtianlun/songtianlun.git
+    coding: git@git.dev.tencent.com:songtianlun/songtianlun.git
   branch: master
   
 search:
