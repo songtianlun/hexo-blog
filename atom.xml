@@ -6,7 +6,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="https://frytea.com/"/>
-  <updated>2019-04-11T14:36:43.374Z</updated>
+  <updated>2019-04-12T12:46:59.775Z</updated>
   <id>https://frytea.com/</id>
   
   <author>
@@ -15,6 +15,41 @@
   </author>
   
   <generator uri="http://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>私有vpn搭建工具集合及靠谱的vpn提供商</title>
+    <link href="https://frytea.com/2019/04/12/si-you-vpn-da-jian-gong-ju-ji-he-ji-kao-pu-de-vpn-ti-gong-shang/"/>
+    <id>https://frytea.com/2019/04/12/si-you-vpn-da-jian-gong-ju-ji-he-ji-kao-pu-de-vpn-ti-gong-shang/</id>
+    <published>2019-04-12T12:04:37.000Z</published>
+    <updated>2019-04-12T12:46:59.775Z</updated>
+    
+    <summary type="html">
+    
+      
+      
+        
+        
+          &lt;p&gt;经过长时间的摸索及入坑之后，终于找到两种比较好的vpn上网方式，一种是自建站点，一种是使用服务商提供的，当然相比之下第一种更加靠谱，下面详细介绍一下：&lt;/p&gt;
+&lt;h2 id=&quot;vps自建vpn方法&quot;&gt;&lt;a href=&quot;#vps自建vpn方法&quot;
+        
+      
+    
+    </summary>
+    
+      <category term="技术博文" scheme="https://frytea.com/categories/%E6%8A%80%E6%9C%AF%E5%8D%9A%E6%96%87/"/>
+    
+    
+      <category term="vpv" scheme="https://frytea.com/tags/vpv/"/>
+    
+      <category term="shadowsocks" scheme="https://frytea.com/tags/shadowsocks/"/>
+    
+      <category term="ssr" scheme="https://frytea.com/tags/ssr/"/>
+    
+      <category term="outline" scheme="https://frytea.com/tags/outline/"/>
+    
+      <category term="泡芙云" scheme="https://frytea.com/tags/%E6%B3%A1%E8%8A%99%E4%BA%91/"/>
+    
+  </entry>
   
   <entry>
     <title>Win10安装Rational_Rose_2007步骤及安装包下载</title>
@@ -51,7 +86,7 @@
     <link href="https://frytea.com/2019/04/09/wu-lian-wang-ji-zhu-gai-lun/"/>
     <id>https://frytea.com/2019/04/09/wu-lian-wang-ji-zhu-gai-lun/</id>
     <published>2019-04-09T02:51:27.000Z</published>
-    <updated>2019-04-09T07:18:23.301Z</updated>
+    <updated>2019-04-12T12:09:47.845Z</updated>
     
     <summary type="html">
     
@@ -538,34 +573,6 @@
     
     
       <category term="日记" scheme="https://frytea.com/tags/%E6%97%A5%E8%AE%B0/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>Mysql学习小记（三）</title>
-    <link href="https://frytea.com/2019/03/24/mysql-xue-xi-xiao-ji-san/"/>
-    <id>https://frytea.com/2019/03/24/mysql-xue-xi-xiao-ji-san/</id>
-    <published>2019-03-24T08:02:47.000Z</published>
-    <updated>2019-03-31T15:45:31.327Z</updated>
-    
-    <summary type="html">
-    
-      
-      
-        
-        
-          &lt;h2 id=&quot;2019-3-24&quot;&gt;&lt;a href=&quot;#2019-3-24&quot; class=&quot;headerlink&quot; title=&quot;2019.3.24&quot;&gt;&lt;/a&gt;2019.3.24&lt;/h2&gt;&lt;h2 id=&quot;2019计算机二级mysql-第三套模拟&quot;&gt;&lt;a
-        
-      
-    
-    </summary>
-    
-      <category term="技术博文" scheme="https://frytea.com/categories/%E6%8A%80%E6%9C%AF%E5%8D%9A%E6%96%87/"/>
-    
-    
-      <category term="mysql" scheme="https://frytea.com/tags/mysql/"/>
-    
-      <category term="计算机二级" scheme="https://frytea.com/tags/%E8%AE%A1%E7%AE%97%E6%9C%BA%E4%BA%8C%E7%BA%A7/"/>
     
   </entry>
   
