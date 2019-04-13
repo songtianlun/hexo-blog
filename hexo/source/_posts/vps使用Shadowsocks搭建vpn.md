@@ -1,3 +1,4 @@
+---
 title: vps使用Shadowsocks搭建vpn
 url: 555.html
 id: 555

@@ -1,10 +1,4 @@
 [{
-    "avatar": "https://mywebsite.nos-eastchina1.126.net/V1.2/myself-sidi.jpg",
-    "name": "网址导航",
-    "introduction": "煮雪烹茶个人网址导航，不喜勿喷",
-    "url": "https://guide.frytea.com",
-    "title": "前去探索"
-}, {
     "avatar": "https://static.noisky.cn/homepage/img/noisky.jpg",
     "name": "Noisky",
     "introduction": "一名来自 2.5 次元的魔法师，目前就读于河南工业大学，魔法学院，土木工程专业",
@@ -39,5 +33,11 @@
     "name": "闪烁之狐",
     "introduction": "编程界大佬，技术牛，人还特别好，不懂的都可以请教大佬",
     "url": "https://blinkfox.github.io/",
+    "title": "前去学习"
+}, {
+    "avatar": "http://www.devio.org/img/avatar.png",
+    "name": "贾鹏辉",
+    "introduction": "贾鹏辉的技术博客官网，专注于移动开发，Android&iOS架构师 & 技术经理 & 移动端负责人 ，CSDN 博客专家。",
+    "url": "http://www.devio.org/",
     "title": "前去学习"
 }]
