@@ -6,7 +6,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="https://frytea.com/"/>
-  <updated>2019-04-12T12:46:59.775Z</updated>
+  <updated>2019-04-13T14:26:45.056Z</updated>
   <id>https://frytea.com/</id>
   
   <author>
@@ -15,6 +15,36 @@
   </author>
   
   <generator uri="http://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>Windows Update服务启动弹出“拒绝访问的解决方案</title>
+    <link href="https://frytea.com/2019/04/13/windows-update-fu-wu-qi-dong-dan-chu-ju-jue-fang-wen-de-jie-jue-fang-an/"/>
+    <id>https://frytea.com/2019/04/13/windows-update-fu-wu-qi-dong-dan-chu-ju-jue-fang-wen-de-jie-jue-fang-an/</id>
+    <published>2019-04-13T14:25:25.000Z</published>
+    <updated>2019-04-13T14:26:45.056Z</updated>
+    
+    <summary type="html">
+    
+      
+      
+        
+        
+          &lt;h1 id=&quot;Windows-Update服务启动弹出“拒绝访问的解决方案”&quot;&gt;&lt;a href=&quot;#Windows-Update服务启动弹出“拒绝访问的解决方案”&quot; class=&quot;headerlink&quot; title=&quot;Windows
+        
+      
+    
+    </summary>
+    
+      <category term="技术博文" scheme="https://frytea.com/categories/%E6%8A%80%E6%9C%AF%E5%8D%9A%E6%96%87/"/>
+    
+    
+      <category term="windows" scheme="https://frytea.com/tags/windows/"/>
+    
+      <category term="自动更新" scheme="https://frytea.com/tags/%E8%87%AA%E5%8A%A8%E6%9B%B4%E6%96%B0/"/>
+    
+      <category term="拒绝访问" scheme="https://frytea.com/tags/%E6%8B%92%E7%BB%9D%E8%AE%BF%E9%97%AE/"/>
+    
+  </entry>
   
   <entry>
     <title>私有vpn搭建工具集合及靠谱的vpn提供商</title>
@@ -547,32 +577,6 @@
       <category term="mysql" scheme="https://frytea.com/tags/mysql/"/>
     
       <category term="计算机二级" scheme="https://frytea.com/tags/%E8%AE%A1%E7%AE%97%E6%9C%BA%E4%BA%8C%E7%BA%A7/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>2019.3.24「24」</title>
-    <link href="https://frytea.com/2019/03/24/2019-3-24/"/>
-    <id>https://frytea.com/2019/03/24/2019-3-24/</id>
-    <published>2019-03-24T13:20:40.000Z</published>
-    <updated>2019-03-31T15:45:31.207Z</updated>
-    
-    <summary type="html">
-    
-      
-      
-        
-        
-          &lt;h1 id=&quot;2019-3-24「24」&quot;&gt;&lt;a href=&quot;#2019-3-24「24」&quot; class=&quot;headerlink&quot;
-        
-      
-    
-    </summary>
-    
-      <category term="日记" scheme="https://frytea.com/categories/%E6%97%A5%E8%AE%B0/"/>
-    
-    
-      <category term="日记" scheme="https://frytea.com/tags/%E6%97%A5%E8%AE%B0/"/>
     
   </entry>
   
