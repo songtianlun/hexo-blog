@@ -4,7 +4,6 @@ date: 2019-04-11 22:34:02
 tags: 
   - win10
   - Rational_Rose
-  - Alcohol120%
 author: 宋天伦
 categories:
   - 技术博文
@@ -33,7 +32,7 @@ Rational rose是一款创建UML模型的软件，由于其相对古老，因此�
 
 ## 安装流程
 
-#### Alcohol120%的安装
+### Alcohol120%的安装
 1）下载完解压缩后，开启Alcohol120_retail_2.0.3.10221.exe→下一步→我同意→
 2）取消勾选“安装智能文件顾问”→下一步
 3）请注意“多语言文件”一定要勾选（语言档）→下一步→安装
@@ -47,7 +46,7 @@ PS）如果出现「输入合法的使用序号后方能使用」，代表第5�
 安装成功，软件运行效果：
 ![](https://raw.githubusercontent.com/songtianlun/Image-Hosting/image/20190411221325.png)
 
-#### 打开Rational rose软件安装包
+### 打开Rational rose软件安装包
 打开记事本，输入如下代码：
 
 ```
@@ -71,7 +70,7 @@ CUE文件的文件名除了扩展名外，其余都与相应的BIN文件一致�
 此时打开虚拟光驱软件alcohol120%加载镜像即可。
 ![](https://raw.githubusercontent.com/songtianlun/Image-Hosting/image/20190411221837.png)
 
-#### 安装Rational rose
+### 安装Rational rose
 打开虚拟光驱，运行安装程序。
 ![](https://raw.githubusercontent.com/songtianlun/Image-Hosting/image/20190411222539.png)
 
@@ -103,6 +102,15 @@ Finish！
 ![](https://raw.githubusercontent.com/songtianlun/Image-Hosting/image/20190411222852.png)
 
 ![](https://raw.githubusercontent.com/songtianlun/Image-Hosting/image/20190411222957.png)
+
+
+UML用例模型备用教程
+- [Rational Rose与UML教程](https://www.cnblogs.com/xuyuanjia/p/5808517.html)
+- [UML建模详解（6）—Rose类图绘制总结](https://blog.csdn.net/fanyun_01/article/details/51094799)
+- [用Rational Rose画用例图](https://jingyan.baidu.com/article/3f16e003c3b9172591c10301.html)
+- [用rose画UML图（用例图，活动图）](https://www.cnblogs.com/lilicat/p/5540861.html)
+
+
 
 ## 参考文献
 - [酒精 Alcohol 120% v2.0.3.11012 (繁體中文下載+免費序號註冊+影片教學)](http://a4287604.pixnet.net/blog/post/130199243-%E9%85%92%E7%B2%BE-alcohol-120%25-v2.0.3.10121-%28%E7%B9%81%E9%AB%94%E4%B8%AD%E6%96%87%E4%B8%8B%E8%BC%89%2B%E8%A8%BB%E5%86%8A%2B)
