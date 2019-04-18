@@ -28,7 +28,7 @@
     </style>
 
     <script src="/libs/jquery/jquery-2.2.0.min.js"></script>
-<link rel="stylesheet" href="/css/prism-tomorrow.css" type="text/css"></head>
+</head>
 
 
 <body>
@@ -527,7 +527,7 @@ $$
 <h4 id="任务"><a href="#任务" class="headerlink" title="任务"></a>任务</h4><ul>
 <li style="list-style: none"><input type="checkbox" checked> 任务</li>
 </ul>
-<h4 id="图表"><a href="#图表" class="headerlink" title="图表"></a>图表</h4><h5 id="饼图"><a href="#饼图" class="headerlink" title="饼图"></a>饼图</h5><pre class=" language-chart"><code class="language-chart">,Budget,Income,Expenses,Debt
+<h4 id="图表"><a href="#图表" class="headerlink" title="图表"></a>图表</h4><h5 id="饼图"><a href="#饼图" class="headerlink" title="饼图"></a>饼图</h5><pre><code class="chart">,Budget,Income,Expenses,Debt
 June,5000,8000,4000,6000
 July,3000,1000,4000,3000
 Aug,5000,7000,6000,3000
@@ -541,7 +541,7 @@ x.title: Amount
 y.title: Month
 y.suffix: $
 </code></pre>
-<h5 id="折线图"><a href="#折线图" class="headerlink" title="折线图"></a>折线图</h5><pre class=" language-chart"><code class="language-chart">,Budget,Income,Expenses,Debt
+<h5 id="折线图"><a href="#折线图" class="headerlink" title="折线图"></a>折线图</h5><pre><code class="chart">,Budget,Income,Expenses,Debt
 June,5000,8000,4000,6000
 July,3000,1000,4000,3000
 Aug,5000,7000,6000,3000
@@ -555,7 +555,7 @@ x.title: Amount
 y.title: Month
 y.suffix: $
 </code></pre>
-<h5 id="柱状图"><a href="#柱状图" class="headerlink" title="柱状图"></a>柱状图</h5><pre class=" language-chart"><code class="language-chart">,Budget,Income,Expenses,Debt
+<h5 id="柱状图"><a href="#柱状图" class="headerlink" title="柱状图"></a>柱状图</h5><pre><code class="chart">,Budget,Income,Expenses,Debt
 June,5000,8000,4000,6000
 July,3000,1000,4000,3000
 Aug,5000,7000,6000,3000
@@ -569,7 +569,7 @@ x.title: Amount
 y.title: Month
 y.suffix: $
 </code></pre>
-<h5 id="横向柱状图"><a href="#横向柱状图" class="headerlink" title="横向柱状图"></a>横向柱状图</h5><pre class=" language-chart"><code class="language-chart">,Budget,Income,Expenses,Debt
+<h5 id="横向柱状图"><a href="#横向柱状图" class="headerlink" title="横向柱状图"></a>横向柱状图</h5><pre><code class="chart">,Budget,Income,Expenses,Debt
 June,5000,8000,4000,6000
 July,3000,1000,4000,3000
 Aug,5000,7000,6000,3000
@@ -583,20 +583,20 @@ x.title: Amount
 y.title: Month
 y.suffix: $
 </code></pre>
-<h4 id="数学公式"><a href="#数学公式" class="headerlink" title="数学公式"></a>数学公式</h4><pre class=" language-math"><code class="language-math">e^{i\pi} + 1 = 0
+<h4 id="数学公式"><a href="#数学公式" class="headerlink" title="数学公式"></a>数学公式</h4><pre><code class="math">e^{i\pi} + 1 = 0
 </code></pre>
-<h4 id="流程图"><a href="#流程图" class="headerlink" title="流程图"></a>流程图</h4><pre class=" language-mermaid"><code class="language-mermaid">graph TD
-A[模块A] -->|A1| B(模块B)
-B --> C{判断条件C}
-C -->|条件C1| D[模块D]
-C -->|条件C2| E[模块E]
-C -->|条件C3| F[模块F]
+<h4 id="流程图"><a href="#流程图" class="headerlink" title="流程图"></a>流程图</h4><pre><code class="mermaid">graph TD
+A[模块A] --&gt;|A1| B(模块B)
+B --&gt; C{判断条件C}
+C --&gt;|条件C1| D[模块D]
+C --&gt;|条件C2| E[模块E]
+C --&gt;|条件C3| F[模块F]
 </code></pre>
-<h4 id="时序图"><a href="#时序图" class="headerlink" title="时序图"></a>时序图</h4><pre class=" language-mermaid"><code class="language-mermaid">sequenceDiagram
-A->>B: 是否已收到消息？
-B-->>A: 已收到消息
+<h4 id="时序图"><a href="#时序图" class="headerlink" title="时序图"></a>时序图</h4><pre><code class="mermaid">sequenceDiagram
+A-&gt;&gt;B: 是否已收到消息？
+B--&gt;&gt;A: 已收到消息
 </code></pre>
-<h4 id="甘特图"><a href="#甘特图" class="headerlink" title="甘特图"></a>甘特图</h4><pre class=" language-mermaid"><code class="language-mermaid">gantt
+<h4 id="甘特图"><a href="#甘特图" class="headerlink" title="甘特图"></a>甘特图</h4><pre><code class="mermaid">gantt
 title 甘特图
 dateFormat  YYYY-MM-DD
 section 项目A
