@@ -449,14 +449,14 @@ vps自建vpn方法shadowsocks(ss)传送门：shadowsocks官网
                     
                     <div class="info-break-policy">
                         <i class="fa fa-file-word-o fa-fw"></i>文章字数:&nbsp;&nbsp;
-                        804
+                        1.1k
                     </div>
                     
 
                     
                     <div class="info-break-policy">
                         <i class="fa fa-clock-o fa-fw"></i>阅读时长:&nbsp;&nbsp;
-                        2 分
+                        4 分
                     </div>
                     
                 
@@ -473,7 +473,7 @@ vps自建vpn方法shadowsocks(ss)传送门：shadowsocks官网
         <div class="card-content article-card-content">
             <div id="articleContent">
                 <p>经过长时间的摸索及入坑之后，终于找到两种比较好的vpn上网方式，一种是自建站点，一种是使用服务商提供的，当然相比之下第一种更加靠谱，下面详细介绍一下：</p>
-<h2 id="vps自建vpn方法"><a href="#vps自建vpn方法" class="headerlink" title="vps自建vpn方法"></a>vps自建vpn方法</h2><h4 id="shadowsocks-ss"><a href="#shadowsocks-ss" class="headerlink" title="shadowsocks(ss)"></a>shadowsocks(ss)</h4><p>传送门：<a href="https://shadowsocks.org/en/index.html" target="_blank" rel="noopener">shadowsocks官网</a></p>
+<h2 id="vps自建vpn方法"><a href="#vps自建vpn方法" class="headerlink" title="vps自建vpn方法"></a>vps自建vpn方法</h2><h3 id="shadowsocks-ss"><a href="#shadowsocks-ss" class="headerlink" title="shadowsocks(ss)"></a>shadowsocks(ss)</h3><p>传送门：<a href="https://shadowsocks.org/en/index.html" target="_blank" rel="noopener">shadowsocks官网</a></p>
 <p>针对这种方式，之前有写到一篇文章详细介绍：</p>
 <ul>
 <li><a href="https://frytea.com/2019/01/12/vps-shi-yong-shadowsocks-da-jian-vpn/">vps使用Shadowsocks搭建vpn</a></li>
@@ -485,7 +485,7 @@ vps自建vpn方法shadowsocks(ss)传送门：shadowsocks官网
 <li><p>windows客户端：<a href="https://data.songtianlun.cn/vpn/Shadowsocks-4.1.3.1.zip" target="_blank" rel="noopener">下载</a></p>
 </li>
 </ul>
-<h4 id="SSR"><a href="#SSR" class="headerlink" title="SSR"></a>SSR</h4><p>ssr的安装教程及各种信息我找到一个资源相对较全的网站：<br>传送门：<a href="https://ssr.tools/" target="_blank" rel="noopener">ssr中文网</a></p>
+<h3 id="SSR"><a href="#SSR" class="headerlink" title="SSR"></a>SSR</h3><p>ssr的安装教程及各种信息我找到一个资源相对较全的网站：<br>传送门：<a href="https://ssr.tools/" target="_blank" rel="noopener">ssr中文网</a></p>
 <p>在这里摘录几篇比较实用的文章：</p>
 <p>首先搭建ssr需要使用到vps，于是就有了:</p>
 <ul>
@@ -508,6 +508,16 @@ vps自建vpn方法shadowsocks(ss)传送门：shadowsocks官网
 <ul>
 <li><a href="https://ssr.tools/104" target="_blank" rel="noopener">美国Apple ID申请注册教程 亲测可用 （美区Apple ID注册）</a></li>
 </ul>
+<h4 id="Linux系统下ssr客户端的配置"><a href="#Linux系统下ssr客户端的配置" class="headerlink" title="Linux系统下ssr客户端的配置"></a>Linux系统下ssr客户端的配置</h4><p>ssr官方没有提供linux版本的客户端，但是有人开发了适用于linux桌面的图形客户端<a href="https://github.com/erguotou520/electron-ssr" target="_blank" rel="noopener">electron-ssr</a>,实现了相关功能，在这里稍微介绍一下。</p>
+<p>环境：ubuntu 18.04</p>
+<p>首先下载最新的 deb 安装包<br>例：<br><a href="https://github.com/erguotou520/electron-ssr/releases/download/v0.2.6/electron-ssr-0.2.6.deb" target="_blank" rel="noopener">electron-ssr-0.2.6.deb</a></p>
+<p>然后使用下面的命令安装：</p>
+<pre><code>sudo dpkg -i electron-ssr_0.2.3_amd64.deb
+</code></pre><p>之后导入数据启动即可，但是我在安装过程中出现一个问题，那就是无论如何打开软件用不了代理，最终在issue找到答案</p>
+<p><a href="https://github.com/erguotou520/electron-ssr/issues/230" target="_blank" rel="noopener">electron-ssr/issues/#230</a></p>
+<p>大致解决方案为运行下列代码：</p>
+<pre><code>sudo ln -s /usr/bin/python3 /usr/bin/python
+</code></pre><p>完成！</p>
 <p>vpn和ss/ssr有一定区别，而对于ss和ssr来说，两者系出同门，难分伯仲，二者区别我也找了一篇文章来介绍，主要摘录如下：</p>
 <blockquote>
 <p>以前我们翻墙的时候最常用的就是vpn了，而2年前，ss被开源(ss出现一年后，开源社区的破娃小姐姐在ss的基础上发布了ssr)，现在已经是最流行的翻墙方案。</p>
@@ -515,15 +525,35 @@ vps自建vpn方法shadowsocks(ss)传送门：shadowsocks官网
 <ul>
 <li><a href="https://deeponion.org/community/threads/vpnss-ssr.901/" target="_blank" rel="noopener">Vpn与ss/ssr的区别</a></li>
 </ul>
-<h4 id="Outline"><a href="#Outline" class="headerlink" title="Outline"></a>Outline</h4><p>outline是谷歌推出的一整套系统，包括服务器端、可视化服务管理端及移动端整套，可以用来很方便直接的搭建自己的vpn，特点在于它带有一个可视化的管理软件，可以用来一键分享、授权vpn访问权限，当然，也是需要搭建在自己的vps上的，详细说明见官网，官网给出了很详细的安装流程。</p>
+<h3 id="Outline"><a href="#Outline" class="headerlink" title="Outline"></a>Outline</h3><p>outline是谷歌推出的一整套系统，包括服务器端、可视化服务管理端及移动端整套，可以用来很方便直接的搭建自己的vpn，特点在于它带有一个可视化的管理软件，可以用来一键分享、授权vpn访问权限，当然，也是需要搭建在自己的vps上的，详细说明见官网，官网给出了很详细的安装流程。</p>
 <ul>
 <li><a href="https://getoutline.org/zh-CN/home" target="_blank" rel="noopener">官网传送门</a></li>
 </ul>
-<h4 id="泡芙云"><a href="#泡芙云" class="headerlink" title="泡芙云"></a>泡芙云</h4><p>一直受到第三方vpn无良商人的毒害，如今终于找到一个比较靠谱的vpn提供商，那就是泡芙云，价格不贵，最便宜8元一个月就可以享受到100m的vpn服务，而且泡芙云网站为Puff Networks LLC(US)所有，受美国当地法律保护。</p>
+<h3 id="泡芙云"><a href="#泡芙云" class="headerlink" title="泡芙云"></a>泡芙云</h3><p>一直受到第三方vpn无良商人的毒害，如今终于找到一个比较靠谱的vpn提供商，那就是泡芙云，价格不贵，最便宜8元一个月就可以享受到100m的vpn服务，而且泡芙云网站为Puff Networks LLC(US)所有，受美国当地法律保护。</p>
 <ul>
 <li><a href="https://www.paofucloud.com/" target="_blank" rel="noopener">官网传送门</a></li>
 </ul>
 <p>美中不足的地方在于这个网站必须翻墙才能上去，因此可以先使用蓝灯等比较廉价的vpn注册，再使用泡芙云提供的服务。</p>
+<h2 id="参考文献"><a href="#参考文献" class="headerlink" title="参考文献"></a>参考文献</h2><ul>
+<li><a href="http://www.pianshen.com/article/366213168/" target="_blank" rel="noopener">在 Ubuntu 上使用 SSR 梯子</a></li>
+<li><a href="https://frytea.com/2019/01/12/vps-shi-yong-shadowsocks-da-jian-vpn/">vps使用Shadowsocks搭建vpn</a></li>
+<li><p><a href="https://frytea.com/2019/01/12/vps-shi-yong-shadowsocks-da-jian-vpn/">vps使用Shadowsocks搭建vpn</a></p>
+</li>
+<li><p><a href="https://ssr.tools/55" target="_blank" rel="noopener">适合搭建SSR的国外VPS服务器推荐汇总</a></p>
+</li>
+<li><p><a href="https://ssr.tools/31" target="_blank" rel="noopener">SSR一键安装脚本 (ShadowsocksR一键安装教程)</a></p>
+</li>
+<li><p><a href="https://ssr.tools/175" target="_blank" rel="noopener">SSR各平台客户端下载汇总</a></p>
+</li>
+<li><p><a href="https://ssr.tools/122" target="_blank" rel="noopener">iphone/ipad等苹果设备IOS系统 免费SSR客户端推荐汇总</a></p>
+</li>
+<li><p><a href="https://ssr.tools/125" target="_blank" rel="noopener">IOS 免费SSR客户端 Potatso Lite下载及使用教程（iphone/ipad可用）)</a></p>
+</li>
+<li><p><a href="https://ssr.tools/104" target="_blank" rel="noopener">美国Apple ID申请注册教程 亲测可用 （美区Apple ID注册）</a></p>
+</li>
+<li><p><a href="https://deeponion.org/community/threads/vpnss-ssr.901/" target="_blank" rel="noopener">Vpn与ss/ssr的区别</a></p>
+</li>
+</ul>
 
             </div>
             <hr>
@@ -1041,7 +1071,7 @@ vps自建vpn方法shadowsocks(ss)传送门：shadowsocks官网
 
             
                 &nbsp;<i class="fa fa-area-chart"></i>&nbsp;站点总字数:&nbsp;
-                <span class="white-color">116k</span>
+                <span class="white-color">116.3k</span>
             
 
             
