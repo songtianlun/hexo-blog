@@ -6,7 +6,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="https://frytea.com/"/>
-  <updated>2019-04-14T17:35:33.542Z</updated>
+  <updated>2019-04-25T17:26:32.232Z</updated>
   <id>https://frytea.com/</id>
   
   <author>
@@ -15,6 +15,30 @@
   </author>
   
   <generator uri="http://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>每一分钟都在探索</title>
+    <link href="https://frytea.com/2019/04/26/mei-yi-fen-zhong-du-zai-tan-suo/"/>
+    <id>https://frytea.com/2019/04/26/mei-yi-fen-zhong-du-zai-tan-suo/</id>
+    <published>2019-04-25T17:25:35.000Z</published>
+    <updated>2019-04-25T17:26:32.232Z</updated>
+    
+    <summary type="html">
+    
+      
+      
+        
+        
+          &lt;h1 id=&quot;每一分钟都在探索&quot;&gt;&lt;a href=&quot;#每一分钟都在探索&quot; class=&quot;headerlink&quot;
+        
+      
+    
+    </summary>
+    
+      <category term="生活心得" scheme="https://frytea.com/categories/%E7%94%9F%E6%B4%BB%E5%BF%83%E5%BE%97/"/>
+    
+    
+  </entry>
   
   <entry>
     <title>‘究竟什么才算“误入歧途”‘</title>
@@ -546,34 +570,6 @@
     
     
       <category term="日记" scheme="https://frytea.com/tags/%E6%97%A5%E8%AE%B0/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>Mysql学习小记（五）</title>
-    <link href="https://frytea.com/2019/03/25/mysql-xue-xi-xiao-ji-wu/"/>
-    <id>https://frytea.com/2019/03/25/mysql-xue-xi-xiao-ji-wu/</id>
-    <published>2019-03-25T12:45:02.000Z</published>
-    <updated>2019-03-31T15:45:32.963Z</updated>
-    
-    <summary type="html">
-    
-      
-      
-        
-        
-          &lt;h2 id=&quot;2019-3-25&quot;&gt;&lt;a href=&quot;#2019-3-25&quot; class=&quot;headerlink&quot; title=&quot;2019.3.25&quot;&gt;&lt;/a&gt;2019.3.25&lt;/h2&gt;&lt;h2 id=&quot;2019计算机二级mysql-第五套模拟&quot;&gt;&lt;a
-        
-      
-    
-    </summary>
-    
-      <category term="技术博文" scheme="https://frytea.com/categories/%E6%8A%80%E6%9C%AF%E5%8D%9A%E6%96%87/"/>
-    
-    
-      <category term="mysql" scheme="https://frytea.com/tags/mysql/"/>
-    
-      <category term="计算机二级" scheme="https://frytea.com/tags/%E8%AE%A1%E7%AE%97%E6%9C%BA%E4%BA%8C%E7%BA%A7/"/>
     
   </entry>
   
