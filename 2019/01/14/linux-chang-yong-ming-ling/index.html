@@ -5,14 +5,14 @@
 <head><meta name="generator" content="Hexo 3.8.0">
     <meta charset="utf-8">
     <meta name="keywords" content="Linux 常用命令, 宋天伦">
-    <meta name="description" content="(Centos)
+    <meta name="description" content="Linux常用命令@(技术博文-M)[linux]
 端口占用查询netstat -apn
 Centos查看端口占用情况命令
 比如查看80端口占用情况使用如下命令：
 
 lsof -i tcp:80
 列出所有端口netstat -ntlp
-程序归属（master为例）locat">
+程序">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="renderer" content="webkit|ie-stand|ie-comp">
@@ -438,14 +438,14 @@ lsof -i tcp:80
                     
                     <div class="info-break-policy">
                         <i class="fa fa-file-word-o fa-fw"></i>文章字数:&nbsp;&nbsp;
-                        884
+                        1.2k
                     </div>
                     
 
                     
                     <div class="info-break-policy">
                         <i class="fa fa-clock-o fa-fw"></i>阅读时长:&nbsp;&nbsp;
-                        3 分
+                        4 分
                     </div>
                     
                 
@@ -461,7 +461,7 @@ lsof -i tcp:80
         <hr class="clearfix">
         <div class="card-content article-card-content">
             <div id="articleContent">
-                <h1 id="Centos"><a href="#Centos" class="headerlink" title="(Centos)"></a>(Centos)</h1><hr>
+                <h1 id="Linux常用命令"><a href="#Linux常用命令" class="headerlink" title="Linux常用命令"></a>Linux常用命令</h1><p>@(技术博文-M)[linux]</p>
 <h2 id="端口占用查询"><a href="#端口占用查询" class="headerlink" title="端口占用查询"></a>端口占用查询</h2><pre><code>netstat -apn
 </code></pre><h3 id="Centos查看端口占用情况命令"><a href="#Centos查看端口占用情况命令" class="headerlink" title="Centos查看端口占用情况命令"></a>Centos查看端口占用情况命令</h3><blockquote>
 <p>比如查看80端口占用情况使用如下命令：</p>
@@ -487,6 +487,23 @@ lsof -i tcp:80
 </code></pre><h3 id="杀进程"><a href="#杀进程" class="headerlink" title="杀进程"></a>杀进程</h3><pre><code>使用kill命令结束进程：kill xxx
  例：kill －9 324
    Linux下还提供了一个killall命令，可以直接使用进程的名字而不是进程标识号，例如：# killall -9 NAME
+</code></pre><h2 id="SSH使用"><a href="#SSH使用" class="headerlink" title="SSH使用"></a>SSH使用</h2><h3 id="1-ssh远程登录服务器"><a href="#1-ssh远程登录服务器" class="headerlink" title="1 ssh远程登录服务器"></a>1 ssh远程登录服务器</h3><pre><code>ssh username@remote_ip 
+#将username换成自己的用户名，将remote_ip换成远程服务器的ip地址
+</code></pre><h3 id="2-将文件-文件夹从远程服务器拷至本地-scp"><a href="#2-将文件-文件夹从远程服务器拷至本地-scp" class="headerlink" title="2 将文件/文件夹从远程服务器拷至本地(scp)"></a>2 将文件/文件夹从远程服务器拷至本地(scp)</h3><pre><code>scp -r username@remote_ip:/home/username/remotefile.txt 
+</code></pre><h3 id="3-将文件-文件夹从本地拷至远程服务器-scp"><a href="#3-将文件-文件夹从本地拷至远程服务器-scp" class="headerlink" title="3 将文件/文件夹从本地拷至远程服务器(scp)"></a>3 将文件/文件夹从本地拷至远程服务器(scp)</h3><pre><code>scp -r localfile.txt username@remote_ip:/home/username/
+</code></pre><h3 id="4-将文件-文件夹从远程服务器拷至本地-rsync"><a href="#4-将文件-文件夹从远程服务器拷至本地-rsync" class="headerlink" title="4 将文件/文件夹从远程服务器拷至本地(rsync)"></a>4 将文件/文件夹从远程服务器拷至本地(rsync)</h3><pre><code>rsync -v -u -a --delete --rsh=ssh –stats username@remote_ip:/home/username/remotefile.txt .
+</code></pre><h3 id="5-将文件-文件夹从本地拷至远程服务器-rsync"><a href="#5-将文件-文件夹从本地拷至远程服务器-rsync" class="headerlink" title="5 将文件/文件夹从本地拷至远程服务器(rsync)"></a>5 将文件/文件夹从本地拷至远程服务器(rsync)</h3><pre><code>rsync -v -u -a --delete --rsh=ssh --stats localfile.txt username@remote_ip:/home/username/
+</code></pre><h3 id="6-连接远程ssh非22端口的服务器-ssh端口为12345"><a href="#6-连接远程ssh非22端口的服务器-ssh端口为12345" class="headerlink" title="6 连接远程ssh非22端口的服务器(ssh端口为12345)"></a>6 连接远程ssh非22端口的服务器(ssh端口为12345)</h3><pre><code>ssh -p 12345 username@remote_ip
+</code></pre><h3 id="7-远程拷贝ssh非22端口的服务器文件-ssh端口为12345"><a href="#7-远程拷贝ssh非22端口的服务器文件-ssh端口为12345" class="headerlink" title="7 远程拷贝ssh非22端口的服务器文件(ssh端口为12345)"></a>7 远程拷贝ssh非22端口的服务器文件(ssh端口为12345)</h3><pre><code>scp -P 12345 local_file username@remote_ip:remote_dir
+
+scp -P 12345 username@remote_ip:remote_file local_dir
+
+scp -o port=12345 username@remote_ip:remote_file local_dir
+
+scp -P 12345 -r local_dir/.* username@remote_ip:remote_dir
+</code></pre><p>拷贝目录，-r是将目录下的目录递归拷贝。”.*”是将隐藏文件也拷贝过去。需要先在远端创建好相应的目录。</p>
+<p>sftp用法</p>
+<pre><code>sftp -o port=12345 username@remote_ip:remote_dir
 </code></pre><h2 id="Docker"><a href="#Docker" class="headerlink" title="Docker"></a>Docker</h2><h3 id="Docker-stop停止-remove删除所有容器"><a href="#Docker-stop停止-remove删除所有容器" class="headerlink" title="Docker stop停止/remove删除所有容器"></a>Docker stop停止/remove删除所有容器</h3><pre><code>    $ docker ps // 查看所有正在运行容器
     $ docker stop containerId // containerId 是容器的ID
 
@@ -1034,7 +1051,7 @@ WordPress优化：给博客添加评论输入特效
 
             
                 &nbsp;<i class="fa fa-area-chart"></i>&nbsp;站点总字数:&nbsp;
-                <span class="white-color">118k</span>
+                <span class="white-color">118.3k</span>
             
 
             

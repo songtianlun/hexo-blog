@@ -1482,31 +1482,6 @@
     
     
     <entry>
-      <title>【学习笔记】和家人和睦相处的法则</title>
-      <link href="/2019/02/23/xue-xi-bi-ji-he-jia-ren-he-mu-xiang-chu-de-fa-ze/"/>
-      <url>/2019/02/23/xue-xi-bi-ji-he-jia-ren-he-mu-xiang-chu-de-fa-ze/</url>
-      
-        <content type="html"><![CDATA[<p>最近考虫赠送了重塑思维的十五讲，尚龙老师主讲的课程，今天讲到了【和家人和睦相处的法则】这一讲，感触良多，分享出来自己的笔记以及自己的想法。  </p><p>3.经济独立，用独立去获得自由</p><p>经济独立是基于所有基础之上的，经济独立，身体自由，灵魂自由</p><p>毕业后的建议</p><p>1）如果迷茫，就先赚钱</p><p>如果在村庄，离开村庄去大城市</p><p>2）</p><p>3）先尽忠，再尽孝</p><p>父母在，不远游；欲远游，必有方。</p><p>4.不要用语言对抗，用行动去沟通</p><p>1）不要用语言对抗，用行为沟通</p><p>2）孝顺的主要含义是顺，而不是孝</p><p>3）有时候该蹩就蹩</p><p>我们又时候很喜欢争口舌的输赢，其实真理常常蕴含在行动中。</p><p>5.去影响父母，和他们共同成长</p><p>1）要多把你看到的新事物告诉父母</p><p>2）要多问父母一些问题，哪怕这些问题你有答案</p><p>3）不要烦，他们当时就是这么对你的</p><p>4）沟通才能减少误会，哪怕是吵架</p>]]></content>
-      
-      
-      <categories>
-          
-          <category> 生活心得 </category>
-          
-      </categories>
-      
-      
-        <tags>
-            
-            <tag> 学习笔记 </tag>
-            
-        </tags>
-      
-    </entry>
-    
-    
-    
-    <entry>
       <title>【书评】一百个人的十年</title>
       <link href="/2019/02/23/shu-ping-yi-bai-ge-ren-de-shi-nian/"/>
       <url>/2019/02/23/shu-ping-yi-bai-ge-ren-de-shi-nian/</url>
@@ -1524,6 +1499,31 @@
         <tags>
             
             <tag> 书评 </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>【学习笔记】和家人和睦相处的法则</title>
+      <link href="/2019/02/23/xue-xi-bi-ji-he-jia-ren-he-mu-xiang-chu-de-fa-ze/"/>
+      <url>/2019/02/23/xue-xi-bi-ji-he-jia-ren-he-mu-xiang-chu-de-fa-ze/</url>
+      
+        <content type="html"><![CDATA[<p>最近考虫赠送了重塑思维的十五讲，尚龙老师主讲的课程，今天讲到了【和家人和睦相处的法则】这一讲，感触良多，分享出来自己的笔记以及自己的想法。  </p><p>3.经济独立，用独立去获得自由</p><p>经济独立是基于所有基础之上的，经济独立，身体自由，灵魂自由</p><p>毕业后的建议</p><p>1）如果迷茫，就先赚钱</p><p>如果在村庄，离开村庄去大城市</p><p>2）</p><p>3）先尽忠，再尽孝</p><p>父母在，不远游；欲远游，必有方。</p><p>4.不要用语言对抗，用行动去沟通</p><p>1）不要用语言对抗，用行为沟通</p><p>2）孝顺的主要含义是顺，而不是孝</p><p>3）有时候该蹩就蹩</p><p>我们又时候很喜欢争口舌的输赢，其实真理常常蕴含在行动中。</p><p>5.去影响父母，和他们共同成长</p><p>1）要多把你看到的新事物告诉父母</p><p>2）要多问父母一些问题，哪怕这些问题你有答案</p><p>3）不要烦，他们当时就是这么对你的</p><p>4）沟通才能减少误会，哪怕是吵架</p>]]></content>
+      
+      
+      <categories>
+          
+          <category> 生活心得 </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> 学习笔记 </tag>
             
         </tags>
       
@@ -2196,7 +2196,7 @@
       <link href="/2019/01/14/linux-chang-yong-ming-ling/"/>
       <url>/2019/01/14/linux-chang-yong-ming-ling/</url>
       
-        <content type="html"><![CDATA[<h1 id="Centos"><a href="#Centos" class="headerlink" title="(Centos)"></a>(Centos)</h1><hr><h2 id="端口占用查询"><a href="#端口占用查询" class="headerlink" title="端口占用查询"></a>端口占用查询</h2><pre><code>netstat -apn</code></pre><h3 id="Centos查看端口占用情况命令"><a href="#Centos查看端口占用情况命令" class="headerlink" title="Centos查看端口占用情况命令"></a>Centos查看端口占用情况命令</h3><blockquote><p>比如查看80端口占用情况使用如下命令：</p></blockquote><p><code>lsof -i tcp:80</code></p><h3 id="列出所有端口"><a href="#列出所有端口" class="headerlink" title="列出所有端口"></a>列出所有端口</h3><p><code>netstat -ntlp</code></p><h3 id="程序归属（master为例）"><a href="#程序归属（master为例）" class="headerlink" title="程序归属（master为例）"></a>程序归属（master为例）</h3><pre><code>locate  master | grep &#39;/master$&#39;</code></pre><h4 id="初始化（新安装命令生效）"><a href="#初始化（新安装命令生效）" class="headerlink" title="初始化（新安装命令生效）"></a>初始化（新安装命令生效）</h4><pre><code>sudo updatedb</code></pre><h2 id="进程管理"><a href="#进程管理" class="headerlink" title="进程管理"></a>进程管理</h2><h3 id="查进程"><a href="#查进程" class="headerlink" title="查进程"></a>查进程</h3><pre><code>ps命令查找与进程相关的PID号：    ps a 显示现行终端机下的所有程序，包括其他用户的程序。    ps -A 显示所有程序。    ps c 列出程序时，显示每个程序真正的指令名称，而不包含路径，参数或常驻服务的标示。    ps -e 此参数的效果和指定&quot;A&quot;参数相同。    ps e 列出程序时，显示每个程序所使用的环境变量。    ps f 用ASCII字符显示树状结构，表达程序间的相互关系。    ps -H 显示树状结构，表示程序间的相互关系。    ps -N 显示所有的程序，除了执行ps指令终端机下的程序之外。    ps s 采用程序信号的格式显示程序状况。    ps S 列出程序时，包括已中断的子程序资料。    ps -t&lt;终端机编号&gt; 指定终端机编号，并列出属于该终端机的程序的状况。    ps u 以用户为主的格式来显示程序状况。    ps x 显示所有程序，不以终端机来区分。</code></pre><h3 id="杀进程"><a href="#杀进程" class="headerlink" title="杀进程"></a>杀进程</h3><pre><code>使用kill命令结束进程：kill xxx 例：kill －9 324   Linux下还提供了一个killall命令，可以直接使用进程的名字而不是进程标识号，例如：# killall -9 NAME</code></pre><h2 id="Docker"><a href="#Docker" class="headerlink" title="Docker"></a>Docker</h2><h3 id="Docker-stop停止-remove删除所有容器"><a href="#Docker-stop停止-remove删除所有容器" class="headerlink" title="Docker stop停止/remove删除所有容器"></a>Docker stop停止/remove删除所有容器</h3><pre><code>    $ docker ps // 查看所有正在运行容器    $ docker stop containerId // containerId 是容器的ID    $ docker ps -a // 查看所有容器    $ docker ps -a -q // 查看所有容器ID    $ docker stop $(docker ps -a -q) //  stop停止所有容器    $ docker  rm $(docker ps -a -q) //   remove删除所有容器</code></pre><h3 id="批量删除Docker中已经停止的容器"><a href="#批量删除Docker中已经停止的容器" class="headerlink" title="批量删除Docker中已经停止的容器"></a>批量删除Docker中已经停止的容器</h3><pre><code>方法一： #显示所有的容器，过滤出Exited状态的容器，取出这些容器的ID， sudo docker ps -a|grep Exited|awk &#39;{print $1}&#39; #查询所有的容器，过滤出Exited状态的容器，列出容器ID，删除这些容器 sudo docker rm \`docker ps -a|grep Exited|awk &#39;{print $1}&#39;\` 方法二： #删除所有未运行的容器（已经运行的删除不了，未运行的就一起被删除了） sudo docker rm $(sudo docker ps -a -q) 方法三： #根据容器的状态，删除Exited状态的容器 sudo docker rm $(sudo docker ps -qf status=exited) 方法四： #Docker 1.13版本以后，可以使用 docker containers prune 命令，删除孤立的容器。 sudo docker container prune #删除所有镜像 sudo docker rmi $(docker images -q)</code></pre><h2 id="实用指令"><a href="#实用指令" class="headerlink" title="实用指令"></a>实用指令</h2><h3 id="统计当前目录下所有文件及文件夹大小"><a href="#统计当前目录下所有文件及文件夹大小" class="headerlink" title="统计当前目录下所有文件及文件夹大小"></a>统计当前目录下所有文件及文件夹大小</h3><pre><code>    du -h --max-depth=1</code></pre><h3 id="创建任意网站镜像"><a href="#创建任意网站镜像" class="headerlink" title="创建任意网站镜像"></a>创建任意网站镜像</h3><pre><code>wget -mk -w 20 http://www.example.com///命令行中的20代表间隔20秒下载一个文件，这样可以避免网站的访问过于频繁。你可以调小点，但当你是备份别人的站时，还是为别人的服务器考虑下吧。</code></pre><h2 id="问题解决"><a href="#问题解决" class="headerlink" title="问题解决"></a>问题解决</h2><h3 id="git-“ssh-add-ssh-id-rsa”-Could-not-open-a-connection-to-your-authentication-agent问题解决"><a href="#git-“ssh-add-ssh-id-rsa”-Could-not-open-a-connection-to-your-authentication-agent问题解决" class="headerlink" title="git “ssh-add ~/.ssh/id_rsa” Could not open a connection to your authentication agent问题解决"></a>git “ssh-add ~/.ssh/id_rsa” Could not open a connection to your authentication agent问题解决</h3><p>使用git，添加私钥时发生如下错误</p><p><code>ssh-add ~/.ssh/id_rsa</code><br>输出错误： <code>Could not open a connection to your authentication agent</code></p><p>解决此问题的方法是执行下<br><code>eval `ssh-agent -s</code><br>然后再次执行ssh-add ~/.ssh/id_rsa就可以顺利执行了</p>]]></content>
+        <content type="html"><![CDATA[<h1 id="Linux常用命令"><a href="#Linux常用命令" class="headerlink" title="Linux常用命令"></a>Linux常用命令</h1><p>@(技术博文-M)[linux]</p><h2 id="端口占用查询"><a href="#端口占用查询" class="headerlink" title="端口占用查询"></a>端口占用查询</h2><pre><code>netstat -apn</code></pre><h3 id="Centos查看端口占用情况命令"><a href="#Centos查看端口占用情况命令" class="headerlink" title="Centos查看端口占用情况命令"></a>Centos查看端口占用情况命令</h3><blockquote><p>比如查看80端口占用情况使用如下命令：</p></blockquote><p><code>lsof -i tcp:80</code></p><h3 id="列出所有端口"><a href="#列出所有端口" class="headerlink" title="列出所有端口"></a>列出所有端口</h3><p><code>netstat -ntlp</code></p><h3 id="程序归属（master为例）"><a href="#程序归属（master为例）" class="headerlink" title="程序归属（master为例）"></a>程序归属（master为例）</h3><pre><code>locate  master | grep &#39;/master$&#39;</code></pre><h4 id="初始化（新安装命令生效）"><a href="#初始化（新安装命令生效）" class="headerlink" title="初始化（新安装命令生效）"></a>初始化（新安装命令生效）</h4><pre><code>sudo updatedb</code></pre><h2 id="进程管理"><a href="#进程管理" class="headerlink" title="进程管理"></a>进程管理</h2><h3 id="查进程"><a href="#查进程" class="headerlink" title="查进程"></a>查进程</h3><pre><code>ps命令查找与进程相关的PID号：    ps a 显示现行终端机下的所有程序，包括其他用户的程序。    ps -A 显示所有程序。    ps c 列出程序时，显示每个程序真正的指令名称，而不包含路径，参数或常驻服务的标示。    ps -e 此参数的效果和指定&quot;A&quot;参数相同。    ps e 列出程序时，显示每个程序所使用的环境变量。    ps f 用ASCII字符显示树状结构，表达程序间的相互关系。    ps -H 显示树状结构，表示程序间的相互关系。    ps -N 显示所有的程序，除了执行ps指令终端机下的程序之外。    ps s 采用程序信号的格式显示程序状况。    ps S 列出程序时，包括已中断的子程序资料。    ps -t&lt;终端机编号&gt; 指定终端机编号，并列出属于该终端机的程序的状况。    ps u 以用户为主的格式来显示程序状况。    ps x 显示所有程序，不以终端机来区分。</code></pre><h3 id="杀进程"><a href="#杀进程" class="headerlink" title="杀进程"></a>杀进程</h3><pre><code>使用kill命令结束进程：kill xxx 例：kill －9 324   Linux下还提供了一个killall命令，可以直接使用进程的名字而不是进程标识号，例如：# killall -9 NAME</code></pre><h2 id="SSH使用"><a href="#SSH使用" class="headerlink" title="SSH使用"></a>SSH使用</h2><h3 id="1-ssh远程登录服务器"><a href="#1-ssh远程登录服务器" class="headerlink" title="1 ssh远程登录服务器"></a>1 ssh远程登录服务器</h3><pre><code>ssh username@remote_ip #将username换成自己的用户名，将remote_ip换成远程服务器的ip地址</code></pre><h3 id="2-将文件-文件夹从远程服务器拷至本地-scp"><a href="#2-将文件-文件夹从远程服务器拷至本地-scp" class="headerlink" title="2 将文件/文件夹从远程服务器拷至本地(scp)"></a>2 将文件/文件夹从远程服务器拷至本地(scp)</h3><pre><code>scp -r username@remote_ip:/home/username/remotefile.txt </code></pre><h3 id="3-将文件-文件夹从本地拷至远程服务器-scp"><a href="#3-将文件-文件夹从本地拷至远程服务器-scp" class="headerlink" title="3 将文件/文件夹从本地拷至远程服务器(scp)"></a>3 将文件/文件夹从本地拷至远程服务器(scp)</h3><pre><code>scp -r localfile.txt username@remote_ip:/home/username/</code></pre><h3 id="4-将文件-文件夹从远程服务器拷至本地-rsync"><a href="#4-将文件-文件夹从远程服务器拷至本地-rsync" class="headerlink" title="4 将文件/文件夹从远程服务器拷至本地(rsync)"></a>4 将文件/文件夹从远程服务器拷至本地(rsync)</h3><pre><code>rsync -v -u -a --delete --rsh=ssh –stats username@remote_ip:/home/username/remotefile.txt .</code></pre><h3 id="5-将文件-文件夹从本地拷至远程服务器-rsync"><a href="#5-将文件-文件夹从本地拷至远程服务器-rsync" class="headerlink" title="5 将文件/文件夹从本地拷至远程服务器(rsync)"></a>5 将文件/文件夹从本地拷至远程服务器(rsync)</h3><pre><code>rsync -v -u -a --delete --rsh=ssh --stats localfile.txt username@remote_ip:/home/username/</code></pre><h3 id="6-连接远程ssh非22端口的服务器-ssh端口为12345"><a href="#6-连接远程ssh非22端口的服务器-ssh端口为12345" class="headerlink" title="6 连接远程ssh非22端口的服务器(ssh端口为12345)"></a>6 连接远程ssh非22端口的服务器(ssh端口为12345)</h3><pre><code>ssh -p 12345 username@remote_ip</code></pre><h3 id="7-远程拷贝ssh非22端口的服务器文件-ssh端口为12345"><a href="#7-远程拷贝ssh非22端口的服务器文件-ssh端口为12345" class="headerlink" title="7 远程拷贝ssh非22端口的服务器文件(ssh端口为12345)"></a>7 远程拷贝ssh非22端口的服务器文件(ssh端口为12345)</h3><pre><code>scp -P 12345 local_file username@remote_ip:remote_dirscp -P 12345 username@remote_ip:remote_file local_dirscp -o port=12345 username@remote_ip:remote_file local_dirscp -P 12345 -r local_dir/.* username@remote_ip:remote_dir</code></pre><p>拷贝目录，-r是将目录下的目录递归拷贝。”.*”是将隐藏文件也拷贝过去。需要先在远端创建好相应的目录。</p><p>sftp用法</p><pre><code>sftp -o port=12345 username@remote_ip:remote_dir</code></pre><h2 id="Docker"><a href="#Docker" class="headerlink" title="Docker"></a>Docker</h2><h3 id="Docker-stop停止-remove删除所有容器"><a href="#Docker-stop停止-remove删除所有容器" class="headerlink" title="Docker stop停止/remove删除所有容器"></a>Docker stop停止/remove删除所有容器</h3><pre><code>    $ docker ps // 查看所有正在运行容器    $ docker stop containerId // containerId 是容器的ID    $ docker ps -a // 查看所有容器    $ docker ps -a -q // 查看所有容器ID    $ docker stop $(docker ps -a -q) //  stop停止所有容器    $ docker  rm $(docker ps -a -q) //   remove删除所有容器</code></pre><h3 id="批量删除Docker中已经停止的容器"><a href="#批量删除Docker中已经停止的容器" class="headerlink" title="批量删除Docker中已经停止的容器"></a>批量删除Docker中已经停止的容器</h3><pre><code>方法一： #显示所有的容器，过滤出Exited状态的容器，取出这些容器的ID， sudo docker ps -a|grep Exited|awk &#39;{print $1}&#39; #查询所有的容器，过滤出Exited状态的容器，列出容器ID，删除这些容器 sudo docker rm \`docker ps -a|grep Exited|awk &#39;{print $1}&#39;\` 方法二： #删除所有未运行的容器（已经运行的删除不了，未运行的就一起被删除了） sudo docker rm $(sudo docker ps -a -q) 方法三： #根据容器的状态，删除Exited状态的容器 sudo docker rm $(sudo docker ps -qf status=exited) 方法四： #Docker 1.13版本以后，可以使用 docker containers prune 命令，删除孤立的容器。 sudo docker container prune #删除所有镜像 sudo docker rmi $(docker images -q)</code></pre><h2 id="实用指令"><a href="#实用指令" class="headerlink" title="实用指令"></a>实用指令</h2><h3 id="统计当前目录下所有文件及文件夹大小"><a href="#统计当前目录下所有文件及文件夹大小" class="headerlink" title="统计当前目录下所有文件及文件夹大小"></a>统计当前目录下所有文件及文件夹大小</h3><pre><code>    du -h --max-depth=1</code></pre><h3 id="创建任意网站镜像"><a href="#创建任意网站镜像" class="headerlink" title="创建任意网站镜像"></a>创建任意网站镜像</h3><pre><code>wget -mk -w 20 http://www.example.com///命令行中的20代表间隔20秒下载一个文件，这样可以避免网站的访问过于频繁。你可以调小点，但当你是备份别人的站时，还是为别人的服务器考虑下吧。</code></pre><h2 id="问题解决"><a href="#问题解决" class="headerlink" title="问题解决"></a>问题解决</h2><h3 id="git-“ssh-add-ssh-id-rsa”-Could-not-open-a-connection-to-your-authentication-agent问题解决"><a href="#git-“ssh-add-ssh-id-rsa”-Could-not-open-a-connection-to-your-authentication-agent问题解决" class="headerlink" title="git “ssh-add ~/.ssh/id_rsa” Could not open a connection to your authentication agent问题解决"></a>git “ssh-add ~/.ssh/id_rsa” Could not open a connection to your authentication agent问题解决</h3><p>使用git，添加私钥时发生如下错误</p><p><code>ssh-add ~/.ssh/id_rsa</code><br>输出错误： <code>Could not open a connection to your authentication agent</code></p><p>解决此问题的方法是执行下<br><code>eval `ssh-agent -s</code><br>然后再次执行ssh-add ~/.ssh/id_rsa就可以顺利执行了</p>]]></content>
       
       
       <categories>
