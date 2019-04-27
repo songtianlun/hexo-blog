@@ -16,7 +16,7 @@ author: 宋天伦
 
 ## vps自建vpn方法
 
-#### shadowsocks(ss)
+### shadowsocks(ss)
 
 传送门：[shadowsocks官网](https://shadowsocks.org/en/index.html)
 
@@ -29,7 +29,7 @@ author: 宋天伦
 - windows客户端：[下载](https://data.songtianlun.cn/vpn/Shadowsocks-4.1.3.1.zip)
 
 
-#### SSR
+### SSR
 
 ssr的安装教程及各种信息我找到一个资源相对较全的网站：
 传送门：[ssr中文网](https://ssr.tools/)
@@ -54,21 +54,71 @@ ssr的安装教程及各种信息我找到一个资源相对较全的网站：
 - [美国Apple ID申请注册教程 亲测可用 （美区Apple ID注册）](https://ssr.tools/104)
 
 
+#### Linux系统下ssr客户端的配置
+ssr官方没有提供linux版本的客户端，但是有人开发了适用于linux桌面的图形客户端[electron-ssr](https://github.com/erguotou520/electron-ssr),实现了相关功能，在这里稍微介绍一下。
+
+环境：ubuntu 18.04
+
+首先下载最新的 deb 安装包
+例：
+[electron-ssr-0.2.6.deb](https://github.com/erguotou520/electron-ssr/releases/download/v0.2.6/electron-ssr-0.2.6.deb)
+
+然后使用下面的命令安装：
+
+```
+sudo dpkg -i electron-ssr_0.2.3_amd64.deb
+```
+
+之后导入数据启动即可，但是我在安装过程中出现一个问题，那就是无论如何打开软件用不了代理，最终在issue找到答案
+
+[electron-ssr/issues/#230](https://github.com/erguotou520/electron-ssr/issues/230)
+
+大致解决方案为运行下列代码：
+
+```
+sudo ln -s /usr/bin/python3 /usr/bin/python
+```
+
+完成！
+
+
+
 vpn和ss/ssr有一定区别，而对于ss和ssr来说，两者系出同门，难分伯仲，二者区别我也找了一篇文章来介绍，主要摘录如下：
 >以前我们翻墙的时候最常用的就是vpn了，而2年前，ss被开源(ss出现一年后，开源社区的破娃小姐姐在ss的基础上发布了ssr)，现在已经是最流行的翻墙方案。
 
 - [Vpn与ss/ssr的区别](https://deeponion.org/community/threads/vpnss-ssr.901/)
 
-#### Outline
+### Outline
 
 outline是谷歌推出的一整套系统，包括服务器端、可视化服务管理端及移动端整套，可以用来很方便直接的搭建自己的vpn，特点在于它带有一个可视化的管理软件，可以用来一键分享、授权vpn访问权限，当然，也是需要搭建在自己的vps上的，详细说明见官网，官网给出了很详细的安装流程。
 
 - [官网传送门](https://getoutline.org/zh-CN/home)
 
-#### 泡芙云
+### 泡芙云
 一直受到第三方vpn无良商人的毒害，如今终于找到一个比较靠谱的vpn提供商，那就是泡芙云，价格不贵，最便宜8元一个月就可以享受到100m的vpn服务，而且泡芙云网站为Puff Networks LLC(US)所有，受美国当地法律保护。
 
 - [官网传送门](https://www.paofucloud.com/)
 
 美中不足的地方在于这个网站必须翻墙才能上去，因此可以先使用蓝灯等比较廉价的vpn注册，再使用泡芙云提供的服务。
 
+
+
+## 参考文献
+
+- [在 Ubuntu 上使用 SSR 梯子](http://www.pianshen.com/article/366213168/)
+- [vps使用Shadowsocks搭建vpn](https://frytea.com/2019/01/12/vps-shi-yong-shadowsocks-da-jian-vpn/)
+- [vps使用Shadowsocks搭建vpn](https://frytea.com/2019/01/12/vps-shi-yong-shadowsocks-da-jian-vpn/)
+
+- [适合搭建SSR的国外VPS服务器推荐汇总](https://ssr.tools/55)
+
+- [SSR一键安装脚本 (ShadowsocksR一键安装教程)](https://ssr.tools/31)
+
+- [SSR各平台客户端下载汇总](https://ssr.tools/175)
+
+- [iphone/ipad等苹果设备IOS系统 免费SSR客户端推荐汇总](https://ssr.tools/122)
+
+- [IOS 免费SSR客户端 Potatso Lite下载及使用教程（iphone/ipad可用）)](https://ssr.tools/125)
+
+- [美国Apple ID申请注册教程 亲测可用 （美区Apple ID注册）](https://ssr.tools/104)
+
+- [Vpn与ss/ssr的区别](https://deeponion.org/community/threads/vpnss-ssr.901/)

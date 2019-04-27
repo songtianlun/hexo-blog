@@ -8,12 +8,16 @@ date: 2019-01-14 20:32:31
 tags: linux
 ---
 
-# (Centos)
---------
+# Linux常用命令
+
+@(技术博文-M)[linux]
+
 
 ## 端口占用查询
 
-    netstat -apn
+```
+netstat -apn
+```
 ### Centos查看端口占用情况命令
 >比如查看80端口占用情况使用如下命令：
 
@@ -55,6 +59,56 @@ tags: linux
     使用kill命令结束进程：kill xxx
      例：kill －9 324
        Linux下还提供了一个killall命令，可以直接使用进程的名字而不是进程标识号，例如：# killall -9 NAME
+
+## SSH使用
+
+### 1 ssh远程登录服务器
+
+```
+ssh username@remote_ip 
+#将username换成自己的用户名，将remote_ip换成远程服务器的ip地址
+```
+### 2 将文件/文件夹从远程服务器拷至本地(scp)
+```
+scp -r username@remote_ip:/home/username/remotefile.txt 
+```
+### 3 将文件/文件夹从本地拷至远程服务器(scp)
+```
+scp -r localfile.txt username@remote_ip:/home/username/
+```
+### 4 将文件/文件夹从远程服务器拷至本地(rsync)
+```
+rsync -v -u -a --delete --rsh=ssh –stats username@remote_ip:/home/username/remotefile.txt .
+```
+### 5 将文件/文件夹从本地拷至远程服务器(rsync)
+```
+rsync -v -u -a --delete --rsh=ssh --stats localfile.txt username@remote_ip:/home/username/
+```
+
+### 6 连接远程ssh非22端口的服务器(ssh端口为12345)
+
+```
+ssh -p 12345 username@remote_ip
+```
+
+### 7 远程拷贝ssh非22端口的服务器文件(ssh端口为12345)
+
+```
+scp -P 12345 local_file username@remote_ip:remote_dir
+
+scp -P 12345 username@remote_ip:remote_file local_dir
+
+scp -o port=12345 username@remote_ip:remote_file local_dir
+
+scp -P 12345 -r local_dir/.* username@remote_ip:remote_dir
+```
+拷贝目录，-r是将目录下的目录递归拷贝。".*"是将隐藏文件也拷贝过去。需要先在远端创建好相应的目录。
+
+sftp用法
+```
+sftp -o port=12345 username@remote_ip:remote_dir
+```
+
 
 ## Docker
 
@@ -120,12 +174,15 @@ wget -mk -w 20 http://www.example.com/
 //命令行中的20代表间隔20秒下载一个文件，这样可以避免网站的访问过于频繁。你可以调小点，但当你是备份别人的站时，还是为别人的服务器考虑下吧。
 ```
 
+
+
+
 ## 问题解决
 ### git "ssh-add ~/.ssh/id_rsa" Could not open a connection to your authentication agent问题解决
 使用git，添加私钥时发生如下错误
 
 ```ssh-add ~/.ssh/id_rsa```
-输出错误： ```Could not open a connection to your authentication agent```
+输出错误： ```Could not open a connection to your authentication agent```
 
 解决此问题的方法是执行下
 ```eval `ssh-agent -s```
