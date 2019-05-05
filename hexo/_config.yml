@@ -3,12 +3,12 @@
 ## Source: https://github.com/hexojs/hexo/
 
 # Site
-title: 宋天伦
-subtitle: 对月吟诗，煮雪烹茶
-description: 一个热爱编程，更热爱生活的地图学青年。
+title: Tianlun-Song
+subtitle: On the Moon Point, Boiling snow fry tea.
+description: I like photography, reading, writing, programming.
 keywords:
-author: 宋天伦
-language: zh-CN
+author: Tianlun-Song
+language: en
 timezone:
 
 # URL
@@ -81,7 +81,7 @@ pagination_dir: page
 # Extensions
 ## Plugins: https://hexo.io/plugins/
 ## Themes: https://hexo.io/themes/
-theme: hexo-theme-matery
+theme: next
 
 # Deployment
 ## Docs: https://hexo.io/docs/deployment.html
@@ -92,16 +92,31 @@ deploy:
     coding: git@git.dev.tencent.com:songtianlun/songtianlun.git
   branch: master
   
+
 search:
   path: search.xml
   field: post
+  format: html
+  limit: 10000
+
+chat:
+  enable: true
+  service: chatra
+  icon: comment
+  text: Chat
+
+symbols_count_time:
+  symbols: true
+  time: true
+  total_symbols: true
+  total_time: true
 
 permalink_pinyin:
   enable: true
   separator: '-' # default: '-'
 
 wordCount:
-  enable: false # 将这个值设置为 true 即可.
+  enable: true # 将这个值设置为 true 即可.
   postWordCount: true
   min2read: true
   totalCount: true
