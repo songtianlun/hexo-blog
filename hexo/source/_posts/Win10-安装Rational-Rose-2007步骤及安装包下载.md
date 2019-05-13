@@ -20,6 +20,8 @@ Rational rose是一款创建UML模型的软件，由于其相对古老，因此�
 - Rational rose软件安装包的打开
 - 软件安装
 
+<!--more-->
+
 ## 资料准备
 - Alcohol120%软件
 - Rational rose安装包
