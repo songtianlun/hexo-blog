@@ -35,3 +35,4 @@ $ git config --global user.email  "xxx@qq.com"// 填写你的github注册邮箱
 *   [使用hexo+github搭建免费个人博客详细教程](https://www.cnblogs.com/liuxianan/p/build-blog-website-by-hexo-github.html)
 *   [为自定义域名的GitHub Pages添加SSL 完整方案](https://segmentfault.com/a/1190000007740693)
 *   [个人博客搭建 github page绑定域名、https跳转](https://www.jianshu.com/p/8d50ff70b3d9)
+×   [解决hexo渲染的页面中有br的问题](http://1900.live/rep-hexo-marked/)

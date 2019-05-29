@@ -25,7 +25,11 @@ Rclone是一个支持挂载多数国外网盘的工具。
 
 ### 第一步：安装rclone
 ```
+方法一：rclone一键安装脚本
 curl https://rclone.org/install.sh | sudo bash
+
+方法二：
+wget https://www.moerats.com/usr/shell/rclone_debian.sh && bash rclone_debian.sh
 ```
 ### 第二步：授权（以onedrive为例）
 ```
@@ -215,3 +219,5 @@ rclone dedupe – 交互式查找重复文件，进行删除/重命名操作。
 - [VPS挂载国内外网盘实现免费扩容工具:Rclone,COS-Fuse和OSSFS](https://wzfou.com/rclone-cos-fuse-ossfs/)
 - [在Debian/Ubuntu上使用rclone挂载OneDrive网盘](https://www.moerats.com/archives/491/)
 - [Rclone 安装配置教程](https://p3terx.com/archives/rclone-installation-and-configuration-tutorial.html)
+- [在Debian/Ubuntu上使用rclone挂载Google Drive网盘](https://gaoguangpeng.cn/994.html)
+- [在 Linux VPS 上利用 rclone 挂载 OneDrive 网盘](https://moeclub.org/2018/01/23/545/?spm=12.2)

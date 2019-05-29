@@ -42,6 +42,7 @@ Avarot  |  Name  |  Introduction  |  Link
 
 Some Accumulaction
  - [AnnatarHe](https://annatarhe.github.io)
+ - [avnpc](https://avnpc.com/)
 
 
 ## Some technical accumulation
