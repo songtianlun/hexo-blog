@@ -24,8 +24,14 @@ My principle is to do things well and brag to others.
 
 我的原则：我只管做好自己的事情，吹牛这样的事情，留给别人去做吧。
 
+- [我的简历](https://frytea.com/resume)
+- [本科论文](https://frytea.com/bachelor)
+- [我的地图](https://frytea.com/map)
+- [个人导航](https://guide.frytea.com)
+
+
 ##  Site navigation | 站点导航
-[About love](https://beloved.frytea.com) | [A piece of history](https://demo.frytea.com/history/) | [My person navigation](https://guide.frytea.com) | [Outer chain](https://share.frytea.com) | [Some music](https://music.frytea.com) | [Map](https://frytea.com/map)
+ |  [About love](https://beloved.frytea.com)  |  [A piece of history](https://demo.frytea.com/history/)  |  [Outer chain](https://share.frytea.com)  |  [Some music](https://music.frytea.com)  | 
 
 ## My creations | 开源项目
 
